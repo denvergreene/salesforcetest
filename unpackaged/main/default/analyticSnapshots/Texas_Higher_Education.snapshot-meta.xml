@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<AnalyticSnapshot xmlns="http://soap.sforce.com/2006/04/metadata">
+    <groupColumn>GRAND_SUMMARY</groupColumn>
+    <mappings>
+        <sourceField>JobName</sourceField>
+        <sourceType>snapshot</sourceType>
+        <targetField>Texas_Snapshot__c.Name</targetField>
+    </mappings>
+    <mappings>
+        <sourceField>ExecutionTime</sourceField>
+        <sourceType>snapshot</sourceType>
+        <targetField>Texas_Snapshot__c.Recorded_Date__c</targetField>
+    </mappings>
+    <mappings>
+        <sourceField>RowCount</sourceField>
+        <sourceType>summary</sourceType>
+        <targetField>Texas_Snapshot__c.Number_of_Schools__c</targetField>
+    </mappings>
+    <name>Texas Higher Education</name>
+    <runningUser>ch49@rice.edu</runningUser>
+    <sourceReport>One_time_use/Texas_Higher_Ed</sourceReport>
+    <targetObject>Texas_Snapshot__c</targetObject>
+</AnalyticSnapshot>

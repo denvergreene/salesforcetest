@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Dup_Name_Check__c</fullName>
+    <caseSensitive>true</caseSensitive>
+    <description>Checks for duplicates</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Checks for duplicates</inlineHelpText>
+    <label>Dup Name Check</label>
+    <length>255</length>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Text</type>
+    <unique>true</unique>
+</CustomField>

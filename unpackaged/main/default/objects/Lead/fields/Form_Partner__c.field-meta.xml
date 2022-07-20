@@ -1,0 +1,242 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Form_Partner__c</fullName>
+    <externalId>false</externalId>
+    <label>Form Partner</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>MultiselectPicklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Blending Education</fullName>
+                <default>false</default>
+                <label>Blending Education</label>
+            </value>
+            <value>
+                <fullName>Canvas</fullName>
+                <default>false</default>
+                <label>Canvas</label>
+            </value>
+            <value>
+                <fullName>Carnegie Learning</fullName>
+                <default>false</default>
+                <label>Carnegie Learning</label>
+            </value>
+            <value>
+                <fullName>Carolina Distance Learning</fullName>
+                <default>false</default>
+                <label>Carolina Distance Learning</label>
+            </value>
+            <value>
+                <fullName>Catalyst Education</fullName>
+                <default>false</default>
+                <label>Catalyst Education</label>
+            </value>
+            <value>
+                <fullName>Cengage CNowV2</fullName>
+                <default>false</default>
+                <label>Cengage CNowV2</label>
+            </value>
+            <value>
+                <fullName>Cengage OpenNow</fullName>
+                <default>false</default>
+                <label>Cengage OpenNow</label>
+            </value>
+            <value>
+                <fullName>Classavo</fullName>
+                <default>false</default>
+                <label>Classavo</label>
+            </value>
+            <value>
+                <fullName>CogBooks</fullName>
+                <default>false</default>
+                <label>CogBooks</label>
+            </value>
+            <value>
+                <fullName>Connect for Education</fullName>
+                <default>false</default>
+                <label>Connect for Education</label>
+            </value>
+            <value>
+                <fullName>Copia</fullName>
+                <default>false</default>
+                <label>Copia</label>
+            </value>
+            <value>
+                <fullName>Edfinity</fullName>
+                <default>false</default>
+                <label>Edfinity</label>
+            </value>
+            <value>
+                <fullName>eMath</fullName>
+                <default>false</default>
+                <label>eMath</label>
+            </value>
+            <value>
+                <fullName>Expert TA</fullName>
+                <default>false</default>
+                <label>Expert TA</label>
+            </value>
+            <value>
+                <fullName>Hawkes Learning</fullName>
+                <default>false</default>
+                <label>Hawkes Learning</label>
+            </value>
+            <value>
+                <fullName>iClicker</fullName>
+                <default>false</default>
+                <label>iClicker</label>
+            </value>
+            <value>
+                <fullName>Junction</fullName>
+                <default>false</default>
+                <label>Junction</label>
+            </value>
+            <value>
+                <fullName>Knewton</fullName>
+                <default>false</default>
+                <label>Knewton</label>
+            </value>
+            <value>
+                <fullName>LabArchives</fullName>
+                <default>false</default>
+                <label>LabArchives</label>
+            </value>
+            <value>
+                <fullName>Lrnr</fullName>
+                <default>false</default>
+                <label>Lrnr</label>
+            </value>
+            <value>
+                <fullName>Lumen Learning - Candela</fullName>
+                <default>false</default>
+                <label>Lumen Learning - Candela</label>
+            </value>
+            <value>
+                <fullName>Lumen Learning - OHM</fullName>
+                <default>false</default>
+                <label>Lumen Learning - OHM</label>
+            </value>
+            <value>
+                <fullName>Lumen Learning - Waymaker</fullName>
+                <default>false</default>
+                <label>Lumen Learning - Waymaker</label>
+            </value>
+            <value>
+                <fullName>Lyryx Learning</fullName>
+                <default>false</default>
+                <label>Lyryx Learning</label>
+            </value>
+            <value>
+                <fullName>Sapling Learning</fullName>
+                <default>false</default>
+                <label>Sapling Learning</label>
+            </value>
+            <value>
+                <fullName>McGraw-Hill Education</fullName>
+                <default>false</default>
+                <label>McGraw-Hill Education</label>
+            </value>
+            <value>
+                <fullName>Mind Edge</fullName>
+                <default>false</default>
+                <label>Mind Edge</label>
+            </value>
+            <value>
+                <fullName>Odigia</fullName>
+                <default>false</default>
+                <label>Odigia</label>
+            </value>
+            <value>
+                <fullName>OpenStax Tutor Beta</fullName>
+                <default>false</default>
+                <label>OpenStax Tutor Beta</label>
+            </value>
+            <value>
+                <fullName>panOpen</fullName>
+                <default>false</default>
+                <label>panOpen</label>
+            </value>
+            <value>
+                <fullName>Perusall</fullName>
+                <default>false</default>
+                <label>Perusall</label>
+            </value>
+            <value>
+                <fullName>Realizeit</fullName>
+                <default>false</default>
+                <label>Realizeit</label>
+            </value>
+            <value>
+                <fullName>Rover by OpenStax</fullName>
+                <default>false</default>
+                <label>Rover by OpenStax</label>
+            </value>
+            <value>
+                <fullName>SimBio</fullName>
+                <default>false</default>
+                <label>SimBio</label>
+            </value>
+            <value>
+                <fullName>Critical Chemistry</fullName>
+                <default>false</default>
+                <label>Critical Chemistry</label>
+            </value>
+            <value>
+                <fullName>Squarecap</fullName>
+                <default>false</default>
+                <label>Squarecap</label>
+            </value>
+            <value>
+                <fullName>Study Edge</fullName>
+                <default>false</default>
+                <label>Study Edge</label>
+            </value>
+            <value>
+                <fullName>Top Hat</fullName>
+                <default>false</default>
+                <label>Top Hat</label>
+            </value>
+            <value>
+                <fullName>Varafy</fullName>
+                <default>false</default>
+                <label>Varafy</label>
+            </value>
+            <value>
+                <fullName>Vretta</fullName>
+                <default>false</default>
+                <label>Vretta</label>
+            </value>
+            <value>
+                <fullName>WebAssign</fullName>
+                <default>false</default>
+                <label>WebAssign</label>
+            </value>
+            <value>
+                <fullName>Wiley</fullName>
+                <default>false</default>
+                <label>Wiley</label>
+            </value>
+            <value>
+                <fullName>XYZ online homework</fullName>
+                <default>false</default>
+                <label>XYZ online homework</label>
+            </value>
+            <value>
+                <fullName>zyBooks</fullName>
+                <default>false</default>
+                <label>zyBooks</label>
+            </value>
+            <value>
+                <fullName>Other</fullName>
+                <default>false</default>
+                <label>Other</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+    <visibleLines>4</visibleLines>
+</CustomField>

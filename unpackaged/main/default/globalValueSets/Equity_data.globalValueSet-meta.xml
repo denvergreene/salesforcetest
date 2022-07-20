@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customValue>
+        <fullName>We haven’t incorporated this yet.</fullName>
+        <default>false</default>
+        <label>We haven’t incorporated this yet.</label>
+    </customValue>
+    <customValue>
+        <fullName>There are less than 2 research studies that include student outcomes evidence by race and income.</fullName>
+        <default>false</default>
+        <label>There are less than 2 research studies that include student outcomes evidence by race and income.</label>
+    </customValue>
+    <customValue>
+        <fullName>There are 2 or more research studies that include student outcomes evidence by race and income.</fullName>
+        <default>false</default>
+        <label>There are 2 or more research studies that include student outcomes evidence by race and income.</label>
+    </customValue>
+    <customValue>
+        <fullName>The product incorporates research on student outcomes reported by race and income and shares transparently how evidence is incorporated into design, implementation, and continuous improvement.</fullName>
+        <default>false</default>
+        <label>The product incorporates research on student outcomes reported by race and income and shares transparently how evidence is incorporated into design, implementation, and continuous improvement.</label>
+    </customValue>
+    <masterLabel>Equity data</masterLabel>
+    <sorted>false</sorted>
+</GlobalValueSet>

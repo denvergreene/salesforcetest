@@ -1,0 +1,63 @@
+<apex:page sidebar="false" showHeader="false" lightningStylesheets="true">
+    <apex:slds />
+    <div class="slds-grid slds-wrap slds-size_1-of-1">
+        <div class="slds-size_1-of-2 slds-card">
+            <a href="https://openstax.lightning.force.com/lightning/r/Dashboard/01Z6f000001602QEAQ/view?queryScope=userFolders" class="slds-button slds-button_brand" > School type </a>
+        </div>
+        <div class="slds-size_1-of-2 slds-card">
+            <a href="https://openstax.lightning.force.com/lightning/r/Dashboard/01Z6f000001602QEAQ/view?queryScope=userFolders" class="slds-button slds-button_brand" > Books</a>
+        </div>
+        <div class="slds-size_1-of-2 slds-card">
+            <a href="https://openstax.lightning.force.com/lightning/r/Dashboard/01Z6f000001602QEAQ/view?queryScope=userFolders" class="slds-button slds-button_brand" > Location</a>
+        </div>
+        <div class="slds-size_1-of-2 slds-card">
+            <a href="https://openstax.lightning.force.com/lightning/r/Dashboard/01Z6f000001602QEAQ/view?queryScope=userFolders" class="slds-button slds-button_brand" > Tutor/Rex</a>
+        </div>
+
+
+
+
+    </div>
+    <apex:form id="DashboardHub">
+        <apex:sectionHeader title="Dashboard Hub"/>
+        <apex:pageBlock >
+            <table width="900">
+                <tr width="50%" align="center">
+                    <td>
+                        Click here if you want to see a breakdown by school types.
+                        <apex:commandLink styleClass="btn"  action="https://openstax.lightning.force.com/lightning/r/Dashboard/01Z6f000001602QEAQ/view?queryScope=userFolders" 
+                                            value="School Type" id="theButton1" style="width:70px;" target="_blank"/>
+                    </td>
+                
+                    <td>
+                        Click here if you want to see a breakdown by books.
+                        <apex:commandLink styleClass="btn"  action="https://openstax.lightning.force.com/lightning/r/Dashboard/01Z6f000001605oEAA/view?queryScope=userFolders" 
+                                            value="Books" id="theButton2" target="_blank"/>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <br/><br/><br/><br/>
+                    </td>
+                </tr>
+                <tr width="50%" align="center">
+                    <td>
+                        Click here if you want to see a breakdown by Location.
+                        <apex:commandLink styleClass="btn"  action="https://openstax.lightning.force.com/lightning/r/Dashboard/01Z6f000001605AEAQ/view?queryScope=userFolders" 
+                                            value="Location" id="theButton3" style="width:70px;" target="_blank"/>
+                    </td>
+               
+                    <td>
+                        Click here if you want to see a breakdown by Tutor/Rex.
+                        <apex:commandLink styleClass="btn"  action="https://openstax.lightning.force.com/lightning/r/Dashboard/01Z6f0000016063EAA/view?queryScope=userFolders" 
+                                            value="Tutor/Rex" id="theButton4" style="width:70px;" target="_blank"/>
+                    </td>
+                </tr>
+            </table>
+        </apex:pageBlock>
+
+        
+        
+        
+    </apex:form>   
+</apex:page>

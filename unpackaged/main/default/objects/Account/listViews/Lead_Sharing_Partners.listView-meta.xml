@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Lead_Sharing_Partners</fullName>
+    <columns>ACCOUNT.NAME</columns>
+    <columns>ACCOUNT.TYPE</columns>
+    <columns>ACCOUNT.INDUSTRY</columns>
+    <columns>Books_Offered__c</columns>
+    <columns>Lead_Sharing__c</columns>
+    <columns>Tutor_Competitor__c</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>ACCOUNT.RECORDTYPE</field>
+        <operation>equals</operation>
+        <value>Account.Partner</value>
+    </filters>
+    <filters>
+        <field>Partner_status__c</field>
+        <operation>equals</operation>
+        <value>Current Partner</value>
+    </filters>
+    <label>Current Partners</label>
+</ListView>

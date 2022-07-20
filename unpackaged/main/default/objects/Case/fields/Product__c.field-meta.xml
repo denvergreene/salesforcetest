@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Product__c</fullName>
+    <externalId>false</externalId>
+    <label>Product</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>true</sorted>
+            <value>
+                <fullName>Accounts</fullName>
+                <default>false</default>
+                <label>Accounts</label>
+            </value>
+            <value>
+                <fullName>CNX Editor</fullName>
+                <default>false</default>
+                <label>CNX Editor</label>
+            </value>
+            <value>
+                <fullName>General</fullName>
+                <default>false</default>
+                <label>General</label>
+            </value>
+            <value>
+                <fullName>Kinetic</fullName>
+                <default>false</default>
+                <label>Kinetic</label>
+            </value>
+            <value>
+                <fullName>Website</fullName>
+                <default>false</default>
+                <label>OS Web</label>
+            </value>
+            <value>
+                <fullName>REX</fullName>
+                <default>false</default>
+                <label>REX</label>
+            </value>
+            <value>
+                <fullName>Rover</fullName>
+                <default>false</default>
+                <label>Rover</label>
+            </value>
+            <value>
+                <fullName>Study Edge</fullName>
+                <default>false</default>
+                <label>Study Edge</label>
+            </value>
+            <value>
+                <fullName>Textbook</fullName>
+                <default>false</default>
+                <label>Textbook</label>
+            </value>
+            <value>
+                <fullName>Tutor</fullName>
+                <default>false</default>
+                <label>Tutor</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

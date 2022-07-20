@@ -1,0 +1,439 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RecordType xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Product</fullName>
+    <active>true</active>
+    <label>Product</label>
+    <picklistValues>
+        <picklist>Affordability_Cost__c</picklist>
+        <values>
+            <fullName>%240-%2410</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>%2411-%2425</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>%2426-%2440</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>%3E%2440</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Books_Offered__c</picklist>
+        <values>
+            <fullName>AP Bio</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>AP Macro Econ</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>AP Micro Econ</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>AP Physics</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Algebra and Trigonometry</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>American Government</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Anatomy %26 Physiology</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Anthropology</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Astronomy</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Biology</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Business Ethics</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Business Law I Essentials</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Business Statistics</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Calculus</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Chem%3A Atoms First</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Chemistry</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>College Algebra</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>College Algebra with Corequisite Support</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>College Physics %28Algebra%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>College Success</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Concepts of Bio %28non-majors%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Contemporary Math</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Economics</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Elementary Algebra</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Entrepreneurship</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Financial Accounting</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Física universitaria</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>HS Physics</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>HS Statistics</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Intellectual Property</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Intermediate Algebra</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Introduction to Business</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Introduction to Intellectual Property</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Introduction to Philosophy</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Introduction to Political Science</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Introduction to Sociology</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Introductory Statistics</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>LLPH</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Macro Econ</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Management</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Managerial Accounting</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Micro Econ</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Microbiology</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Organizational Behavior</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Prealgebra</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Precalc</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Principles of Finance</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Psychology</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>US History</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>University Physics %28Calc%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>World History</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Writing Guide</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Equity_configure__c</picklist>
+        <values>
+            <fullName>Learning activities are highly customizable with resources that are culturally relevant by race and income%2E</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Learning activities are highly customizable%2E</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Learning activities have limited customized features%2E</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>We haven%E2%80%99t incorporated this yet%2E</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Equity_data__c</picklist>
+        <values>
+            <fullName>The product incorporates research on student outcomes reported by race and income and shares transparently how evidence is incorporated into design%2C implementation%2C and continuous improvement%2E</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>There are 2 or more research studies that include student outcomes evidence by race and income%2E</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>There are less than 2 research studies that include student outcomes evidence by race and income%2E</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>We haven%E2%80%99t incorporated this yet%2E</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Equity_language__c</picklist>
+        <values>
+            <fullName>Our product uses equity-minded language throughout%2E</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Our product uses language that reflects diversity%2C but does not use equity-minded language to address systemic barriers affecting student populations%2E</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Our product uses limited equity-minded language%2E</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>We haven%E2%80%99t incorporated this yet%2E</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Equity_relevant__c</picklist>
+        <values>
+            <fullName>Social%2C emotional%2C and academic supports are customizable and embedded throughout the tool%2E</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Social%2C emotional%2C and academic supports tools are customizable and embedded throughout%2C are culturally relevant%2C and focus on students%E2%80%99 strengths rather than perceived inadequacies%2E</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>There are very few social%2C emotional%2C and academic supports%2E</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>We haven%E2%80%99t incorporated this yet%2E</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Equity_research__c</picklist>
+        <values>
+            <fullName>Research is shared and is transparent with respect to the design process of the digital learning product%2E</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Research used to inform the design is shared and considers student populations by race and income%2E</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>There are few research citations for the design of the digital learning tools%2E</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>We haven%E2%80%99t incorporated this yet%2E</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Equity_stories__c</picklist>
+        <values>
+            <fullName>Student images and stories are an essential feature of the product and are representative of a range of student populations by race%2C income%2C and intersectional identities%2E</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Student images and stories are an essential feature of the product%2E</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Student images and stories are referenced in the product%2E</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>We haven%E2%80%99t incorporated this yet%2E</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Partner_Status__c</picklist>
+        <values>
+            <fullName>Contract Review by Legal</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Contract Review by OpenStax</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Contract Review by Partner</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Current Partner</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>In Discussion</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Not a Partner</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Not applicable</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>On Hold</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Past</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Partner_Type__c</picklist>
+        <values>
+            <fullName>Adaptive Courseware</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Clicker%2Fclassroom engagement</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Content customization</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>E-Reader</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Labs and Lab Manuals</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Online homework</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Reading comprehension</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Simulations</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Partnership_Level__c</picklist>
+        <values>
+            <fullName>Brand Ally</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Full partner</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Referral Partner</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+</RecordType>

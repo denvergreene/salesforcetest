@@ -1,0 +1,558 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Contribution_Subject__c</fullName>
+    <externalId>false</externalId>
+    <inlineHelpText>Subject they contributed in</inlineHelpText>
+    <label>Contribution Subject</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>MultiselectPicklist</type>
+    <valueSet>
+        <controllingField>Contribution_level__c</controllingField>
+        <valueSetDefinition>
+            <sorted>true</sorted>
+            <value>
+                <fullName>Algebra and Trigonometry</fullName>
+                <default>false</default>
+                <label>Algebra and Trigonometry</label>
+            </value>
+            <value>
+                <fullName>American Government</fullName>
+                <default>false</default>
+                <label>American Government</label>
+            </value>
+            <value>
+                <fullName>Anatomy &amp; Physiology</fullName>
+                <default>false</default>
+                <label>Anatomy &amp; Physiology</label>
+            </value>
+            <value>
+                <fullName>AP Bio</fullName>
+                <default>false</default>
+                <label>AP Bio</label>
+            </value>
+            <value>
+                <fullName>AP History</fullName>
+                <default>false</default>
+                <label>AP History</label>
+            </value>
+            <value>
+                <fullName>AP Macro Econ</fullName>
+                <default>false</default>
+                <label>AP Macro Econ</label>
+            </value>
+            <value>
+                <fullName>AP Micro Econ</fullName>
+                <default>false</default>
+                <label>AP Micro Econ</label>
+            </value>
+            <value>
+                <fullName>AP Physics</fullName>
+                <default>false</default>
+                <label>AP Physics</label>
+            </value>
+            <value>
+                <fullName>Astronomy</fullName>
+                <default>false</default>
+                <label>Astronomy</label>
+            </value>
+            <value>
+                <fullName>Basic College Math</fullName>
+                <default>false</default>
+                <label>Basic College Math</label>
+            </value>
+            <value>
+                <fullName>Biology</fullName>
+                <default>false</default>
+                <label>Biology</label>
+            </value>
+            <value>
+                <fullName>Business Ethics</fullName>
+                <default>false</default>
+                <label>Business Ethics</label>
+            </value>
+            <value>
+                <fullName>Business Statistics</fullName>
+                <default>false</default>
+                <label>Business Statistics</label>
+            </value>
+            <value>
+                <fullName>Calculus</fullName>
+                <default>false</default>
+                <label>Calculus</label>
+            </value>
+            <value>
+                <fullName>Career Readiness</fullName>
+                <default>false</default>
+                <label>Career Readiness</label>
+            </value>
+            <value>
+                <fullName>Chem: Atoms First</fullName>
+                <default>false</default>
+                <label>Chem: Atoms First</label>
+            </value>
+            <value>
+                <fullName>Chemistry</fullName>
+                <default>false</default>
+                <label>Chemistry</label>
+            </value>
+            <value>
+                <fullName>College Algebra</fullName>
+                <default>false</default>
+                <label>College Algebra</label>
+            </value>
+            <value>
+                <fullName>College Physics (Algebra)</fullName>
+                <default>false</default>
+                <label>College Physics (Algebra)</label>
+            </value>
+            <value>
+                <fullName>College Success</fullName>
+                <default>false</default>
+                <label>College Success</label>
+            </value>
+            <value>
+                <fullName>Concepts of Bio (non-majors)</fullName>
+                <default>false</default>
+                <label>Concepts of Bio (non-majors)</label>
+            </value>
+            <value>
+                <fullName>Economics</fullName>
+                <default>false</default>
+                <label>Economics</label>
+            </value>
+            <value>
+                <fullName>Elementary Algebra</fullName>
+                <default>false</default>
+                <label>Elementary Algebra</label>
+            </value>
+            <value>
+                <fullName>Entrepreneurship</fullName>
+                <default>false</default>
+                <label>Entrepreneurship</label>
+            </value>
+            <value>
+                <fullName>Financial Accounting</fullName>
+                <default>false</default>
+                <label>Financial Accounting</label>
+            </value>
+            <value>
+                <fullName>Finite Algebra</fullName>
+                <default>false</default>
+                <label>Finite Algebra</label>
+            </value>
+            <value>
+                <fullName>HS Physics</fullName>
+                <default>false</default>
+                <label>HS Physics</label>
+            </value>
+            <value>
+                <fullName>HS Statistics</fullName>
+                <default>false</default>
+                <label>HS Statistics</label>
+            </value>
+            <value>
+                <fullName>Intermediate Algebra</fullName>
+                <default>false</default>
+                <label>Intermediate Algebra</label>
+            </value>
+            <value>
+                <fullName>Introduction to Business</fullName>
+                <default>false</default>
+                <label>Introduction to Business</label>
+            </value>
+            <value>
+                <fullName>Introduction to Sociology</fullName>
+                <default>false</default>
+                <label>Introduction to Sociology</label>
+            </value>
+            <value>
+                <fullName>Introductory Statistics</fullName>
+                <default>false</default>
+                <label>Introductory Statistics</label>
+            </value>
+            <value>
+                <fullName>Macro Econ</fullName>
+                <default>false</default>
+                <label>Macro Econ</label>
+            </value>
+            <value>
+                <fullName>Management</fullName>
+                <default>false</default>
+                <label>Management</label>
+            </value>
+            <value>
+                <fullName>Managerial_Accounting</fullName>
+                <default>false</default>
+                <label>Managerial Accounting</label>
+            </value>
+            <value>
+                <fullName>Math</fullName>
+                <default>false</default>
+                <label>Math</label>
+            </value>
+            <value>
+                <fullName>Microbiology</fullName>
+                <default>false</default>
+                <label>Microbiology</label>
+            </value>
+            <value>
+                <fullName>Micro Econ</fullName>
+                <default>false</default>
+                <label>Micro Econ</label>
+            </value>
+            <value>
+                <fullName>Organizational Behavior</fullName>
+                <default>false</default>
+                <label>Organizational Behavior</label>
+            </value>
+            <value>
+                <fullName>Other</fullName>
+                <default>false</default>
+                <label>Other</label>
+            </value>
+            <value>
+                <fullName>Prealgebra</fullName>
+                <default>false</default>
+                <label>Prealgebra</label>
+            </value>
+            <value>
+                <fullName>Precalc</fullName>
+                <default>false</default>
+                <label>Precalc</label>
+            </value>
+            <value>
+                <fullName>Psychology</fullName>
+                <default>false</default>
+                <label>Psychology</label>
+            </value>
+            <value>
+                <fullName>University Physics (Calc)</fullName>
+                <default>false</default>
+                <label>University Physics (Calc)</label>
+            </value>
+            <value>
+                <fullName>US History</fullName>
+                <default>false</default>
+                <label>US History</label>
+            </value>
+        </valueSetDefinition>
+        <valueSettings>
+            <controllingFieldValue>Author/Content Lead</controllingFieldValue>
+            <controllingFieldValue>Reviewer</controllingFieldValue>
+            <controllingFieldValue>Neither</controllingFieldValue>
+            <controllingFieldValue>Interest</controllingFieldValue>
+            <valueName>Algebra and Trigonometry</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Author/Content Lead</controllingFieldValue>
+            <controllingFieldValue>Reviewer</controllingFieldValue>
+            <controllingFieldValue>Neither</controllingFieldValue>
+            <controllingFieldValue>Interest</controllingFieldValue>
+            <valueName>American Government</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Author/Content Lead</controllingFieldValue>
+            <controllingFieldValue>Reviewer</controllingFieldValue>
+            <controllingFieldValue>Neither</controllingFieldValue>
+            <controllingFieldValue>Interest</controllingFieldValue>
+            <valueName>Anatomy &amp; Physiology</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Author/Content Lead</controllingFieldValue>
+            <controllingFieldValue>Reviewer</controllingFieldValue>
+            <controllingFieldValue>Neither</controllingFieldValue>
+            <controllingFieldValue>Interest</controllingFieldValue>
+            <valueName>AP Bio</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Author/Content Lead</controllingFieldValue>
+            <controllingFieldValue>Reviewer</controllingFieldValue>
+            <controllingFieldValue>Neither</controllingFieldValue>
+            <controllingFieldValue>Interest</controllingFieldValue>
+            <valueName>AP History</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Author/Content Lead</controllingFieldValue>
+            <controllingFieldValue>Reviewer</controllingFieldValue>
+            <controllingFieldValue>Neither</controllingFieldValue>
+            <controllingFieldValue>Interest</controllingFieldValue>
+            <valueName>AP Macro Econ</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Author/Content Lead</controllingFieldValue>
+            <controllingFieldValue>Reviewer</controllingFieldValue>
+            <controllingFieldValue>Neither</controllingFieldValue>
+            <controllingFieldValue>Interest</controllingFieldValue>
+            <valueName>AP Micro Econ</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Author/Content Lead</controllingFieldValue>
+            <controllingFieldValue>Reviewer</controllingFieldValue>
+            <controllingFieldValue>Neither</controllingFieldValue>
+            <controllingFieldValue>Interest</controllingFieldValue>
+            <valueName>AP Physics</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Author/Content Lead</controllingFieldValue>
+            <controllingFieldValue>Reviewer</controllingFieldValue>
+            <controllingFieldValue>Neither</controllingFieldValue>
+            <controllingFieldValue>Interest</controllingFieldValue>
+            <valueName>Astronomy</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Author/Content Lead</controllingFieldValue>
+            <controllingFieldValue>Reviewer</controllingFieldValue>
+            <controllingFieldValue>Neither</controllingFieldValue>
+            <controllingFieldValue>Interest</controllingFieldValue>
+            <valueName>Basic College Math</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Author/Content Lead</controllingFieldValue>
+            <controllingFieldValue>Reviewer</controllingFieldValue>
+            <controllingFieldValue>Neither</controllingFieldValue>
+            <controllingFieldValue>Interest</controllingFieldValue>
+            <valueName>Biology</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Author/Content Lead</controllingFieldValue>
+            <controllingFieldValue>Reviewer</controllingFieldValue>
+            <controllingFieldValue>Neither</controllingFieldValue>
+            <controllingFieldValue>Interest</controllingFieldValue>
+            <valueName>Business Ethics</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Author/Content Lead</controllingFieldValue>
+            <controllingFieldValue>Reviewer</controllingFieldValue>
+            <controllingFieldValue>Neither</controllingFieldValue>
+            <controllingFieldValue>Interest</controllingFieldValue>
+            <valueName>Business Statistics</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Author/Content Lead</controllingFieldValue>
+            <controllingFieldValue>Reviewer</controllingFieldValue>
+            <controllingFieldValue>Neither</controllingFieldValue>
+            <controllingFieldValue>Interest</controllingFieldValue>
+            <valueName>Calculus</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Author/Content Lead</controllingFieldValue>
+            <controllingFieldValue>Reviewer</controllingFieldValue>
+            <controllingFieldValue>Neither</controllingFieldValue>
+            <controllingFieldValue>Interest</controllingFieldValue>
+            <valueName>Career Readiness</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Author/Content Lead</controllingFieldValue>
+            <controllingFieldValue>Reviewer</controllingFieldValue>
+            <controllingFieldValue>Neither</controllingFieldValue>
+            <controllingFieldValue>Interest</controllingFieldValue>
+            <valueName>Chem: Atoms First</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Author/Content Lead</controllingFieldValue>
+            <controllingFieldValue>Reviewer</controllingFieldValue>
+            <controllingFieldValue>Neither</controllingFieldValue>
+            <controllingFieldValue>Interest</controllingFieldValue>
+            <valueName>Chemistry</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Author/Content Lead</controllingFieldValue>
+            <controllingFieldValue>Reviewer</controllingFieldValue>
+            <controllingFieldValue>Neither</controllingFieldValue>
+            <controllingFieldValue>Interest</controllingFieldValue>
+            <valueName>College Algebra</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Author/Content Lead</controllingFieldValue>
+            <controllingFieldValue>Reviewer</controllingFieldValue>
+            <controllingFieldValue>Neither</controllingFieldValue>
+            <controllingFieldValue>Interest</controllingFieldValue>
+            <valueName>College Physics (Algebra)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Author/Content Lead</controllingFieldValue>
+            <controllingFieldValue>Reviewer</controllingFieldValue>
+            <controllingFieldValue>Neither</controllingFieldValue>
+            <controllingFieldValue>Interest</controllingFieldValue>
+            <valueName>College Success</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Author/Content Lead</controllingFieldValue>
+            <controllingFieldValue>Reviewer</controllingFieldValue>
+            <controllingFieldValue>Neither</controllingFieldValue>
+            <controllingFieldValue>Interest</controllingFieldValue>
+            <valueName>Concepts of Bio (non-majors)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Author/Content Lead</controllingFieldValue>
+            <controllingFieldValue>Reviewer</controllingFieldValue>
+            <controllingFieldValue>Neither</controllingFieldValue>
+            <controllingFieldValue>Interest</controllingFieldValue>
+            <valueName>Economics</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Author/Content Lead</controllingFieldValue>
+            <controllingFieldValue>Reviewer</controllingFieldValue>
+            <controllingFieldValue>Neither</controllingFieldValue>
+            <controllingFieldValue>Interest</controllingFieldValue>
+            <valueName>Elementary Algebra</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Author/Content Lead</controllingFieldValue>
+            <controllingFieldValue>Reviewer</controllingFieldValue>
+            <controllingFieldValue>Neither</controllingFieldValue>
+            <controllingFieldValue>Interest</controllingFieldValue>
+            <valueName>Entrepreneurship</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Author/Content Lead</controllingFieldValue>
+            <controllingFieldValue>Reviewer</controllingFieldValue>
+            <controllingFieldValue>Neither</controllingFieldValue>
+            <controllingFieldValue>Interest</controllingFieldValue>
+            <valueName>Financial Accounting</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Author/Content Lead</controllingFieldValue>
+            <controllingFieldValue>Reviewer</controllingFieldValue>
+            <controllingFieldValue>Neither</controllingFieldValue>
+            <controllingFieldValue>Interest</controllingFieldValue>
+            <valueName>Finite Algebra</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Author/Content Lead</controllingFieldValue>
+            <controllingFieldValue>Reviewer</controllingFieldValue>
+            <controllingFieldValue>Neither</controllingFieldValue>
+            <controllingFieldValue>Interest</controllingFieldValue>
+            <valueName>HS Physics</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Author/Content Lead</controllingFieldValue>
+            <controllingFieldValue>Reviewer</controllingFieldValue>
+            <controllingFieldValue>Neither</controllingFieldValue>
+            <controllingFieldValue>Interest</controllingFieldValue>
+            <valueName>HS Statistics</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Author/Content Lead</controllingFieldValue>
+            <controllingFieldValue>Reviewer</controllingFieldValue>
+            <controllingFieldValue>Neither</controllingFieldValue>
+            <controllingFieldValue>Interest</controllingFieldValue>
+            <valueName>Intermediate Algebra</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Author/Content Lead</controllingFieldValue>
+            <controllingFieldValue>Reviewer</controllingFieldValue>
+            <controllingFieldValue>Neither</controllingFieldValue>
+            <controllingFieldValue>Interest</controllingFieldValue>
+            <valueName>Introduction to Business</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Author/Content Lead</controllingFieldValue>
+            <controllingFieldValue>Reviewer</controllingFieldValue>
+            <controllingFieldValue>Neither</controllingFieldValue>
+            <controllingFieldValue>Interest</controllingFieldValue>
+            <valueName>Introduction to Sociology</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Author/Content Lead</controllingFieldValue>
+            <controllingFieldValue>Reviewer</controllingFieldValue>
+            <controllingFieldValue>Neither</controllingFieldValue>
+            <controllingFieldValue>Interest</controllingFieldValue>
+            <valueName>Introductory Statistics</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Author/Content Lead</controllingFieldValue>
+            <controllingFieldValue>Reviewer</controllingFieldValue>
+            <controllingFieldValue>Neither</controllingFieldValue>
+            <controllingFieldValue>Interest</controllingFieldValue>
+            <valueName>Macro Econ</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Author/Content Lead</controllingFieldValue>
+            <controllingFieldValue>Reviewer</controllingFieldValue>
+            <controllingFieldValue>Neither</controllingFieldValue>
+            <controllingFieldValue>Interest</controllingFieldValue>
+            <valueName>Management</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Author/Content Lead</controllingFieldValue>
+            <controllingFieldValue>Reviewer</controllingFieldValue>
+            <controllingFieldValue>Neither</controllingFieldValue>
+            <controllingFieldValue>Interest</controllingFieldValue>
+            <valueName>Managerial_Accounting</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Author/Content Lead</controllingFieldValue>
+            <controllingFieldValue>Reviewer</controllingFieldValue>
+            <controllingFieldValue>Neither</controllingFieldValue>
+            <controllingFieldValue>Interest</controllingFieldValue>
+            <valueName>Math</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Author/Content Lead</controllingFieldValue>
+            <controllingFieldValue>Reviewer</controllingFieldValue>
+            <controllingFieldValue>Neither</controllingFieldValue>
+            <controllingFieldValue>Interest</controllingFieldValue>
+            <valueName>Microbiology</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Author/Content Lead</controllingFieldValue>
+            <controllingFieldValue>Reviewer</controllingFieldValue>
+            <controllingFieldValue>Neither</controllingFieldValue>
+            <controllingFieldValue>Interest</controllingFieldValue>
+            <valueName>Micro Econ</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Author/Content Lead</controllingFieldValue>
+            <controllingFieldValue>Reviewer</controllingFieldValue>
+            <controllingFieldValue>Neither</controllingFieldValue>
+            <controllingFieldValue>Interest</controllingFieldValue>
+            <valueName>Organizational Behavior</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Author/Content Lead</controllingFieldValue>
+            <controllingFieldValue>Reviewer</controllingFieldValue>
+            <controllingFieldValue>Neither</controllingFieldValue>
+            <controllingFieldValue>Interest</controllingFieldValue>
+            <valueName>Other</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Author/Content Lead</controllingFieldValue>
+            <controllingFieldValue>Reviewer</controllingFieldValue>
+            <controllingFieldValue>Neither</controllingFieldValue>
+            <controllingFieldValue>Interest</controllingFieldValue>
+            <valueName>Prealgebra</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Author/Content Lead</controllingFieldValue>
+            <controllingFieldValue>Reviewer</controllingFieldValue>
+            <controllingFieldValue>Neither</controllingFieldValue>
+            <controllingFieldValue>Interest</controllingFieldValue>
+            <valueName>Precalc</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Author/Content Lead</controllingFieldValue>
+            <controllingFieldValue>Reviewer</controllingFieldValue>
+            <controllingFieldValue>Neither</controllingFieldValue>
+            <controllingFieldValue>Interest</controllingFieldValue>
+            <valueName>Psychology</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Author/Content Lead</controllingFieldValue>
+            <controllingFieldValue>Reviewer</controllingFieldValue>
+            <controllingFieldValue>Neither</controllingFieldValue>
+            <controllingFieldValue>Interest</controllingFieldValue>
+            <valueName>University Physics (Calc)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Author/Content Lead</controllingFieldValue>
+            <controllingFieldValue>Reviewer</controllingFieldValue>
+            <controllingFieldValue>Neither</controllingFieldValue>
+            <controllingFieldValue>Interest</controllingFieldValue>
+            <valueName>US History</valueName>
+        </valueSettings>
+    </valueSet>
+    <visibleLines>4</visibleLines>
+</CustomField>

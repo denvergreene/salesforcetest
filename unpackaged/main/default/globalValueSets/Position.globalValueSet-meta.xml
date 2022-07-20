@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customValue>
+        <fullName>Administrator</fullName>
+        <default>false</default>
+        <label>Administrator</label>
+    </customValue>
+    <customValue>
+        <fullName>Adjunct Faculty</fullName>
+        <default>false</default>
+        <label>Adjunct Faculty</label>
+    </customValue>
+    <customValue>
+        <fullName>Faculty</fullName>
+        <default>false</default>
+        <label>Faculty</label>
+    </customValue>
+    <customValue>
+        <fullName>Instructional Designer</fullName>
+        <default>false</default>
+        <label>Instructional Designer</label>
+    </customValue>
+    <customValue>
+        <fullName>Librarian</fullName>
+        <default>false</default>
+        <label>Librarian</label>
+    </customValue>
+    <customValue>
+        <fullName>Marketer</fullName>
+        <default>false</default>
+        <label>Marketer</label>
+    </customValue>
+    <customValue>
+        <fullName>Department</fullName>
+        <default>false</default>
+        <label>Department</label>
+    </customValue>
+    <customValue>
+        <fullName>Student</fullName>
+        <default>false</default>
+        <label>Student</label>
+    </customValue>
+    <customValue>
+        <fullName>Grad Student</fullName>
+        <default>false</default>
+        <label>Grad Student</label>
+    </customValue>
+    <customValue>
+        <fullName>Home School Teacher</fullName>
+        <default>false</default>
+        <label>Home School Teacher</label>
+    </customValue>
+    <customValue>
+        <fullName>Instructor</fullName>
+        <default>false</default>
+        <label>Instructor</label>
+    </customValue>
+    <customValue>
+        <fullName>Other</fullName>
+        <default>false</default>
+        <label>Other</label>
+    </customValue>
+    <masterLabel>Position</masterLabel>
+    <sorted>false</sorted>
+</GlobalValueSet>

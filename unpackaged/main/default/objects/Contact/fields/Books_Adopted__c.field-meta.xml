@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Books_Adopted__c</fullName>
+    <defaultValue>"None"</defaultValue>
+    <description>Books being adopted. Populated from Automatic flow</description>
+    <externalId>false</externalId>
+    <inlineHelpText>List of books adopted</inlineHelpText>
+    <label>Books Adopted</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>TextArea</type>
+</CustomField>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>BookURL__c</fullName>
+    <externalId>false</externalId>
+    <inlineHelpText>URL they should be sent to based on Interest</inlineHelpText>
+    <label>BookURL</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Url</type>
+</CustomField>

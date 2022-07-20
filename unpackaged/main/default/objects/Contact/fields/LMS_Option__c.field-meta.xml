@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>LMS_Option__c</fullName>
+    <externalId>false</externalId>
+    <label>LMS Option</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Blackboard</fullName>
+                <default>false</default>
+                <label>Blackboard</label>
+            </value>
+            <value>
+                <fullName>Canvas</fullName>
+                <default>false</default>
+                <label>Canvas</label>
+            </value>
+            <value>
+                <fullName>D2L (Desire2Learn)</fullName>
+                <default>false</default>
+                <label>D2L (Desire2Learn)</label>
+            </value>
+            <value>
+                <fullName>Moodle</fullName>
+                <default>false</default>
+                <label>Moodle</label>
+            </value>
+            <value>
+                <fullName>Other</fullName>
+                <default>false</default>
+                <label>Other</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

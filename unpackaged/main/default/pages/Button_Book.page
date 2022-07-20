@@ -1,0 +1,21 @@
+<apex:page sidebar="false" showHeader="false" lightningStylesheets="true">
+    <apex:slds />
+    
+        <div>
+       <p class="slds-text-heading_medium">
+        <b>Breakdown by books</b> </p>
+        <ul class="slds-list_dotted">
+         <li> K12 Opp Count</li>
+         <li> Higher Ed Opp Count</li>
+         <li> All Time Students</li>
+         <li> Active Books</li>
+        </ul>
+        <br />
+
+        <div class="slds-grid slds-wrap slds-size_1-of-1">
+            <a href="https://openstax.lightning.force.com/lightning/r/Dashboard/01Z6f000001605oEAA/view?queryScope=userFolders" class="slds-button slds-button_brand" > 
+                Books
+            </a>
+        </div>
+    </div>  
+</apex:page>

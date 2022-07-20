@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>X4_Year_College_Market_Share__c</fullName>
+    <externalId>false</externalId>
+    <formula>IF(
+   AND(
+       TEXT(Type) = "College/University (4)",
+       BillingCountry = "United States",
+ Exclude__c = False,
+ Students_Current_Year__c &gt; 0)
+      
+          , 
+   
+   1/3004, 0)</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <inlineHelpText>For calculating market share</inlineHelpText>
+    <label>4 Year College Market Share</label>
+    <precision>18</precision>
+    <required>false</required>
+    <scale>4</scale>
+    <trackHistory>false</trackHistory>
+    <type>Percent</type>
+</CustomField>

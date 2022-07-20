@@ -1,0 +1,190 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Flow xmlns="http://soap.sforce.com/2006/04/metadata">
+    <apiVersion>54.0</apiVersion>
+    <decisions>
+        <name>Also_has_lead</name>
+        <label>Also has lead?</label>
+        <locationX>336</locationX>
+        <locationY>671</locationY>
+        <defaultConnectorLabel>No</defaultConnectorLabel>
+        <rules>
+            <name>Has_Lead_And_Contact</name>
+            <conditionLogic>and</conditionLogic>
+            <conditions>
+                <leftValueReference>$Record.Lead__c</leftValueReference>
+                <operator>NotEqualTo</operator>
+                <rightValue>
+                    <stringValue></stringValue>
+                </rightValue>
+            </conditions>
+            <connector>
+                <targetReference>Is_Converted</targetReference>
+            </connector>
+            <label>Also Has Lead</label>
+        </rules>
+    </decisions>
+    <decisions>
+        <description>Does the OpenStax Account contain a SF Contact ID?</description>
+        <name>Has_Contact</name>
+        <label>Has Contact?</label>
+        <locationX>336</locationX>
+        <locationY>335</locationY>
+        <defaultConnector>
+            <targetReference>Also_has_lead</targetReference>
+        </defaultConnector>
+        <defaultConnectorLabel>No Contact</defaultConnectorLabel>
+        <rules>
+            <name>Has_Contact_On_Account</name>
+            <conditionLogic>and</conditionLogic>
+            <conditions>
+                <leftValueReference>$Record.Contact__c</leftValueReference>
+                <operator>NotEqualTo</operator>
+                <rightValue>
+                    <stringValue></stringValue>
+                </rightValue>
+            </conditions>
+            <connector>
+                <targetReference>Update_Contact_With_Account_Information</targetReference>
+            </connector>
+            <label>Has Contact</label>
+        </rules>
+    </decisions>
+    <decisions>
+        <description>Checks if the lead is converted</description>
+        <name>Is_Converted</name>
+        <label>Is Converted?</label>
+        <locationX>182</locationX>
+        <locationY>791</locationY>
+        <defaultConnectorLabel>Default Outcome</defaultConnectorLabel>
+        <rules>
+            <name>No</name>
+            <conditionLogic>and</conditionLogic>
+            <conditions>
+                <leftValueReference>$Record.Lead__r.IsConverted</leftValueReference>
+                <operator>EqualTo</operator>
+                <rightValue>
+                    <booleanValue>false</booleanValue>
+                </rightValue>
+            </conditions>
+            <connector>
+                <targetReference>Update_Lead_0</targetReference>
+            </connector>
+            <label>No</label>
+        </rules>
+    </decisions>
+    <description>only try to update non-converted leads</description>
+    <environments>Default</environments>
+    <interviewLabel>OpenStax Account Flow Trigger {!$Flow.CurrentDateTime}</interviewLabel>
+    <label>OpenStax Account Flow Trigger</label>
+    <processMetadataValues>
+        <name>BuilderType</name>
+        <value>
+            <stringValue>LightningFlowBuilder</stringValue>
+        </value>
+    </processMetadataValues>
+    <processMetadataValues>
+        <name>CanvasMode</name>
+        <value>
+            <stringValue>AUTO_LAYOUT_CANVAS</stringValue>
+        </value>
+    </processMetadataValues>
+    <processMetadataValues>
+        <name>OriginBuilderType</name>
+        <value>
+            <stringValue>LightningFlowBuilder</stringValue>
+        </value>
+    </processMetadataValues>
+    <processType>AutoLaunchedFlow</processType>
+    <recordUpdates>
+        <description>Updates the contact record to relate to the OpenStax Account object</description>
+        <name>Update_Contact_With_Account_Information</name>
+        <label>Update Contact With Account Information</label>
+        <locationX>204</locationX>
+        <locationY>455</locationY>
+        <connector>
+            <targetReference>Also_has_lead</targetReference>
+        </connector>
+        <filterLogic>and</filterLogic>
+        <filters>
+            <field>Id</field>
+            <operator>EqualTo</operator>
+            <value>
+                <elementReference>$Record.Contact__c</elementReference>
+            </value>
+        </filters>
+        <inputAssignments>
+            <field>Accounts_UUID__c</field>
+            <value>
+                <elementReference>$Record.Account_UUID__c</elementReference>
+            </value>
+        </inputAssignments>
+        <inputAssignments>
+            <field>OpenStax_Account__c</field>
+            <value>
+                <elementReference>$Record.Id</elementReference>
+            </value>
+        </inputAssignments>
+        <object>Contact</object>
+    </recordUpdates>
+    <recordUpdates>
+        <description>Update users lead with OpenStax Account record relation</description>
+        <name>Update_Lead_0</name>
+        <label>Update Lead</label>
+        <locationX>50</locationX>
+        <locationY>911</locationY>
+        <filterLogic>and</filterLogic>
+        <filters>
+            <field>Id</field>
+            <operator>EqualTo</operator>
+            <value>
+                <elementReference>$Record.Lead__c</elementReference>
+            </value>
+        </filters>
+        <filters>
+            <field>IsConverted</field>
+            <operator>EqualTo</operator>
+            <value>
+                <booleanValue>false</booleanValue>
+            </value>
+        </filters>
+        <inputAssignments>
+            <field>Accounts_UUID__c</field>
+            <value>
+                <elementReference>$Record.Account_UUID__c</elementReference>
+            </value>
+        </inputAssignments>
+        <inputAssignments>
+            <field>OpenStax_Account__c</field>
+            <value>
+                <elementReference>$Record.Id</elementReference>
+            </value>
+        </inputAssignments>
+        <object>Lead</object>
+    </recordUpdates>
+    <start>
+        <locationX>210</locationX>
+        <locationY>0</locationY>
+        <connector>
+            <targetReference>Has_Contact</targetReference>
+        </connector>
+        <filterLogic>or</filterLogic>
+        <filters>
+            <field>Lead__c</field>
+            <operator>NotEqualTo</operator>
+            <value>
+                <stringValue></stringValue>
+            </value>
+        </filters>
+        <filters>
+            <field>Contact__c</field>
+            <operator>NotEqualTo</operator>
+            <value>
+                <stringValue></stringValue>
+            </value>
+        </filters>
+        <object>OpenStax_Account__c</object>
+        <recordTriggerType>CreateAndUpdate</recordTriggerType>
+        <triggerType>RecordAfterSave</triggerType>
+    </start>
+    <status>Active</status>
+</Flow>

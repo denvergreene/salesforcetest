@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<StandardValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <sorted>false</sorted>
+    <standardValue>
+        <fullName>Business User</fullName>
+        <default>false</default>
+        <label>Business User</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Decision Maker</fullName>
+        <default>false</default>
+        <label>Decision Maker</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Other</fullName>
+        <default>false</default>
+        <label>Other</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Full time faculty/teacher</fullName>
+        <default>false</default>
+        <label>Full time faculty/teacher</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Adjunct</fullName>
+        <default>false</default>
+        <label>Adjunct</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Temporary Instructor (grad/visiting)</fullName>
+        <default>false</default>
+        <label>Temporary Instructor (grad/visiting)</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Administrator</fullName>
+        <default>false</default>
+        <label>Administrator</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Instructional Designer</fullName>
+        <default>false</default>
+        <label>Instructional Designer</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Librarian</fullName>
+        <default>false</default>
+        <label>Librarian</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Technology (IT, OTS)</fullName>
+        <default>false</default>
+        <label>Technology (IT, OTS)</label>
+    </standardValue>
+</StandardValueSet>

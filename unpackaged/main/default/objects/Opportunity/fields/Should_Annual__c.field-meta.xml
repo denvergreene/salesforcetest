@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Should_Annual__c</fullName>
+    <externalId>false</externalId>
+    <formula>IF(
+CASE( Account.Type , 
+"College/University (4)", "True",
+"Technical/Community College (2)", "True",
+"Career School/For-Profit (2)", "True",
+"false") = "True" , TRUE, FALSE)</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>Should Annual</label>
+    <trackHistory>false</trackHistory>
+    <type>Checkbox</type>
+</CustomField>

@@ -1,0 +1,271 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customValue>
+        <fullName>Amazon Digital</fullName>
+        <default>false</default>
+        <label>Amazon Digital</label>
+    </customValue>
+    <customValue>
+        <fullName>Ambassador</fullName>
+        <default>false</default>
+        <label>Ambassador</label>
+    </customValue>
+    <customValue>
+        <fullName>Amplifire</fullName>
+        <default>false</default>
+        <label>Amplifire</label>
+    </customValue>
+    <customValue>
+        <fullName>Barnes &amp; Noble Education</fullName>
+        <default>false</default>
+        <label>Barnes &amp; Noble Education</label>
+    </customValue>
+    <customValue>
+        <fullName>Blending Education</fullName>
+        <default>false</default>
+        <label>Blending Education</label>
+    </customValue>
+    <customValue>
+        <fullName>Cafe Learn Inc.</fullName>
+        <default>false</default>
+        <label>Cafe Learn Inc.</label>
+    </customValue>
+    <customValue>
+        <fullName>Carolina Distance Learning</fullName>
+        <default>false</default>
+        <label>Carolina Distance Learning</label>
+    </customValue>
+    <customValue>
+        <fullName>Cerego</fullName>
+        <default>false</default>
+        <label>Cerego</label>
+    </customValue>
+    <customValue>
+        <fullName>Chegg</fullName>
+        <default>false</default>
+        <label>Chegg</label>
+    </customValue>
+    <customValue>
+        <fullName>Classavo</fullName>
+        <default>false</default>
+        <label>Classavo</label>
+    </customValue>
+    <customValue>
+        <fullName>CogBooks</fullName>
+        <default>false</default>
+        <label>CogBooks</label>
+    </customValue>
+    <customValue>
+        <fullName>Connect for Education</fullName>
+        <default>false</default>
+        <label>Connect for Education</label>
+    </customValue>
+    <customValue>
+        <fullName>Copia</fullName>
+        <default>false</default>
+        <label>Copia</label>
+    </customValue>
+    <customValue>
+        <fullName>CourseWeaver</fullName>
+        <default>false</default>
+        <label>CourseWeaver</label>
+    </customValue>
+    <customValue>
+        <fullName>Ed Map</fullName>
+        <default>false</default>
+        <label>Ed Map</label>
+    </customValue>
+    <customValue>
+        <fullName>eMath</fullName>
+        <default>false</default>
+        <label>eMath</label>
+    </customValue>
+    <customValue>
+        <fullName>Evident Point Software Corp</fullName>
+        <default>false</default>
+        <label>Evident Point Software Corp</label>
+    </customValue>
+    <customValue>
+        <fullName>Expert TA</fullName>
+        <default>false</default>
+        <label>Expert TA</label>
+    </customValue>
+    <customValue>
+        <fullName>Fishtree</fullName>
+        <default>false</default>
+        <label>Fishtree</label>
+    </customValue>
+    <customValue>
+        <fullName>intellADAPT</fullName>
+        <default>false</default>
+        <label>intellADAPT</label>
+    </customValue>
+    <customValue>
+        <fullName>Junction</fullName>
+        <default>false</default>
+        <label>Junction</label>
+    </customValue>
+    <customValue>
+        <fullName>Knewton</fullName>
+        <default>false</default>
+        <label>Knewton</label>
+    </customValue>
+    <customValue>
+        <fullName>Kortext</fullName>
+        <default>false</default>
+        <label>Kortext</label>
+    </customValue>
+    <customValue>
+        <fullName>LAD Custom Publishing, Inc.</fullName>
+        <default>false</default>
+        <label>LAD Custom Publishing, Inc.</label>
+    </customValue>
+    <customValue>
+        <fullName>Learning List</fullName>
+        <default>false</default>
+        <label>Learning List</label>
+    </customValue>
+    <customValue>
+        <fullName>Lrnr</fullName>
+        <default>false</default>
+        <label>Lrnr</label>
+    </customValue>
+    <customValue>
+        <fullName>Lumen</fullName>
+        <default>false</default>
+        <label>Lumen</label>
+    </customValue>
+    <customValue>
+        <fullName>MaxxContent</fullName>
+        <default>false</default>
+        <label>MaxxContent</label>
+    </customValue>
+    <customValue>
+        <fullName>McGraw-Hill Education</fullName>
+        <default>false</default>
+        <label>McGraw-Hill Education</label>
+    </customValue>
+    <customValue>
+        <fullName>Memory Science</fullName>
+        <default>false</default>
+        <label>Memory Science</label>
+    </customValue>
+    <customValue>
+        <fullName>Mind Edge</fullName>
+        <default>false</default>
+        <label>Mind Edge</label>
+    </customValue>
+    <customValue>
+        <fullName>Montezuma Publishing</fullName>
+        <default>false</default>
+        <label>Montezuma Publishing</label>
+    </customValue>
+    <customValue>
+        <fullName>MyOpenMath</fullName>
+        <default>false</default>
+        <label>MyOpenMath</label>
+    </customValue>
+    <customValue>
+        <fullName>Odigia</fullName>
+        <default>false</default>
+        <label>Odigia</label>
+    </customValue>
+    <customValue>
+        <fullName>panOpen</fullName>
+        <default>false</default>
+        <label>panOpen</label>
+    </customValue>
+    <customValue>
+        <fullName>Partner in Publishing</fullName>
+        <default>false</default>
+        <label>Partner in Publishing</label>
+    </customValue>
+    <customValue>
+        <fullName>Pearson</fullName>
+        <default>false</default>
+        <label>Pearson</label>
+    </customValue>
+    <customValue>
+        <fullName>Perlego</fullName>
+        <default>false</default>
+        <label>Perlego</label>
+    </customValue>
+    <customValue>
+        <fullName>Perusall</fullName>
+        <default>false</default>
+        <label>Perusall</label>
+    </customValue>
+    <customValue>
+        <fullName>RealizeIt</fullName>
+        <default>false</default>
+        <label>RealizeIt</label>
+    </customValue>
+    <customValue>
+        <fullName>Sapling Learning / Macmillan Learning</fullName>
+        <default>false</default>
+        <label>Sapling Learning / Macmillan Learning</label>
+    </customValue>
+    <customValue>
+        <fullName>SimBio</fullName>
+        <default>false</default>
+        <label>SimBio</label>
+    </customValue>
+    <customValue>
+        <fullName>Square cap</fullName>
+        <default>false</default>
+        <label>Square cap</label>
+    </customValue>
+    <customValue>
+        <fullName>Study Edge</fullName>
+        <default>false</default>
+        <label>Study Edge</label>
+    </customValue>
+    <customValue>
+        <fullName>The 20 Million Minds Foundation</fullName>
+        <default>false</default>
+        <label>The 20 Million Minds Foundation</label>
+    </customValue>
+    <customValue>
+        <fullName>Top Hat</fullName>
+        <default>false</default>
+        <label>Top Hat</label>
+    </customValue>
+    <customValue>
+        <fullName>TreeCabin</fullName>
+        <default>false</default>
+        <label>TreeCabin</label>
+    </customValue>
+    <customValue>
+        <fullName>Visible Body</fullName>
+        <default>false</default>
+        <label>Visible Body</label>
+    </customValue>
+    <customValue>
+        <fullName>WebAssign</fullName>
+        <default>false</default>
+        <label>WebAssign</label>
+    </customValue>
+    <customValue>
+        <fullName>Wiley</fullName>
+        <default>false</default>
+        <label>Wiley</label>
+    </customValue>
+    <customValue>
+        <fullName>Words and Numbers</fullName>
+        <default>false</default>
+        <label>Words and Numbers</label>
+    </customValue>
+    <customValue>
+        <fullName>XYZ Homework</fullName>
+        <default>false</default>
+        <label>XYZ Homework</label>
+    </customValue>
+    <customValue>
+        <fullName>Zyante</fullName>
+        <default>false</default>
+        <label>Zyante</label>
+    </customValue>
+    <description>Which partner if any told us about this adoption.</description>
+    <masterLabel>Partner Source</masterLabel>
+    <sorted>false</sorted>
+</GlobalValueSet>

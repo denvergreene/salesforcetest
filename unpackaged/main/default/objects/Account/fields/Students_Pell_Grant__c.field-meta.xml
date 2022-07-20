@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Students_Pell_Grant__c</fullName>
+    <externalId>false</externalId>
+    <formula>Pell_Grant_Recipients__c /   Approximate_Enrollment__c</formula>
+    <inlineHelpText>Calculates % of students that receive Pell Grants.</inlineHelpText>
+    <label>% Students Pell Grant</label>
+    <precision>18</precision>
+    <required>false</required>
+    <scale>0</scale>
+    <trackHistory>false</trackHistory>
+    <type>Percent</type>
+</CustomField>

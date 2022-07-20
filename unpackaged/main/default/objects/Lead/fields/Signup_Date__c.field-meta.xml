@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Signup_Date__c</fullName>
+    <description>The date and time the user signed up for an OpenStax Account</description>
+    <externalId>false</externalId>
+    <inlineHelpText>The date and time the user signed up for an OpenStax Account</inlineHelpText>
+    <label>Signup Date</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>DateTime</type>
+</CustomField>

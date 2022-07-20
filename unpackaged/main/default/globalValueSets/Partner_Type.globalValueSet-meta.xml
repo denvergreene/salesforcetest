@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customValue>
+        <fullName>Clicker/classroom engagement</fullName>
+        <default>false</default>
+        <label>Clicker/classroom engagement</label>
+    </customValue>
+    <customValue>
+        <fullName>Content customization</fullName>
+        <default>false</default>
+        <label>Content customization</label>
+    </customValue>
+    <customValue>
+        <fullName>Adaptive Courseware</fullName>
+        <default>false</default>
+        <label>Adaptive Courseware</label>
+    </customValue>
+    <customValue>
+        <fullName>Online homework</fullName>
+        <default>false</default>
+        <label>Online homework</label>
+    </customValue>
+    <customValue>
+        <fullName>Reading comprehension</fullName>
+        <default>false</default>
+        <label>Reading comprehension</label>
+    </customValue>
+    <customValue>
+        <fullName>E-Reader</fullName>
+        <default>false</default>
+        <label>E-Reader</label>
+    </customValue>
+    <customValue>
+        <fullName>Labs and Lab Manuals</fullName>
+        <default>false</default>
+        <label>Labs and Lab Manuals</label>
+    </customValue>
+    <customValue>
+        <fullName>Simulations</fullName>
+        <default>false</default>
+        <label>Simulations</label>
+    </customValue>
+    <customValue>
+        <fullName>Parent</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Parent</label>
+    </customValue>
+    <masterLabel>Partner Type</masterLabel>
+    <sorted>false</sorted>
+</GlobalValueSet>

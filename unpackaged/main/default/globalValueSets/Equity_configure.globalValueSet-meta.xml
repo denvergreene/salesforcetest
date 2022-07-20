@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customValue>
+        <fullName>We haven’t incorporated this yet.</fullName>
+        <default>false</default>
+        <label>We haven’t incorporated this yet.</label>
+    </customValue>
+    <customValue>
+        <fullName>Learning activities have limited customized features.</fullName>
+        <default>false</default>
+        <label>Learning activities have limited customized features.</label>
+    </customValue>
+    <customValue>
+        <fullName>Learning activities are highly customizable.</fullName>
+        <default>false</default>
+        <label>Learning activities are highly customizable.</label>
+    </customValue>
+    <customValue>
+        <fullName>Learning activities are highly customizable with resources that are culturally relevant by race and income.</fullName>
+        <default>false</default>
+        <label>Learning activities are highly customizable with resources that are culturally relevant by race and income.</label>
+    </customValue>
+    <masterLabel>Equity configure</masterLabel>
+    <sorted>false</sorted>
+</GlobalValueSet>

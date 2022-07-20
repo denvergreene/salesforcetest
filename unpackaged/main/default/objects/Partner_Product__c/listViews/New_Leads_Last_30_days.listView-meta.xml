@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>New_Leads_Last_30_days</fullName>
+    <columns>Partner__c</columns>
+    <columns>CREATED_DATE</columns>
+    <columns>Contact__c</columns>
+    <columns>ContactsEmail__c</columns>
+    <columns>ContactsPhone__c</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>CREATED_DATE</field>
+        <operation>equals</operation>
+        <value>THIS_MONTH</value>
+    </filters>
+    <filters>
+        <field>Permission_To_Share__c</field>
+        <operation>equals</operation>
+        <value>1</value>
+    </filters>
+    <label>New Leads This Month</label>
+</ListView>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Missing_Contact</fullName>
+    <columns>NAME</columns>
+    <columns>Last_accessed__c</columns>
+    <columns>Book__c</columns>
+    <columns>Number_of_times_accessed__c</columns>
+    <columns>Contact__c</columns>
+    <columns>CREATED_DATE</columns>
+    <columns>Accounts_UUID__c</columns>
+    <columns>LAST_ACTIVITY</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>Contact__c</field>
+        <operation>equals</operation>
+    </filters>
+    <label>Missing Contact</label>
+</ListView>

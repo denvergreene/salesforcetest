@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Achieving_the_Dream_School__c</fullName>
+    <defaultValue>false</defaultValue>
+    <description>Populated based on this list in 2016 http://achievingthedream.org/our-approach/our-network</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Populated based on this list in 2016</inlineHelpText>
+    <label>Achieving the Dream School</label>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Checkbox</type>
+</CustomField>

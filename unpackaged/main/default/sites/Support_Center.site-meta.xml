@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomSite xmlns="http://soap.sforce.com/2006/04/metadata">
+    <active>false</active>
+    <allowHomePage>false</allowHomePage>
+    <allowStandardAnswersPages>false</allowStandardAnswersPages>
+    <allowStandardIdeasPages>false</allowStandardIdeasPages>
+    <allowStandardLookups>false</allowStandardLookups>
+    <allowStandardPortalPages>true</allowStandardPortalPages>
+    <allowStandardSearch>false</allowStandardSearch>
+    <analyticsTrackingCode>UA-83425100-1</analyticsTrackingCode>
+    <authorizationRequiredPage>Unauthorized</authorizationRequiredPage>
+    <bandwidthExceededPage>BandwidthExceeded</bandwidthExceededPage>
+    <browserXssProtection>false</browserXssProtection>
+    <cachePublicVisualforcePagesInProxyServers>true</cachePublicVisualforcePagesInProxyServers>
+    <clickjackProtectionLevel>SameOriginOnly</clickjackProtectionLevel>
+    <contentSniffingProtection>false</contentSniffingProtection>
+    <description>Where support happens.</description>
+    <enableAuraRequests>true</enableAuraRequests>
+    <favoriteIcon>favicon</favoriteIcon>
+    <fileNotFoundPage>FileNotFound</fileNotFoundPage>
+    <genericErrorPage>Exception</genericErrorPage>
+    <inMaintenancePage>InMaintenance</inMaintenancePage>
+    <inactiveIndexPage>InMaintenance</inactiveIndexPage>
+    <indexPage>pkb_Home_Custom</indexPage>
+    <masterLabel>Support Center</masterLabel>
+    <redirectToCustomDomain>false</redirectToCustomDomain>
+    <referrerPolicyOriginWhenCrossOrigin>false</referrerPolicyOriginWhenCrossOrigin>
+    <robotsTxtPage>pkb_robottxt</robotsTxtPage>
+    
+    
+    <siteRedirectMappings>
+        <action>Permanent</action>
+        <isActive>false</isActive>
+        <source>/support/pkb_mobile$/pkb_mobile</source>
+        <target>/support?l=en_US&amp;c=Products%3ACollege</target>
+    </siteRedirectMappings>
+    <siteTemplate>pkb_Template_Custom</siteTemplate>
+    <siteType>Visualforce</siteType>
+    <subdomain>openstax</subdomain>
+</CustomSite>

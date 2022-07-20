@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customValue>
+        <fullName>We haven’t incorporated this yet.</fullName>
+        <default>false</default>
+        <label>We haven’t incorporated this yet.</label>
+    </customValue>
+    <customValue>
+        <fullName>Student images and stories are referenced in the product.</fullName>
+        <default>false</default>
+        <label>Student images and stories are referenced in the product.</label>
+    </customValue>
+    <customValue>
+        <fullName>Student images and stories are an essential feature of the product.</fullName>
+        <default>false</default>
+        <label>Student images and stories are an essential feature of the product.</label>
+    </customValue>
+    <customValue>
+        <fullName>Student images and stories are an essential feature of the product and are representative of a range of student populations by race, income, and intersectional identities.</fullName>
+        <default>false</default>
+        <label>Student images and stories are an essential feature of the product and are representative of a range of student populations by race, income, and intersectional identities.</label>
+    </customValue>
+    <masterLabel>Equity stories</masterLabel>
+    <sorted>false</sorted>
+</GlobalValueSet>

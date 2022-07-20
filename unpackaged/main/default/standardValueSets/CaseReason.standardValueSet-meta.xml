@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<StandardValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <sorted>false</sorted>
+    <standardValue>
+        <fullName>Report Request</fullName>
+        <default>false</default>
+        <label>Report Request</label>
+        <cssExposed>false</cssExposed>
+    </standardValue>
+    <standardValue>
+        <fullName>Product Wishlist</fullName>
+        <default>false</default>
+        <label>Product Wishlist</label>
+        <cssExposed>false</cssExposed>
+    </standardValue>
+    <standardValue>
+        <fullName>Navigation</fullName>
+        <default>false</default>
+        <label>Navigation</label>
+        <cssExposed>false</cssExposed>
+    </standardValue>
+    <standardValue>
+        <fullName>Errata</fullName>
+        <default>false</default>
+        <label>Errata</label>
+        <cssExposed>false</cssExposed>
+    </standardValue>
+    <standardValue>
+        <fullName>Sign-in</fullName>
+        <default>false</default>
+        <label>Sign-in</label>
+        <cssExposed>false</cssExposed>
+    </standardValue>
+    <standardValue>
+        <fullName>Information request</fullName>
+        <default>false</default>
+        <label>Information request</label>
+        <cssExposed>false</cssExposed>
+    </standardValue>
+    <standardValue>
+        <fullName>Email overload</fullName>
+        <default>false</default>
+        <label>Email overload</label>
+        <cssExposed>false</cssExposed>
+    </standardValue>
+    <standardValue>
+        <fullName>Accessibility</fullName>
+        <default>false</default>
+        <label>Accessibility</label>
+        <cssExposed>false</cssExposed>
+    </standardValue>
+    <standardValue>
+        <fullName>ISM</fullName>
+        <default>false</default>
+        <label>ISM</label>
+        <cssExposed>false</cssExposed>
+    </standardValue>
+    <standardValue>
+        <fullName>SSM</fullName>
+        <default>false</default>
+        <label>SSM</label>
+        <cssExposed>false</cssExposed>
+    </standardValue>
+    <standardValue>
+        <fullName>International order</fullName>
+        <default>false</default>
+        <label>International order</label>
+        <cssExposed>false</cssExposed>
+    </standardValue>
+    <standardValue>
+        <fullName>Derive</fullName>
+        <default>false</default>
+        <label>Derive</label>
+        <cssExposed>false</cssExposed>
+    </standardValue>
+    <standardValue>
+        <fullName>PDF Generation</fullName>
+        <default>false</default>
+        <label>PDF Generation</label>
+        <cssExposed>false</cssExposed>
+    </standardValue>
+    <standardValue>
+        <fullName>Numbering Issue</fullName>
+        <default>false</default>
+        <label>Numbering Issue</label>
+        <cssExposed>false</cssExposed>
+    </standardValue>
+    <standardValue>
+        <fullName>Legacy</fullName>
+        <default>false</default>
+        <label>Legacy</label>
+        <cssExposed>false</cssExposed>
+    </standardValue>
+    <standardValue>
+        <fullName>Tutor</fullName>
+        <default>false</default>
+        <label>Tutor</label>
+        <cssExposed>false</cssExposed>
+    </standardValue>
+    <standardValue>
+        <fullName>Concept Coach</fullName>
+        <default>false</default>
+        <label>Concept Coach</label>
+        <cssExposed>false</cssExposed>
+    </standardValue>
+    <standardValue>
+        <fullName>CC Drop</fullName>
+        <default>false</default>
+        <label>CC Drop</label>
+        <cssExposed>false</cssExposed>
+    </standardValue>
+    <standardValue>
+        <fullName>Getting Started</fullName>
+        <default>false</default>
+        <label>Getting Started</label>
+        <cssExposed>false</cssExposed>
+    </standardValue>
+    <standardValue>
+        <fullName>Assessment</fullName>
+        <default>false</default>
+        <label>Assessment</label>
+        <cssExposed>false</cssExposed>
+    </standardValue>
+    <standardValue>
+        <fullName>CC Book Link</fullName>
+        <default>false</default>
+        <label>CC Book Link</label>
+        <cssExposed>false</cssExposed>
+    </standardValue>
+    <standardValue>
+        <fullName>Teacher Logging in as Student</fullName>
+        <default>false</default>
+        <label>Teacher Logging in as Student</label>
+        <cssExposed>false</cssExposed>
+    </standardValue>
+    <standardValue>
+        <fullName>CC Error Report</fullName>
+        <default>false</default>
+        <label>CC Error Report</label>
+        <cssExposed>false</cssExposed>
+    </standardValue>
+    <standardValue>
+        <fullName>Wrong Course</fullName>
+        <default>false</default>
+        <label>Wrong Course</label>
+        <cssExposed>false</cssExposed>
+    </standardValue>
+    <standardValue>
+        <fullName>Student Scores</fullName>
+        <default>false</default>
+        <label>Student Scores</label>
+        <cssExposed>false</cssExposed>
+    </standardValue>
+    <standardValue>
+        <fullName>CC Salesforce Issue</fullName>
+        <default>false</default>
+        <label>CC Salesforce Issue</label>
+        <cssExposed>false</cssExposed>
+    </standardValue>
+    <standardValue>
+        <fullName>Due Date</fullName>
+        <default>false</default>
+        <label>Due Date</label>
+        <cssExposed>false</cssExposed>
+    </standardValue>
+    <standardValue>
+        <fullName>Multiple Attempts</fullName>
+        <default>false</default>
+        <label>Multiple Attempts</label>
+        <cssExposed>false</cssExposed>
+    </standardValue>
+    <standardValue>
+        <fullName>Miscellaneous</fullName>
+        <default>false</default>
+        <label>Miscellaneous</label>
+        <cssExposed>false</cssExposed>
+    </standardValue>
+</StandardValueSet>

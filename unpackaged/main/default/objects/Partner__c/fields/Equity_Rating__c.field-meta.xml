@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Equity_Rating__c</fullName>
+    <externalId>false</externalId>
+    <formula>IF ( Equity_Score__c &gt; 14, "Best only", IF( Equity_Score__c  &gt; 8, "Good or best", "Needs Improvement"))</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>Equity Rating</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

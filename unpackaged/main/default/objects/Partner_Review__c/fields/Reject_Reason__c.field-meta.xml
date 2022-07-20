@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Reject_Reason__c</fullName>
+    <externalId>false</externalId>
+    <label>Reject Reason</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <controllingField>Status__c</controllingField>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Content violates review standards</fullName>
+                <default>false</default>
+                <label>Content violates review standards</label>
+            </value>
+            <value>
+                <fullName>Content contains personally identifiable information</fullName>
+                <default>false</default>
+                <label>Content contains personally identifiable information</label>
+            </value>
+            <value>
+                <fullName>Content contains inappropriate language</fullName>
+                <default>false</default>
+                <label>Content contains inappropriate language</label>
+            </value>
+            <value>
+                <fullName>Review is not based on personal experience</fullName>
+                <default>false</default>
+                <label>Review is not based on personal experience</label>
+            </value>
+            <value>
+                <fullName>Content is not relevant to the product at hand</fullName>
+                <default>false</default>
+                <label>Content is not relevant to the product at hand</label>
+            </value>
+        </valueSetDefinition>
+        <valueSettings>
+            <controllingFieldValue>Rejected</controllingFieldValue>
+            <valueName>Content violates review standards</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Rejected</controllingFieldValue>
+            <valueName>Content contains personally identifiable information</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Rejected</controllingFieldValue>
+            <valueName>Content contains inappropriate language</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Rejected</controllingFieldValue>
+            <valueName>Review is not based on personal experience</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Rejected</controllingFieldValue>
+            <valueName>Content is not relevant to the product at hand</valueName>
+        </valueSettings>
+    </valueSet>
+</CustomField>

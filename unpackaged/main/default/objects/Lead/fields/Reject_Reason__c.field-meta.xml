@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Reject_Reason__c</fullName>
+    <externalId>false</externalId>
+    <label>Reject Reason</label>
+    <required>false</required>
+    <trackFeedHistory>true</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Bad School Info</fullName>
+                <default>false</default>
+                <label>Bad School Info</label>
+            </value>
+            <value>
+                <fullName>Homeschool no info</fullName>
+                <default>false</default>
+                <label>Homeschool no info</label>
+            </value>
+            <value>
+                <fullName>Unverifiable</fullName>
+                <default>false</default>
+                <label>Unverifiable</label>
+            </value>
+            <value>
+                <fullName>Duplicate</fullName>
+                <default>false</default>
+                <label>Duplicate</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

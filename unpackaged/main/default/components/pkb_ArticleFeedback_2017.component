@@ -1,0 +1,43 @@
+<apex:component allowDML="true" controller="pkb_Controller_2017">
+	<div>
+		<div class="articleTitle">
+			Feedback
+		</div>
+		<div style="margin-top:10px">
+			<p>Was this article helpful?</p>
+        </div>
+        <div style="margin-top:10px">
+	        <div class="articleButton hoverGray">
+	            <div class="articleButtonText">
+		            <apex:commandLink id="giveThumbsUp" action="{!showPopup}" reRender="main" style="text-decoration: none;">
+		            	<apex:param assignTo="{!selectionFeedback}" value="Yes" name="paramFeedbackYes" id="idFBYes" />
+		            	Yes
+		        	</apex:commandLink>
+	        	</div>
+	        </div>
+	        <div class="articleButton hoverGray" style="margin-left:15px;">
+	            <div class="articleButtonText">
+	            	<apex:commandLink id="giveFeedback" action="{!showPopup}" reRender="main" style="text-decoration: none;">
+	            		<apex:param assignTo="{!selectionFeedback}" value="No" name="paramFeedbackNo" id="idFBNo" />
+		            	No
+		        	</apex:commandLink>
+	            </div>
+	        </div>
+	    </div>
+		<apex:outputPanel id="tstpopup">
+	    	<apex:outputPanel styleClass="modalBackground" layout="block" rendered="{!displayPopUp}"/>
+	        <apex:outputPanel styleClass="modalText" layout="block" rendered="{!displayPopUp}">
+	            <apex:outputText value="Thanks for the feedback!" rendered="{!selectionFeedback=='Yes'}" />
+	            <apex:outputPanel rendered="{!selectionFeedback=='No'}">
+		            Please tell us how we can make this article more useful.
+		            <apex:inputTextarea value="{!strFeedback}" richText="false" id="idFeedback" style="width:100%;" rows="5"/>
+		        </apex:outputPanel>
+	            <div style="text-align:center; ">
+		            <apex:commandButton value="Submit" action="{!saveFeedback}" rerender="tstpopup" rendered="{!selectionFeedback=='No'}" style="margin:0 20px;"/>
+		            <apex:commandButton value="Cancel" action="{!closePopup}" rerender="tstpopup" rendered="{!selectionFeedback=='No'}" style="margin:0 20px;"/>
+		            <apex:commandButton value="Close" action="{!closePopup}" rerender="tstpopup" rendered="{!selectionFeedback=='Yes'}" style="margin:0 20px;"/>
+	        	</div>
+	        </apex:outputPanel>
+	    </apex:outputPanel>
+    </div>
+</apex:component>

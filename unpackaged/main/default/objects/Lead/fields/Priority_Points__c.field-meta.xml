@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Priority_Points__c</fullName>
+    <externalId>false</externalId>
+    <formula>IF( Text(Status) = "Converted", 0,
+IF( Text( LeadSource ) = "OSC User", 0,
+
+ Days_Open__c /10 
++
+ CASE(TEXT(LeadSource), 
+ "Comp Request", 15,
+ "OSC Faculty", 15,
+ "Adoption Form", 10, 
+ "Renewal Form", 5,
+ "OS Interest Form", 3,
+ 1) 
++
+ IF( Number_of_Students__c &gt; 50, 10, 1)
++
+ IF( Feedback_Length__c &gt;12, 20,1)
+
+
+
+))</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>Priority Points</label>
+    <precision>18</precision>
+    <required>false</required>
+    <scale>0</scale>
+    <trackHistory>false</trackHistory>
+    <type>Number</type>
+    <unique>false</unique>
+</CustomField>

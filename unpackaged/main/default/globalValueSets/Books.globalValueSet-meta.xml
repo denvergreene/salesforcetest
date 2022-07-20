@@ -1,0 +1,281 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customValue>
+        <fullName>Algebra and Trigonometry</fullName>
+        <default>false</default>
+        <label>Algebra and Trigonometry</label>
+    </customValue>
+    <customValue>
+        <fullName>American Government</fullName>
+        <default>false</default>
+        <label>American Government</label>
+    </customValue>
+    <customValue>
+        <fullName>Anatomy &amp; Physiology</fullName>
+        <default>false</default>
+        <label>Anatomy &amp; Physiology</label>
+    </customValue>
+    <customValue>
+        <fullName>Anthropology</fullName>
+        <default>false</default>
+        <label>Anthropology</label>
+    </customValue>
+    <customValue>
+        <fullName>AP Bio</fullName>
+        <default>false</default>
+        <label>AP Bio</label>
+    </customValue>
+    <customValue>
+        <fullName>AP Macro Econ</fullName>
+        <default>false</default>
+        <label>AP Macro Econ</label>
+    </customValue>
+    <customValue>
+        <fullName>AP Micro Econ</fullName>
+        <default>false</default>
+        <label>AP Micro Econ</label>
+    </customValue>
+    <customValue>
+        <fullName>AP Physics</fullName>
+        <default>false</default>
+        <label>AP Physics</label>
+    </customValue>
+    <customValue>
+        <fullName>Astronomy</fullName>
+        <default>false</default>
+        <label>Astronomy</label>
+    </customValue>
+    <customValue>
+        <fullName>Biology</fullName>
+        <default>false</default>
+        <label>Biology</label>
+    </customValue>
+    <customValue>
+        <fullName>Business Ethics</fullName>
+        <default>false</default>
+        <label>Business Ethics</label>
+    </customValue>
+    <customValue>
+        <fullName>Business Law I Essentials</fullName>
+        <default>false</default>
+        <label>Business Law I Essentials</label>
+    </customValue>
+    <customValue>
+        <fullName>Business Statistics</fullName>
+        <default>false</default>
+        <label>Business Statistics</label>
+    </customValue>
+    <customValue>
+        <fullName>Calculus</fullName>
+        <default>false</default>
+        <label>Calculus</label>
+    </customValue>
+    <customValue>
+        <fullName>Chem: Atoms First</fullName>
+        <default>false</default>
+        <label>Chem: Atoms First</label>
+    </customValue>
+    <customValue>
+        <fullName>Chemistry</fullName>
+        <default>false</default>
+        <label>Chemistry</label>
+    </customValue>
+    <customValue>
+        <fullName>College Algebra</fullName>
+        <default>false</default>
+        <label>College Algebra</label>
+    </customValue>
+    <customValue>
+        <fullName>College Algebra with Corequisite Support</fullName>
+        <default>false</default>
+        <label>College Algebra with Corequisite Support</label>
+    </customValue>
+    <customValue>
+        <fullName>College Physics (Algebra)</fullName>
+        <default>false</default>
+        <label>College Physics (Algebra)</label>
+    </customValue>
+    <customValue>
+        <fullName>College Success</fullName>
+        <default>false</default>
+        <label>College Success</label>
+    </customValue>
+    <customValue>
+        <fullName>Concepts of Bio (non-majors)</fullName>
+        <default>false</default>
+        <label>Concepts of Bio (non-majors)</label>
+    </customValue>
+    <customValue>
+        <fullName>Contemporary Math</fullName>
+        <default>false</default>
+        <label>Contemporary Math</label>
+    </customValue>
+    <customValue>
+        <fullName>Economics</fullName>
+        <default>false</default>
+        <label>Economics</label>
+    </customValue>
+    <customValue>
+        <fullName>Elementary Algebra</fullName>
+        <default>false</default>
+        <label>Elementary Algebra</label>
+    </customValue>
+    <customValue>
+        <fullName>Entrepreneurship</fullName>
+        <default>false</default>
+        <label>Entrepreneurship</label>
+    </customValue>
+    <customValue>
+        <fullName>Financial Accounting</fullName>
+        <default>false</default>
+        <label>Financial Accounting</label>
+    </customValue>
+    <customValue>
+        <fullName>Física universitaria</fullName>
+        <default>false</default>
+        <label>Física universitaria</label>
+    </customValue>
+    <customValue>
+        <fullName>HS Physics</fullName>
+        <default>false</default>
+        <label>HS Physics</label>
+    </customValue>
+    <customValue>
+        <fullName>HS Statistics</fullName>
+        <default>false</default>
+        <label>HS Statistics</label>
+    </customValue>
+    <customValue>
+        <fullName>Intellectual Property</fullName>
+        <default>false</default>
+        <label>Intellectual Property</label>
+    </customValue>
+    <customValue>
+        <fullName>Intermediate Algebra</fullName>
+        <default>false</default>
+        <label>Intermediate Algebra</label>
+    </customValue>
+    <customValue>
+        <fullName>Introducción a la estadística</fullName>
+        <default>false</default>
+        <label>Introducción a la estadística</label>
+    </customValue>
+    <customValue>
+        <fullName>Introducción a la estadística empresarial</fullName>
+        <default>false</default>
+        <label>Introducción a la estadística empresarial</label>
+    </customValue>
+    <customValue>
+        <fullName>Introduction to Business</fullName>
+        <default>false</default>
+        <label>Introduction to Business</label>
+    </customValue>
+    <customValue>
+        <fullName>Introduction to Philosophy</fullName>
+        <default>false</default>
+        <label>Introduction to Philosophy</label>
+    </customValue>
+    <customValue>
+        <fullName>Introduction to Political Science</fullName>
+        <default>false</default>
+        <label>Introduction to Political Science</label>
+    </customValue>
+    <customValue>
+        <fullName>Introduction to Sociology</fullName>
+        <default>false</default>
+        <label>Introduction to Sociology</label>
+    </customValue>
+    <customValue>
+        <fullName>Introductory Statistics</fullName>
+        <default>false</default>
+        <label>Introductory Statistics</label>
+    </customValue>
+    <customValue>
+        <fullName>LLPH</fullName>
+        <default>false</default>
+        <label>LLPH</label>
+    </customValue>
+    <customValue>
+        <fullName>Macro Econ</fullName>
+        <default>false</default>
+        <label>Macro Econ</label>
+    </customValue>
+    <customValue>
+        <fullName>Management</fullName>
+        <default>false</default>
+        <label>Management</label>
+    </customValue>
+    <customValue>
+        <fullName>Managerial Accounting</fullName>
+        <default>false</default>
+        <label>Managerial Accounting</label>
+    </customValue>
+    <customValue>
+        <fullName>Microbiology</fullName>
+        <default>false</default>
+        <label>Microbiology</label>
+    </customValue>
+    <customValue>
+        <fullName>Micro Econ</fullName>
+        <default>false</default>
+        <label>Micro Econ</label>
+    </customValue>
+    <customValue>
+        <fullName>Organizational Behavior</fullName>
+        <default>false</default>
+        <label>Organizational Behavior</label>
+    </customValue>
+    <customValue>
+        <fullName>Prealgebra</fullName>
+        <default>false</default>
+        <label>Prealgebra</label>
+    </customValue>
+    <customValue>
+        <fullName>Precalc</fullName>
+        <default>false</default>
+        <label>Precalc</label>
+    </customValue>
+    <customValue>
+        <fullName>Principles of Finance</fullName>
+        <default>false</default>
+        <label>Principles of Finance</label>
+    </customValue>
+    <customValue>
+        <fullName>Psychology</fullName>
+        <default>false</default>
+        <label>Psychology</label>
+    </customValue>
+    <customValue>
+        <fullName>University Physics (Calc)</fullName>
+        <default>false</default>
+        <label>University Physics (Calc)</label>
+    </customValue>
+    <customValue>
+        <fullName>US History</fullName>
+        <default>false</default>
+        <label>US History</label>
+    </customValue>
+    <customValue>
+        <fullName>World History</fullName>
+        <default>false</default>
+        <label>World History</label>
+    </customValue>
+    <customValue>
+        <fullName>Writing Guide</fullName>
+        <default>false</default>
+        <label>Writing Guide</label>
+    </customValue>
+    <customValue>
+        <fullName>Not Listed</fullName>
+        <default>false</default>
+        <label>Not Listed</label>
+    </customValue>
+    <customValue>
+        <fullName>Introduction to Intellectual Property</fullName>
+        <default>false</default>
+        <label>Introduction to Intellectual Property</label>
+    </customValue>
+    <description>A global list of the books we offer and should be used when referencing them.</description>
+    <masterLabel>Books</masterLabel>
+    <sorted>false</sorted>
+</GlobalValueSet>

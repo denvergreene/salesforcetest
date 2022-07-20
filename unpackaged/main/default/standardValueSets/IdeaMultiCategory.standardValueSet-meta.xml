@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<StandardValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <sorted>false</sorted>
+    <standardValue>
+        <fullName>Other</fullName>
+        <default>false</default>
+        <label>Other</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Book Interests</fullName>
+        <default>false</default>
+        <label>Book Interests</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Automation Requests</fullName>
+        <default>false</default>
+        <label>Automation Requests</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Structural changes</fullName>
+        <default>false</default>
+        <label>Structural changes</label>
+    </standardValue>
+</StandardValueSet>

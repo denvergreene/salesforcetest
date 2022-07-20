@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>ParentDups__c</fullName>
+    <externalId>false</externalId>
+    <formula>IF( ISBLANK(ParentId)= TRUE , Id, 
+IF( ISBLANK(Parent.ParentId)= TRUE , Parent.Id,
+IF( ISBLANK(Parent.Parent.ParentId)= TRUE , Parent.Parent.Id, 
+  Parent.Parent.Parent.Id )))</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <inlineHelpText>Used to determine the highest parent</inlineHelpText>
+    <label>ParentDups</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

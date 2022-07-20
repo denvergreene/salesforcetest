@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Adoption_Status__c</fullName>
+    <externalId>false</externalId>
+    <formula>IF( Current_Students__c  &gt; 0, "Current Adopter",
+  IF( Future_Students__c &gt; 0, "Future Adopter",
+     IF(OR(Previous_Students__c  &gt;  0,  Past_Students__c  &gt; 0), "Past Adopter", "Not Adopter"
+        )
+     )
+   )</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <inlineHelpText>Determines if Contact is adopting ( Current Adopter; Future Adopter; Past Adopter; Not Adopter)</inlineHelpText>
+    <label>Adoption Status</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

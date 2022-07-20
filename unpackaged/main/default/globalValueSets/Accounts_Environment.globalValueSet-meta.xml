@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customValue>
+        <fullName>production</fullName>
+        <default>false</default>
+        <label>production</label>
+    </customValue>
+    <customValue>
+        <fullName>staging</fullName>
+        <default>false</default>
+        <label>staging</label>
+    </customValue>
+    <customValue>
+        <fullName>qa</fullName>
+        <default>false</default>
+        <label>qa</label>
+    </customValue>
+    <customValue>
+        <fullName>dev</fullName>
+        <default>false</default>
+        <label>dev</label>
+    </customValue>
+    <customValue>
+        <fullName>local</fullName>
+        <default>false</default>
+        <label>local</label>
+    </customValue>
+    <description>The OpenStax Accounts environment this user was created from. Useful if looking at test accounts or in the sandbox.</description>
+    <masterLabel>Accounts Environment</masterLabel>
+    <sorted>false</sorted>
+</GlobalValueSet>

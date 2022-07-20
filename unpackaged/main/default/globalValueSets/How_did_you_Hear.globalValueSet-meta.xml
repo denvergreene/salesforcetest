@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customValue>
+        <fullName>Web Search</fullName>
+        <default>false</default>
+        <label>Web Search</label>
+    </customValue>
+    <customValue>
+        <fullName>Colleague</fullName>
+        <default>false</default>
+        <label>Colleague</label>
+    </customValue>
+    <customValue>
+        <fullName>Conference</fullName>
+        <default>false</default>
+        <label>Conference</label>
+    </customValue>
+    <customValue>
+        <fullName>Email</fullName>
+        <default>false</default>
+        <label>Email</label>
+    </customValue>
+    <customValue>
+        <fullName>Facebook</fullName>
+        <default>false</default>
+        <label>Facebook</label>
+    </customValue>
+    <customValue>
+        <fullName>Twitter</fullName>
+        <default>false</default>
+        <label>Twitter</label>
+    </customValue>
+    <customValue>
+        <fullName>Webinar</fullName>
+        <default>false</default>
+        <label>Webinar</label>
+    </customValue>
+    <customValue>
+        <fullName>Partner organization</fullName>
+        <default>false</default>
+        <label>Partner organization</label>
+    </customValue>
+    <masterLabel>How did you Hear?</masterLabel>
+    <sorted>false</sorted>
+</GlobalValueSet>

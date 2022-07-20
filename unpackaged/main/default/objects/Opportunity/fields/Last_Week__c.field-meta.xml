@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Last_Week__c</fullName>
+    <externalId>false</externalId>
+    <formula>MIN(
+MCEILING((365 - (DATEVALUE(TEXT(YEAR( Today())) + "-12-31") - Today()) +
+IF( MOD(YEAR(Today()),4)=0, 1,0)) / 7) , 52)
+
+-
+
+Week_No__c
+
+=1</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>Last Week</label>
+    <trackHistory>false</trackHistory>
+    <type>Checkbox</type>
+</CustomField>

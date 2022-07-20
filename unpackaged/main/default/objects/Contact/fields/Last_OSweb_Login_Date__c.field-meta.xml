@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Last_OSweb_Login_Date__c</fullName>
+    <description>The most recent time that this contact has logged in on OSweb</description>
+    <externalId>false</externalId>
+    <label>Last OSweb Login Date</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Date</type>
+</CustomField>

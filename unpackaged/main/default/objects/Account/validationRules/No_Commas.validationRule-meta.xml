@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>No_Commas</fullName>
+    <active>true</active>
+    <errorConditionFormula>CONTAINS( Email_for_Leads__c , ",")</errorConditionFormula>
+    <errorDisplayField>Email_for_Leads__c</errorDisplayField>
+    <errorMessage>Don't use a comma, use a semicolon.</errorMessage>
+</ValidationRule>

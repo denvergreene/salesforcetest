@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Support_Queues</fullName>
+    <columns>Case</columns>
+    <columns>Status</columns>
+    <columns>Contact</columns>
+    <columns>StartTime</columns>
+    <columns>EndTime</columns>
+    <columns>AverageResponseTimeOperator</columns>
+    <columns>MaxResponseTimeOperator</columns>
+    <columns>LiveChatButton</columns>
+    <columns>CreatedDate</columns>
+    <columns>LastModifiedDate</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>CreatedDate</field>
+        <operation>greaterOrEqual</operation>
+        <value>THIS_MONTH</value>
+    </filters>
+    <label>This Month Support Queues</label>
+</ListView>

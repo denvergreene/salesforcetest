@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<AnalyticSnapshot xmlns="http://soap.sforce.com/2006/04/metadata">
+    <groupColumn>GRAND_SUMMARY</groupColumn>
+    <mappings>
+        <sourceField>JobName</sourceField>
+        <sourceType>snapshot</sourceType>
+        <targetField>Adoptions_over_time__c.Name</targetField>
+    </mappings>
+    <mappings>
+        <sourceField>ExecutionTime</sourceField>
+        <sourceType>snapshot</sourceType>
+        <targetField>Adoptions_over_time__c.Recorded_Date__c</targetField>
+    </mappings>
+    <mappings>
+        <sourceField>RowCount</sourceField>
+        <sourceType>summary</sourceType>
+        <targetField>Adoptions_over_time__c.Cumulative_Schools__c</targetField>
+    </mappings>
+    <name>Adoptions over time</name>
+    <runningUser>denver@rice.edu</runningUser>
+    <sourceReport>Dash_Hub/Proper_adoption_count</sourceReport>
+    <targetObject>Adoptions_over_time__c</targetObject>
+</AnalyticSnapshot>

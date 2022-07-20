@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<StandardValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <sorted>false</sorted>
+    <standardValue>
+        <fullName>Customer Service Ticket</fullName>
+        <default>false</default>
+        <label>Customer Service Ticket</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Phone</fullName>
+        <default>false</default>
+        <label>Phone</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Chat</fullName>
+        <default>false</default>
+        <label>Chat</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Conference</fullName>
+        <default>false</default>
+        <label>Conference</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Comp Request</fullName>
+        <default>false</default>
+        <label>Comp Request</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Partner</fullName>
+        <default>false</default>
+        <label>Partner</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Newsletter</fullName>
+        <default>false</default>
+        <label>Newsletter</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Adoption Form</fullName>
+        <default>false</default>
+        <label>Adoption Form</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Referral Form</fullName>
+        <default>false</default>
+        <label>Referral Form</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Renewal Form</fullName>
+        <default>false</default>
+        <label>Renewal Form</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Donation</fullName>
+        <default>false</default>
+        <label>Donation</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Web</fullName>
+        <default>false</default>
+        <label>Web</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Webinar</fullName>
+        <default>false</default>
+        <label>Webinar</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Institutional Relations</fullName>
+        <default>false</default>
+        <label>Institutional Relations</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Followup Form</fullName>
+        <default>false</default>
+        <label>Followup Form</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Student</fullName>
+        <default>false</default>
+        <label>Student</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Email</fullName>
+        <default>false</default>
+        <label>Email</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Tutor Signup</fullName>
+        <default>false</default>
+        <label>Tutor Signup</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Interest Form</fullName>
+        <default>false</default>
+        <label>Interest Form</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Rover</fullName>
+        <default>false</default>
+        <label>Rover</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Testimonial</fullName>
+        <default>false</default>
+        <label>Testimonial</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Renewal Popup</fullName>
+        <default>false</default>
+        <label>Renewal Popup</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Partner Marketplace</fullName>
+        <default>false</default>
+        <label>Partner Marketplace</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Offsite Go-To-Webinar Form</fullName>
+        <default>false</default>
+        <label>Offsite Go-To-Webinar Form</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Website Tutor Webinar Form</fullName>
+        <default>false</default>
+        <label>Website Tutor Webinar Form</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Offsite Creator Feast Registration Form</fullName>
+        <default>false</default>
+        <label>Offsite Creator Feast Registration Form</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Manual List Adds</fullName>
+        <default>false</default>
+        <label>Manual List Adds</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Website E-Newsletter Sign-Up Form</fullName>
+        <default>false</default>
+        <label>Website E-Newsletter Sign-Up Form</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Website Institutional Partner Sign Up Form</fullName>
+        <default>false</default>
+        <label>Website Institutional Partner Sign Up Form</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Website Contact Us Form</fullName>
+        <default>false</default>
+        <label>Website Contact Us Form</label>
+    </standardValue>
+    <standardValue>
+        <fullName>TSR</fullName>
+        <default>false</default>
+        <label>TSR</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Facebook Ads</fullName>
+        <default>false</default>
+        <label>Facebook Ads</label>
+    </standardValue>
+    <standardValue>
+        <fullName>LinkedIn Ads</fullName>
+        <default>false</default>
+        <label>LinkedIn Ads</label>
+    </standardValue>
+    <standardValue>
+        <fullName>BMG Import</fullName>
+        <default>false</default>
+        <label>BMG Import</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Account Creation</fullName>
+        <default>false</default>
+        <label>Account Creation</label>
+    </standardValue>
+</StandardValueSet>

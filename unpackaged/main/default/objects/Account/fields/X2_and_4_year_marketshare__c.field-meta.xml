@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>X2_and_4_year_marketshare__c</fullName>
+    <externalId>false</externalId>
+    <formula>IF(  
+AND( X2_4_year_colleges_or_universities__c = TRUE, Exclude__c = FALSE, BillingCountry = "United States",
+Students_Current_Year__c &gt; 0),
+
+1/4583,0)</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>2 and 4 year marketshare</label>
+    <precision>18</precision>
+    <required>false</required>
+    <scale>4</scale>
+    <trackHistory>false</trackHistory>
+    <type>Percent</type>
+</CustomField>

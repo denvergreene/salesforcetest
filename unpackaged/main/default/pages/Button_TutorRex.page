@@ -1,0 +1,19 @@
+<apex:page sidebar="false" showHeader="false" lightningStylesheets="true">
+    <apex:slds />
+    
+        <div>
+       <p class="slds-text-heading_medium">
+        <b>Breakdown by Tutor/Rex</b> </p>
+        <ul class="slds-list_dotted">
+         <li> Tutor Students per year</li>
+         <li> OS+Tutor Initial Usage</li>
+        </ul>
+        <br />
+
+        <div class="slds-grid slds-wrap slds-size_1-of-1">
+            <a href="https://openstax.lightning.force.com/lightning/r/Dashboard/01Z6f0000016063EAA/view?queryScope=userFolders" class="slds-button slds-button_brand" > 
+                Tutor/Rex
+            </a>
+        </div>
+    </div>  
+</apex:page>

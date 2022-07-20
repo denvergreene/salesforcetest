@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<StandardValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <sorted>false</sorted>
+    <standardValue>
+        <fullName>College/University (4)</fullName>
+        <default>false</default>
+        <label>College/University (4)</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Technical/Community College (2)</fullName>
+        <default>false</default>
+        <label>Technical/Community College (2)</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Career School/For-Profit (2)</fullName>
+        <default>false</default>
+        <label>Career School/For-Profit (2)</label>
+    </standardValue>
+    <standardValue>
+        <fullName>For-Profit Tutoring</fullName>
+        <default>false</default>
+        <label>For-Profit Tutoring</label>
+    </standardValue>
+    <standardValue>
+        <fullName>High School</fullName>
+        <default>false</default>
+        <label>High School</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Elementary School</fullName>
+        <default>false</default>
+        <label>Elementary School</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Middle/Junior High School</fullName>
+        <default>false</default>
+        <label>Middle/Junior High School</label>
+    </standardValue>
+    <standardValue>
+        <fullName>K-12 School</fullName>
+        <default>false</default>
+        <label>K-12 School</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Other</fullName>
+        <default>false</default>
+        <label>Other</label>
+    </standardValue>
+    <standardValue>
+        <fullName>e-Distribution</fullName>
+        <default>false</default>
+        <label>e-Distribution</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Research Centers</fullName>
+        <default>false</default>
+        <label>Research Centers</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Intergovernmental</fullName>
+        <default>false</default>
+        <label>Intergovernmental</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Tutoring</fullName>
+        <default>false</default>
+        <label>Tutoring</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Programs</fullName>
+        <default>false</default>
+        <label>Programs</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Vendors</fullName>
+        <default>false</default>
+        <label>Vendors</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Print distribution</fullName>
+        <default>false</default>
+        <label>Print distribution</label>
+    </standardValue>
+    <standardValue>
+        <fullName>School District</fullName>
+        <default>false</default>
+        <label>School District</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Adaptive Courseware Partners</fullName>
+        <default>false</default>
+        <label>Adaptive Courseware Partners</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Customization Tool Partners</fullName>
+        <default>false</default>
+        <label>Customization Tool Partners</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Online Homework Partners</fullName>
+        <default>false</default>
+        <label>Online Homework Partners</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Custom Printer</fullName>
+        <default>false</default>
+        <label>Custom Printer</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Home School</fullName>
+        <default>false</default>
+        <label>Home School</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Co-Marketing</fullName>
+        <default>false</default>
+        <label>Co-Marketing</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Parent</fullName>
+        <default>false</default>
+        <label>Parent</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Simulations</fullName>
+        <default>false</default>
+        <label>Simulations</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Vocational</fullName>
+        <default>false</default>
+        <label>Vocational</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Child</fullName>
+        <default>false</default>
+        <label>Child</label>
+    </standardValue>
+</StandardValueSet>

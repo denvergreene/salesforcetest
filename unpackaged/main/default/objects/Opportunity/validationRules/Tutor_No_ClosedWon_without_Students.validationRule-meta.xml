@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Tutor_No_ClosedWon_without_Students</fullName>
+    <active>true</active>
+    <description>Don't allow the closure of Tutor Opps without paid or comped Students</description>
+    <errorConditionFormula>AND( 
+Opportunity_Record_Type_Name__c = "Tutor Opp", 
+ISPICKVAL( StageName , "Confirmed Adoption Won"), 
+Sum_Students_Paid_Comped__c &lt; 3
+)</errorConditionFormula>
+    <errorMessage>Tutor Opps much have 3 or more Paid or Comped Students to be closed won</errorMessage>
+</ValidationRule>

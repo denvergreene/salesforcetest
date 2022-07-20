@@ -1,0 +1,2859 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Issue__c</fullName>
+    <externalId>false</externalId>
+    <label>Issue</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <controllingField>Feature__c</controllingField>
+        <valueSetDefinition>
+            <sorted>true</sorted>
+            <value>
+                <fullName>6 Digit Pin</fullName>
+                <default>false</default>
+                <label>6 Digit Pin</label>
+            </value>
+            <value>
+                <fullName>Accepted</fullName>
+                <default>false</default>
+                <label>Accepted</label>
+            </value>
+            <value>
+                <fullName>Accessibility</fullName>
+                <default>false</default>
+                <label>Accessibility</label>
+            </value>
+            <value>
+                <fullName>Accessibility Standards</fullName>
+                <default>false</default>
+                <label>Accessibility Standards</label>
+            </value>
+            <value>
+                <fullName>Access Pending</fullName>
+                <default>false</default>
+                <label>Access Pending</label>
+            </value>
+            <value>
+                <fullName>Access Request</fullName>
+                <default>false</default>
+                <label>Access Request</label>
+            </value>
+            <value>
+                <fullName>Actions</fullName>
+                <default>false</default>
+                <label>Actions</label>
+            </value>
+            <value>
+                <fullName>Add/delete email</fullName>
+                <default>false</default>
+                <label>Add/delete email</label>
+            </value>
+            <value>
+                <fullName>Add Co-Teacher</fullName>
+                <default>false</default>
+                <label>Add Co-Teacher</label>
+            </value>
+            <value>
+                <fullName>Add New Course</fullName>
+                <default>false</default>
+                <label>Add New Course</label>
+            </value>
+            <value>
+                <fullName>Adopter</fullName>
+                <default>false</default>
+                <label>Adopter</label>
+            </value>
+            <value>
+                <fullName>Adoption</fullName>
+                <default>false</default>
+                <label>Adoption</label>
+            </value>
+            <value>
+                <fullName>Already has access</fullName>
+                <default>false</default>
+                <label>Already has access</label>
+            </value>
+            <value>
+                <fullName>Amazon</fullName>
+                <default>false</default>
+                <label>Amazon</label>
+            </value>
+            <value>
+                <fullName>Amazon Associates</fullName>
+                <default>false</default>
+                <label>Amazon Associates</label>
+            </value>
+            <value>
+                <fullName>Ancillary</fullName>
+                <default>false</default>
+                <label>Ancillary</label>
+            </value>
+            <value>
+                <fullName>Ancillary Wishlist</fullName>
+                <default>false</default>
+                <label>Ancillary Wishlist</label>
+            </value>
+            <value>
+                <fullName>Answer Keys</fullName>
+                <default>false</default>
+                <label>Answer Keys</label>
+            </value>
+            <value>
+                <fullName>Answer Selection</fullName>
+                <default>false</default>
+                <label>Answer Selection</label>
+            </value>
+            <value>
+                <fullName>Answer Submission</fullName>
+                <default>false</default>
+                <label>Answer Submission</label>
+            </value>
+            <value>
+                <fullName>AP Alignment</fullName>
+                <default>false</default>
+                <label>AP Alignment</label>
+            </value>
+            <value>
+                <fullName>API</fullName>
+                <default>false</default>
+                <label>API</label>
+            </value>
+            <value>
+                <fullName>Archive Contact</fullName>
+                <default>false</default>
+                <label>Archive Contact</label>
+            </value>
+            <value>
+                <fullName>Article</fullName>
+                <default>false</default>
+                <label>Article</label>
+            </value>
+            <value>
+                <fullName>Assessment</fullName>
+                <default>false</default>
+                <label>Assessment</label>
+            </value>
+            <value>
+                <fullName>Assignment Details</fullName>
+                <default>false</default>
+                <label>Assignment Details</label>
+            </value>
+            <value>
+                <fullName>Assignments</fullName>
+                <default>false</default>
+                <label>Assignments</label>
+            </value>
+            <value>
+                <fullName>Attribution</fullName>
+                <default>false</default>
+                <label>Attribution</label>
+            </value>
+            <value>
+                <fullName>Audio</fullName>
+                <default>false</default>
+                <label>Audio</label>
+            </value>
+            <value>
+                <fullName>Averages</fullName>
+                <default>false</default>
+                <label>Averages</label>
+            </value>
+            <value>
+                <fullName>Big Learn</fullName>
+                <default>false</default>
+                <label>Big Learn</label>
+            </value>
+            <value>
+                <fullName>Location</fullName>
+                <default>false</default>
+                <label>Book Location</label>
+            </value>
+            <value>
+                <fullName>Book Page</fullName>
+                <default>false</default>
+                <label>Book Page</label>
+            </value>
+            <value>
+                <fullName>Books</fullName>
+                <default>false</default>
+                <label>Books</label>
+            </value>
+            <value>
+                <fullName>Bookstore</fullName>
+                <default>false</default>
+                <label>Bookstore</label>
+            </value>
+            <value>
+                <fullName>Bookstore Code</fullName>
+                <default>false</default>
+                <label>Bookstore Code</label>
+            </value>
+            <value>
+                <fullName>Bookstore Suppliers</fullName>
+                <default>false</default>
+                <label>Bookstore Suppliers</label>
+            </value>
+            <value>
+                <fullName>Braille</fullName>
+                <default>false</default>
+                <label>Braille</label>
+            </value>
+            <value>
+                <fullName>Breadcrumbs</fullName>
+                <default>false</default>
+                <label>Breadcrumbs</label>
+            </value>
+            <value>
+                <fullName>Broken Link</fullName>
+                <default>false</default>
+                <label>Broken Link</label>
+            </value>
+            <value>
+                <fullName>Browser</fullName>
+                <default>false</default>
+                <label>Browser</label>
+            </value>
+            <value>
+                <fullName>Browser Issue</fullName>
+                <default>false</default>
+                <label>Browser Issue</label>
+            </value>
+            <value>
+                <fullName>Browse the Book</fullName>
+                <default>false</default>
+                <label>Browse the Book</label>
+            </value>
+            <value>
+                <fullName>Build Session</fullName>
+                <default>false</default>
+                <label>Build Session</label>
+            </value>
+            <value>
+                <fullName>Calendar</fullName>
+                <default>false</default>
+                <label>Calendar</label>
+            </value>
+            <value>
+                <fullName>Can't Find Info</fullName>
+                <default>false</default>
+                <label>Can't Find Info</label>
+            </value>
+            <value>
+                <fullName>Cartridge</fullName>
+                <default>false</default>
+                <label>Cartridge</label>
+            </value>
+            <value>
+                <fullName>CC Book Link</fullName>
+                <default>false</default>
+                <label>CC Book Link</label>
+            </value>
+            <value>
+                <fullName>CC Drop</fullName>
+                <default>false</default>
+                <label>CC Drop</label>
+            </value>
+            <value>
+                <fullName>CC Error Report</fullName>
+                <default>false</default>
+                <label>CC Error Report</label>
+            </value>
+            <value>
+                <fullName>CC Salesforce Issue</fullName>
+                <default>false</default>
+                <label>CC Salesforce Issue</label>
+            </value>
+            <value>
+                <fullName>Certificate</fullName>
+                <default>false</default>
+                <label>Certificate</label>
+            </value>
+            <value>
+                <fullName>Change/Delete/Add Section</fullName>
+                <default>false</default>
+                <label>Change/Delete/Add Section</label>
+            </value>
+            <value>
+                <fullName>Change Course Date</fullName>
+                <default>false</default>
+                <label>Change Course Date</label>
+            </value>
+            <value>
+                <fullName>Chargeback</fullName>
+                <default>false</default>
+                <label>Chargeback</label>
+            </value>
+            <value>
+                <fullName>Citation</fullName>
+                <default>false</default>
+                <label>Citation</label>
+            </value>
+            <value>
+                <fullName>Cloned</fullName>
+                <default>false</default>
+                <label>Cloned</label>
+            </value>
+            <value>
+                <fullName>Cloning</fullName>
+                <default>false</default>
+                <label>Cloning</label>
+            </value>
+            <value>
+                <fullName>Closed/Lost</fullName>
+                <default>false</default>
+                <label>Closed/Lost</label>
+            </value>
+            <value>
+                <fullName>Close Date</fullName>
+                <default>false</default>
+                <label>Close Date</label>
+            </value>
+            <value>
+                <fullName>Colleague's Course</fullName>
+                <default>false</default>
+                <label>Colleague's Course</label>
+            </value>
+            <value>
+                <fullName>Combining Texts</fullName>
+                <default>false</default>
+                <label>Combining Texts</label>
+            </value>
+            <value>
+                <fullName>Common Core Alignment</fullName>
+                <default>false</default>
+                <label>Common Core Alignment</label>
+            </value>
+            <value>
+                <fullName>Comp Copy</fullName>
+                <default>false</default>
+                <label>Comp Copy</label>
+            </value>
+            <value>
+                <fullName>Conference</fullName>
+                <default>false</default>
+                <label>Conference</label>
+            </value>
+            <value>
+                <fullName>Connection</fullName>
+                <default>false</default>
+                <label>Connection</label>
+            </value>
+            <value>
+                <fullName>Content Issue</fullName>
+                <default>false</default>
+                <label>Content Issue</label>
+            </value>
+            <value>
+                <fullName>Content Use Request</fullName>
+                <default>false</default>
+                <label>Content Use Request</label>
+            </value>
+            <value>
+                <fullName>Contest</fullName>
+                <default>false</default>
+                <label>Contest</label>
+            </value>
+            <value>
+                <fullName>Cookies</fullName>
+                <default>false</default>
+                <label>Cookies</label>
+            </value>
+            <value>
+                <fullName>Copyright</fullName>
+                <default>false</default>
+                <label>Copyright</label>
+            </value>
+            <value>
+                <fullName>Course Controls</fullName>
+                <default>false</default>
+                <label>Course Controls</label>
+            </value>
+            <value>
+                <fullName>Create</fullName>
+                <default>false</default>
+                <label>Create</label>
+            </value>
+            <value>
+                <fullName>Creating an Account</fullName>
+                <default>false</default>
+                <label>Creating an Account</label>
+            </value>
+            <value>
+                <fullName>Customization</fullName>
+                <default>false</default>
+                <label>Customization</label>
+            </value>
+            <value>
+                <fullName>Custom Print</fullName>
+                <default>false</default>
+                <label>Custom Print</label>
+            </value>
+            <value>
+                <fullName>Damaged</fullName>
+                <default>false</default>
+                <label>Damaged</label>
+            </value>
+            <value>
+                <fullName>Deadline</fullName>
+                <default>false</default>
+                <label>Deadline</label>
+            </value>
+            <value>
+                <fullName>Definition</fullName>
+                <default>false</default>
+                <label>Definition</label>
+            </value>
+            <value>
+                <fullName>Delete</fullName>
+                <default>false</default>
+                <label>Delete</label>
+            </value>
+            <value>
+                <fullName>Delete Account</fullName>
+                <default>false</default>
+                <label>Delete Account</label>
+            </value>
+            <value>
+                <fullName>Delete Course</fullName>
+                <default>false</default>
+                <label>Delete Course</label>
+            </value>
+            <value>
+                <fullName>Diversity/Inclusion</fullName>
+                <default>false</default>
+                <label>Diversity/Inclusion</label>
+            </value>
+            <value>
+                <fullName>Document Request</fullName>
+                <default>false</default>
+                <label>Document Request</label>
+            </value>
+            <value>
+                <fullName>Donation</fullName>
+                <default>false</default>
+                <label>Donation</label>
+            </value>
+            <value>
+                <fullName>Downloads</fullName>
+                <default>false</default>
+                <label>Downloads</label>
+            </value>
+            <value>
+                <fullName>Due Date</fullName>
+                <default>false</default>
+                <label>Due Date</label>
+            </value>
+            <value>
+                <fullName>Edit</fullName>
+                <default>false</default>
+                <label>Edit</label>
+            </value>
+            <value>
+                <fullName>Edition</fullName>
+                <default>false</default>
+                <label>Edition</label>
+            </value>
+            <value>
+                <fullName>Edition/Revision</fullName>
+                <default>false</default>
+                <label>Edition/Revision</label>
+            </value>
+            <value>
+                <fullName>Email opt out</fullName>
+                <default>false</default>
+                <label>Email opt out</label>
+            </value>
+            <value>
+                <fullName>Email overload</fullName>
+                <default>false</default>
+                <label>Email overload</label>
+            </value>
+            <value>
+                <fullName>Enrollment URL</fullName>
+                <default>false</default>
+                <label>Enrollment URL</label>
+            </value>
+            <value>
+                <fullName>Errata</fullName>
+                <default>false</default>
+                <label>Errata</label>
+            </value>
+            <value>
+                <fullName>Error</fullName>
+                <default>false</default>
+                <label>Error</label>
+            </value>
+            <value>
+                <fullName>Error: Enrollment</fullName>
+                <default>false</default>
+                <label>Error: Enrollment</label>
+            </value>
+            <value>
+                <fullName>Error: Log In</fullName>
+                <default>false</default>
+                <label>Error: Log In</label>
+            </value>
+            <value>
+                <fullName>Error: Scores Export</fullName>
+                <default>false</default>
+                <label>Error: Scores Export</label>
+            </value>
+            <value>
+                <fullName>Event</fullName>
+                <default>false</default>
+                <label>Event</label>
+            </value>
+            <value>
+                <fullName>Exclusions</fullName>
+                <default>false</default>
+                <label>Exclusions</label>
+            </value>
+            <value>
+                <fullName>Exercise Numbering</fullName>
+                <default>false</default>
+                <label>Exercise Numbering</label>
+            </value>
+            <value>
+                <fullName>Exercises</fullName>
+                <default>false</default>
+                <label>Exercises</label>
+            </value>
+            <value>
+                <fullName>Existing Author</fullName>
+                <default>false</default>
+                <label>Existing Author</label>
+            </value>
+            <value>
+                <fullName>Export</fullName>
+                <default>false</default>
+                <label>Export</label>
+            </value>
+            <value>
+                <fullName>Extension</fullName>
+                <default>false</default>
+                <label>Extension</label>
+            </value>
+            <value>
+                <fullName>External</fullName>
+                <default>false</default>
+                <label>External</label>
+            </value>
+            <value>
+                <fullName>Factual Inaccuracy</fullName>
+                <default>false</default>
+                <label>Factual Inaccuracy</label>
+            </value>
+            <value>
+                <fullName>Faculty Access</fullName>
+                <default>false</default>
+                <label>Faculty Access</label>
+            </value>
+            <value>
+                <fullName>Feature Request</fullName>
+                <default>false</default>
+                <label>Feature Request</label>
+            </value>
+            <value>
+                <fullName>Feedback</fullName>
+                <default>false</default>
+                <label>Feedback</label>
+            </value>
+            <value>
+                <fullName>Fee Waiver</fullName>
+                <default>false</default>
+                <label>Fee Waiver</label>
+            </value>
+            <value>
+                <fullName>Figure Numbering</fullName>
+                <default>false</default>
+                <label>Figure Numbering</label>
+            </value>
+            <value>
+                <fullName>Financial Aid</fullName>
+                <default>false</default>
+                <label>Financial Aid</label>
+            </value>
+            <value>
+                <fullName>Fix Timeline</fullName>
+                <default>false</default>
+                <label>Fix Timeline</label>
+            </value>
+            <value>
+                <fullName>Follow up</fullName>
+                <default>false</default>
+                <label>Follow up</label>
+            </value>
+            <value>
+                <fullName>Forgot Password</fullName>
+                <default>false</default>
+                <label>Forgot Password</label>
+            </value>
+            <value>
+                <fullName>Formatting</fullName>
+                <default>false</default>
+                <label>Formatting</label>
+            </value>
+            <value>
+                <fullName>From Us</fullName>
+                <default>false</default>
+                <label>From Us</label>
+            </value>
+            <value>
+                <fullName>Getting Started</fullName>
+                <default>false</default>
+                <label>Getting Started</label>
+            </value>
+            <value>
+                <fullName>Giveaway timeline</fullName>
+                <default>false</default>
+                <label>Giveaway timeline</label>
+            </value>
+            <value>
+                <fullName>Grades</fullName>
+                <default>false</default>
+                <label>Grades</label>
+            </value>
+            <value>
+                <fullName>Grading Template</fullName>
+                <default>false</default>
+                <label>Grading Template</label>
+            </value>
+            <value>
+                <fullName>Hidden</fullName>
+                <default>false</default>
+                <label>Hidden</label>
+            </value>
+            <value>
+                <fullName>Highlighting</fullName>
+                <default>false</default>
+                <label>Highlighting</label>
+            </value>
+            <value>
+                <fullName>High School</fullName>
+                <default>false</default>
+                <label>High School</label>
+            </value>
+            <value>
+                <fullName>Homeschool</fullName>
+                <default>false</default>
+                <label>Homeschool</label>
+            </value>
+            <value>
+                <fullName>Homework</fullName>
+                <default>false</default>
+                <label>Homework</label>
+            </value>
+            <value>
+                <fullName>How To</fullName>
+                <default>false</default>
+                <label>How To</label>
+            </value>
+            <value>
+                <fullName>Hurricane of Emails</fullName>
+                <default>false</default>
+                <label>Hurricane of Emails</label>
+            </value>
+            <value>
+                <fullName>iBook</fullName>
+                <default>false</default>
+                <label>iBook</label>
+            </value>
+            <value>
+                <fullName>Image</fullName>
+                <default>false</default>
+                <label>Image</label>
+            </value>
+            <value>
+                <fullName>Incorrect Calc/Solution</fullName>
+                <default>false</default>
+                <label>Incorrect Calc/Solution</label>
+            </value>
+            <value>
+                <fullName>Individual</fullName>
+                <default>false</default>
+                <label>Individual</label>
+            </value>
+            <value>
+                <fullName>Information request</fullName>
+                <default>false</default>
+                <label>Information request</label>
+            </value>
+            <value>
+                <fullName>Instructor Setup</fullName>
+                <default>false</default>
+                <label>Instructor Setup</label>
+            </value>
+            <value>
+                <fullName>Instructor Verification</fullName>
+                <default>false</default>
+                <label>Instructor Verification</label>
+            </value>
+            <value>
+                <fullName>Interest</fullName>
+                <default>false</default>
+                <label>Interest</label>
+            </value>
+            <value>
+                <fullName>Intern</fullName>
+                <default>false</default>
+                <label>Intern</label>
+            </value>
+            <value>
+                <fullName>International</fullName>
+                <default>false</default>
+                <label>International</label>
+            </value>
+            <value>
+                <fullName>International order</fullName>
+                <default>false</default>
+                <label>International order</label>
+            </value>
+            <value>
+                <fullName>Interview</fullName>
+                <default>false</default>
+                <label>Interview</label>
+            </value>
+            <value>
+                <fullName>Invoice</fullName>
+                <default>false</default>
+                <label>Invoice</label>
+            </value>
+            <value>
+                <fullName>ISBN</fullName>
+                <default>false</default>
+                <label>ISBN</label>
+            </value>
+            <value>
+                <fullName>ISM</fullName>
+                <default>false</default>
+                <label>ISM</label>
+            </value>
+            <value>
+                <fullName>Keywords</fullName>
+                <default>false</default>
+                <label>Keywords</label>
+            </value>
+            <value>
+                <fullName>Lab Manual</fullName>
+                <default>false</default>
+                <label>Lab Manual</label>
+            </value>
+            <value>
+                <fullName>Late Work</fullName>
+                <default>false</default>
+                <label>Late Work</label>
+            </value>
+            <value>
+                <fullName>Left Queue</fullName>
+                <default>false</default>
+                <label>Left Queue</label>
+            </value>
+            <value>
+                <fullName>Legacy</fullName>
+                <default>false</default>
+                <label>Legacy</label>
+            </value>
+            <value>
+                <fullName>Legal question</fullName>
+                <default>false</default>
+                <label>Legal question</label>
+            </value>
+            <value>
+                <fullName>Licensing</fullName>
+                <default>false</default>
+                <label>Licensing</label>
+            </value>
+            <value>
+                <fullName>Link</fullName>
+                <default>false</default>
+                <label>Link</label>
+            </value>
+            <value>
+                <fullName>LMS Integration</fullName>
+                <default>false</default>
+                <label>LMS Integration</label>
+            </value>
+            <value>
+                <fullName>LMS Sync</fullName>
+                <default>false</default>
+                <label>LMS Sync</label>
+            </value>
+            <value>
+                <fullName>Loading</fullName>
+                <default>false</default>
+                <label>Loading</label>
+            </value>
+            <value>
+                <fullName>Lock icon</fullName>
+                <default>false</default>
+                <label>Lock icon</label>
+            </value>
+            <value>
+                <fullName>Log In</fullName>
+                <default>false</default>
+                <label>Log In</label>
+            </value>
+            <value>
+                <fullName>Lost Access</fullName>
+                <default>false</default>
+                <label>Lost Access</label>
+            </value>
+            <value>
+                <fullName>Marcom Email</fullName>
+                <default>false</default>
+                <label>Marcom Email</label>
+            </value>
+            <value>
+                <fullName>Math tool</fullName>
+                <default>false</default>
+                <label>Math tool</label>
+            </value>
+            <value>
+                <fullName>Media</fullName>
+                <default>false</default>
+                <label>Media</label>
+            </value>
+            <value>
+                <fullName>Middle School</fullName>
+                <default>false</default>
+                <label>Middle School</label>
+            </value>
+            <value>
+                <fullName>Miscellaneous</fullName>
+                <default>false</default>
+                <label>Miscellaneous</label>
+            </value>
+            <value>
+                <fullName>Mismatch</fullName>
+                <default>false</default>
+                <label>Mismatch</label>
+            </value>
+            <value>
+                <fullName>Missing OS ID</fullName>
+                <default>false</default>
+                <label>Missing OS ID</label>
+            </value>
+            <value>
+                <fullName>Mobile</fullName>
+                <default>false</default>
+                <label>Mobile</label>
+            </value>
+            <value>
+                <fullName>Multiple Accounts</fullName>
+                <default>false</default>
+                <label>Multiple Accounts</label>
+            </value>
+            <value>
+                <fullName>Multiple Attempts</fullName>
+                <default>false</default>
+                <label>Multiple Attempts</label>
+            </value>
+            <value>
+                <fullName>Multiple Sections</fullName>
+                <default>false</default>
+                <label>Multiple Sections</label>
+            </value>
+            <value>
+                <fullName>Navigation</fullName>
+                <default>false</default>
+                <label>Navigation</label>
+            </value>
+            <value>
+                <fullName>Negative</fullName>
+                <default>false</default>
+                <label>Negative</label>
+            </value>
+            <value>
+                <fullName>New Course</fullName>
+                <default>false</default>
+                <label>New Course</label>
+            </value>
+            <value>
+                <fullName>New Title</fullName>
+                <default>false</default>
+                <label>New Title</label>
+            </value>
+            <value>
+                <fullName>Non OS Subject</fullName>
+                <default>false</default>
+                <label>Non OS Subject</label>
+            </value>
+            <value>
+                <fullName>No SF Lead</fullName>
+                <default>false</default>
+                <label>No SF Lead</label>
+            </value>
+            <value>
+                <fullName>Note Taking</fullName>
+                <default>false</default>
+                <label>Note Taking</label>
+            </value>
+            <value>
+                <fullName>Not Faculty</fullName>
+                <default>false</default>
+                <label>Not Faculty</label>
+            </value>
+            <value>
+                <fullName>Numbering</fullName>
+                <default>false</default>
+                <label>Numbering</label>
+            </value>
+            <value>
+                <fullName>Numbering Issue</fullName>
+                <default>false</default>
+                <label>Numbering Issue</label>
+            </value>
+            <value>
+                <fullName>OER Commons</fullName>
+                <default>false</default>
+                <label>OER Commons</label>
+            </value>
+            <value>
+                <fullName>OpenStax</fullName>
+                <default>false</default>
+                <label>OpenStax</label>
+            </value>
+            <value>
+                <fullName>OpenStax Logo Request</fullName>
+                <default>false</default>
+                <label>OpenStax Logo Request</label>
+            </value>
+            <value>
+                <fullName>Options</fullName>
+                <default>false</default>
+                <label>Options</label>
+            </value>
+            <value>
+                <fullName>Ordering</fullName>
+                <default>false</default>
+                <label>Ordering</label>
+            </value>
+            <value>
+                <fullName>Organization Type</fullName>
+                <default>false</default>
+                <label>Organization Type</label>
+            </value>
+            <value>
+                <fullName>OS</fullName>
+                <default>false</default>
+                <label>OS</label>
+            </value>
+            <value>
+                <fullName>Outage</fullName>
+                <default>false</default>
+                <label>Outage</label>
+            </value>
+            <value>
+                <fullName>Out of Stock</fullName>
+                <default>false</default>
+                <label>Out of Stock</label>
+            </value>
+            <value>
+                <fullName>OX Content Issue</fullName>
+                <default>false</default>
+                <label>OX Content Issue</label>
+            </value>
+            <value>
+                <fullName>Page Load</fullName>
+                <default>false</default>
+                <label>Page Load</label>
+            </value>
+            <value>
+                <fullName>Page Numbering</fullName>
+                <default>false</default>
+                <label>Page Numbering</label>
+            </value>
+            <value>
+                <fullName>Partnership Interest/Offer</fullName>
+                <default>false</default>
+                <label>Partnership Interest/Offer</label>
+            </value>
+            <value>
+                <fullName>Password</fullName>
+                <default>false</default>
+                <label>Password</label>
+            </value>
+            <value>
+                <fullName>PDF Generation</fullName>
+                <default>false</default>
+                <label>PDF Generation</label>
+            </value>
+            <value>
+                <fullName>Pedagogical Solution</fullName>
+                <default>false</default>
+                <label>Pedagogical Solution</label>
+            </value>
+            <value>
+                <fullName>Performance</fullName>
+                <default>false</default>
+                <label>Performance</label>
+            </value>
+            <value>
+                <fullName>Personalized Questions</fullName>
+                <default>false</default>
+                <label>Personalized Questions</label>
+            </value>
+            <value>
+                <fullName>Physical</fullName>
+                <default>false</default>
+                <label>Physical</label>
+            </value>
+            <value>
+                <fullName>Pilot</fullName>
+                <default>false</default>
+                <label>Pilot</label>
+            </value>
+            <value>
+                <fullName>Platform</fullName>
+                <default>false</default>
+                <label>Platform</label>
+            </value>
+            <value>
+                <fullName>Platform Issue</fullName>
+                <default>false</default>
+                <label>Platform Issue</label>
+            </value>
+            <value>
+                <fullName>Positive</fullName>
+                <default>false</default>
+                <label>Positive</label>
+            </value>
+            <value>
+                <fullName>Potential Author</fullName>
+                <default>false</default>
+                <label>Potential Author</label>
+            </value>
+            <value>
+                <fullName>PowerPoint</fullName>
+                <default>false</default>
+                <label>PowerPoint</label>
+            </value>
+            <value>
+                <fullName>Practice Widget</fullName>
+                <default>false</default>
+                <label>Practice Widget</label>
+            </value>
+            <value>
+                <fullName>Presentation</fullName>
+                <default>false</default>
+                <label>Presentation</label>
+            </value>
+            <value>
+                <fullName>Preview Course</fullName>
+                <default>false</default>
+                <label>Preview Course</label>
+            </value>
+            <value>
+                <fullName>Price</fullName>
+                <default>false</default>
+                <label>Price</label>
+            </value>
+            <value>
+                <fullName>Price Change</fullName>
+                <default>false</default>
+                <label>Price Change</label>
+            </value>
+            <value>
+                <fullName>Print</fullName>
+                <default>false</default>
+                <label>Print</label>
+            </value>
+            <value>
+                <fullName>Printing</fullName>
+                <default>false</default>
+                <label>Print button</label>
+            </value>
+            <value>
+                <fullName>Print Date</fullName>
+                <default>false</default>
+                <label>Print Date</label>
+            </value>
+            <value>
+                <fullName>Print Style</fullName>
+                <default>false</default>
+                <label>Print Style</label>
+            </value>
+            <value>
+                <fullName>Privacy Policy</fullName>
+                <default>false</default>
+                <label>Privacy Policy</label>
+            </value>
+            <value>
+                <fullName>Product Wishlist</fullName>
+                <default>false</default>
+                <label>Product Wishlist</label>
+            </value>
+            <value>
+                <fullName>Publish</fullName>
+                <default>false</default>
+                <label>Publish</label>
+            </value>
+            <value>
+                <fullName>Pulse Insights</fullName>
+                <default>false</default>
+                <label>Pulse Insights</label>
+            </value>
+            <value>
+                <fullName>Purchase Options</fullName>
+                <default>false</default>
+                <label>Purchase Options</label>
+            </value>
+            <value>
+                <fullName>Purchase Order</fullName>
+                <default>false</default>
+                <label>Purchase Order</label>
+            </value>
+            <value>
+                <fullName>Quality</fullName>
+                <default>false</default>
+                <label>Quality</label>
+            </value>
+            <value>
+                <fullName>Quizlet</fullName>
+                <default>false</default>
+                <label>Quizlet</label>
+            </value>
+            <value>
+                <fullName>Reading</fullName>
+                <default>false</default>
+                <label>Reading</label>
+            </value>
+            <value>
+                <fullName>Receipt</fullName>
+                <default>false</default>
+                <label>Receipt</label>
+            </value>
+            <value>
+                <fullName>Recommendation</fullName>
+                <default>false</default>
+                <label>Recommendation</label>
+            </value>
+            <value>
+                <fullName>Recording</fullName>
+                <default>false</default>
+                <label>Recording</label>
+            </value>
+            <value>
+                <fullName>Refund</fullName>
+                <default>false</default>
+                <label>Refund</label>
+            </value>
+            <value>
+                <fullName>Register</fullName>
+                <default>false</default>
+                <label>Register</label>
+            </value>
+            <value>
+                <fullName>Rejected</fullName>
+                <default>false</default>
+                <label>Rejected</label>
+            </value>
+            <value>
+                <fullName>Rejected by SheerId</fullName>
+                <default>false</default>
+                <label>Rejected by SheerId</label>
+            </value>
+            <value>
+                <fullName>Release Date</fullName>
+                <default>false</default>
+                <label>Release Date</label>
+            </value>
+            <value>
+                <fullName>Remove Teacher</fullName>
+                <default>false</default>
+                <label>Remove Teacher</label>
+            </value>
+            <value>
+                <fullName>Rename Course/Section</fullName>
+                <default>false</default>
+                <label>Rename Course/Section</label>
+            </value>
+            <value>
+                <fullName>Renewal</fullName>
+                <default>false</default>
+                <label>Renewal</label>
+            </value>
+            <value>
+                <fullName>Reorder</fullName>
+                <default>false</default>
+                <label>Reorder</label>
+            </value>
+            <value>
+                <fullName>Request</fullName>
+                <default>false</default>
+                <label>Request</label>
+            </value>
+            <value>
+                <fullName>Requirement Confusion</fullName>
+                <default>false</default>
+                <label>Requirement Confusion</label>
+            </value>
+            <value>
+                <fullName>Resources</fullName>
+                <default>false</default>
+                <label>Resources</label>
+            </value>
+            <value>
+                <fullName>Retired Edition</fullName>
+                <default>false</default>
+                <label>Retired Edition</label>
+            </value>
+            <value>
+                <fullName>Return</fullName>
+                <default>false</default>
+                <label>Return</label>
+            </value>
+            <value>
+                <fullName>Reviewing Material</fullName>
+                <default>false</default>
+                <label>Reviewing Material</label>
+            </value>
+            <value>
+                <fullName>Revision</fullName>
+                <default>false</default>
+                <label>Revision</label>
+            </value>
+            <value>
+                <fullName>Revision Confusion</fullName>
+                <default>false</default>
+                <label>Revision Confusion</label>
+            </value>
+            <value>
+                <fullName>Revision Number</fullName>
+                <default>false</default>
+                <label>Revision Number</label>
+            </value>
+            <value>
+                <fullName>Sale Date</fullName>
+                <default>false</default>
+                <label>Sale Date</label>
+            </value>
+            <value>
+                <fullName>Sample Syllabus Language</fullName>
+                <default>false</default>
+                <label>Sample Syllabus Language</label>
+            </value>
+            <value>
+                <fullName>Sapling</fullName>
+                <default>false</default>
+                <label>Sapling</label>
+            </value>
+            <value>
+                <fullName>Schedule</fullName>
+                <default>false</default>
+                <label>Schedule</label>
+            </value>
+            <value>
+                <fullName>School</fullName>
+                <default>false</default>
+                <label>School</label>
+            </value>
+            <value>
+                <fullName>Screen size</fullName>
+                <default>false</default>
+                <label>Screen size</label>
+            </value>
+            <value>
+                <fullName>Search Results</fullName>
+                <default>false</default>
+                <label>Search Results</label>
+            </value>
+            <value>
+                <fullName>Second semester course</fullName>
+                <default>false</default>
+                <label>Second semester course</label>
+            </value>
+            <value>
+                <fullName>Self-learner</fullName>
+                <default>false</default>
+                <label>Self-learner</label>
+            </value>
+            <value>
+                <fullName>Sharing</fullName>
+                <default>false</default>
+                <label>Sharing</label>
+            </value>
+            <value>
+                <fullName>Signature Request</fullName>
+                <default>false</default>
+                <label>Signature Request</label>
+            </value>
+            <value>
+                <fullName>Sign-in</fullName>
+                <default>false</default>
+                <label>Sign-in</label>
+            </value>
+            <value>
+                <fullName>Site Down</fullName>
+                <default>false</default>
+                <label>Site Down</label>
+            </value>
+            <value>
+                <fullName>Social</fullName>
+                <default>false</default>
+                <label>Social</label>
+            </value>
+            <value>
+                <fullName>Solution Manual</fullName>
+                <default>false</default>
+                <label>Solution Manual</label>
+            </value>
+            <value>
+                <fullName>Solutions</fullName>
+                <default>false</default>
+                <label>Solutions</label>
+            </value>
+            <value>
+                <fullName>Sort</fullName>
+                <default>false</default>
+                <label>Sort</label>
+            </value>
+            <value>
+                <fullName>Source Files</fullName>
+                <default>false</default>
+                <label>Source Files</label>
+            </value>
+            <value>
+                <fullName>Spaced Practice</fullName>
+                <default>false</default>
+                <label>Spaced Practice</label>
+            </value>
+            <value>
+                <fullName>Spanish</fullName>
+                <default>false</default>
+                <label>Spanish</label>
+            </value>
+            <value>
+                <fullName>Speaker</fullName>
+                <default>false</default>
+                <label>Speaker</label>
+            </value>
+            <value>
+                <fullName>Spring Onboarding</fullName>
+                <default>false</default>
+                <label>Spring Onboarding</label>
+            </value>
+            <value>
+                <fullName>SSM</fullName>
+                <default>false</default>
+                <label>SSM</label>
+            </value>
+            <value>
+                <fullName>Status</fullName>
+                <default>false</default>
+                <label>Status</label>
+            </value>
+            <value>
+                <fullName>Student Drop</fullName>
+                <default>false</default>
+                <label>Student Drop</label>
+            </value>
+            <value>
+                <fullName>Student ID</fullName>
+                <default>false</default>
+                <label>Student ID</label>
+            </value>
+            <value>
+                <fullName>Student join link error</fullName>
+                <default>false</default>
+                <label>Student join link error</label>
+            </value>
+            <value>
+                <fullName>Student Re-Add</fullName>
+                <default>false</default>
+                <label>Student Re-Add</label>
+            </value>
+            <value>
+                <fullName>Student Scores</fullName>
+                <default>false</default>
+                <label>Student Scores</label>
+            </value>
+            <value>
+                <fullName>Student URL</fullName>
+                <default>false</default>
+                <label>Student URL</label>
+            </value>
+            <value>
+                <fullName>Submission Overview</fullName>
+                <default>false</default>
+                <label>Submission Overview</label>
+            </value>
+            <value>
+                <fullName>Survey</fullName>
+                <default>false</default>
+                <label>Survey</label>
+            </value>
+            <value>
+                <fullName>Swag</fullName>
+                <default>false</default>
+                <label>Swag</label>
+            </value>
+            <value>
+                <fullName>Syllabus</fullName>
+                <default>false</default>
+                <label>Syllabus</label>
+            </value>
+            <value>
+                <fullName>Table of Contents</fullName>
+                <default>false</default>
+                <label>Table of Contents</label>
+            </value>
+            <value>
+                <fullName>Tables</fullName>
+                <default>false</default>
+                <label>Tables</label>
+            </value>
+            <value>
+                <fullName>Tablet</fullName>
+                <default>false</default>
+                <label>Tablet</label>
+            </value>
+            <value>
+                <fullName>Teach Course Again</fullName>
+                <default>false</default>
+                <label>Teach Course Again</label>
+            </value>
+            <value>
+                <fullName>Teacher Logging in as Student</fullName>
+                <default>false</default>
+                <label>Teacher Logging in as Student</label>
+            </value>
+            <value>
+                <fullName>Tell Me Everything</fullName>
+                <default>false</default>
+                <label>Tell Me Everything</label>
+            </value>
+            <value>
+                <fullName>Template Issue</fullName>
+                <default>false</default>
+                <label>Template Issue</label>
+            </value>
+            <value>
+                <fullName>Terms of Use</fullName>
+                <default>false</default>
+                <label>Terms of Use</label>
+            </value>
+            <value>
+                <fullName>Test</fullName>
+                <default>false</default>
+                <label>Test</label>
+            </value>
+            <value>
+                <fullName>Test Banks</fullName>
+                <default>false</default>
+                <label>Test Banks</label>
+            </value>
+            <value>
+                <fullName>Text</fullName>
+                <default>false</default>
+                <label>Text</label>
+            </value>
+            <value>
+                <fullName>Third Party</fullName>
+                <default>false</default>
+                <label>Third Party</label>
+            </value>
+            <value>
+                <fullName>Timeline</fullName>
+                <default>false</default>
+                <label>Timeline</label>
+            </value>
+            <value>
+                <fullName>Timeout</fullName>
+                <default>false</default>
+                <label>Timeout</label>
+            </value>
+            <value>
+                <fullName>Time Zone</fullName>
+                <default>false</default>
+                <label>Time Zone</label>
+            </value>
+            <value>
+                <fullName>Tool Kit</fullName>
+                <default>false</default>
+                <label>Tool Kit</label>
+            </value>
+            <value>
+                <fullName>To Us</fullName>
+                <default>false</default>
+                <label>To Us</label>
+            </value>
+            <value>
+                <fullName>Tracking</fullName>
+                <default>false</default>
+                <label>Tracking</label>
+            </value>
+            <value>
+                <fullName>Translation</fullName>
+                <default>false</default>
+                <label>Translation</label>
+            </value>
+            <value>
+                <fullName>Tutor</fullName>
+                <default>false</default>
+                <label>Tutor</label>
+            </value>
+            <value>
+                <fullName>Type</fullName>
+                <default>false</default>
+                <label>Type</label>
+            </value>
+            <value>
+                <fullName>Typo</fullName>
+                <default>false</default>
+                <label>Typo</label>
+            </value>
+            <value>
+                <fullName>Unavailability</fullName>
+                <default>false</default>
+                <label>Unavailability</label>
+            </value>
+            <value>
+                <fullName>Unsubscribe</fullName>
+                <default>false</default>
+                <label>Unsubscribe</label>
+            </value>
+            <value>
+                <fullName>Update</fullName>
+                <default>false</default>
+                <label>Update</label>
+            </value>
+            <value>
+                <fullName>Update Contact Info</fullName>
+                <default>false</default>
+                <label>Update Contact Info</label>
+            </value>
+            <value>
+                <fullName>URLs</fullName>
+                <default>false</default>
+                <label>URLs</label>
+            </value>
+            <value>
+                <fullName>User Content Issue</fullName>
+                <default>false</default>
+                <label>User Content Issue</label>
+            </value>
+            <value>
+                <fullName>Usernames</fullName>
+                <default>false</default>
+                <label>Usernames</label>
+            </value>
+            <value>
+                <fullName>User Story</fullName>
+                <default>false</default>
+                <label>User Story</label>
+            </value>
+            <value>
+                <fullName>Verified-no access</fullName>
+                <default>false</default>
+                <label>Verified-no access</label>
+            </value>
+            <value>
+                <fullName>View Assignment</fullName>
+                <default>false</default>
+                <label>View Assignment</label>
+            </value>
+            <value>
+                <fullName>WebAssign</fullName>
+                <default>false</default>
+                <label>WebAssign</label>
+            </value>
+            <value>
+                <fullName>Webinar</fullName>
+                <default>false</default>
+                <label>Webinar</label>
+            </value>
+            <value>
+                <fullName>Which Book</fullName>
+                <default>false</default>
+                <label>Which Book</label>
+            </value>
+            <value>
+                <fullName>Why Not</fullName>
+                <default>false</default>
+                <label>Why Not</label>
+            </value>
+            <value>
+                <fullName>WiseWire</fullName>
+                <default>false</default>
+                <label>WiseWire</label>
+            </value>
+            <value>
+                <fullName>Wishlist</fullName>
+                <default>false</default>
+                <label>Wishlist</label>
+            </value>
+            <value>
+                <fullName>Wrong Course</fullName>
+                <default>false</default>
+                <label>Wrong Course</label>
+            </value>
+            <value>
+                <fullName>Wrong Domain</fullName>
+                <default>false</default>
+                <label>Wrong Domain</label>
+            </value>
+            <value>
+                <fullName>Wrong Subject</fullName>
+                <default>false</default>
+                <label>Wrong Subject</label>
+            </value>
+        </valueSetDefinition>
+        <valueSettings>
+            <controllingFieldValue>Creator Fest</controllingFieldValue>
+            <controllingFieldValue>Contribution</controllingFieldValue>
+            <controllingFieldValue>Release Date</controllingFieldValue>
+            <valueName>Ancillary</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Creator Fest</controllingFieldValue>
+            <valueName>Build Session</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Creator Fest</controllingFieldValue>
+            <valueName>Can't Find Info</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Creator Fest</controllingFieldValue>
+            <controllingFieldValue>Webinar</controllingFieldValue>
+            <controllingFieldValue>Information Request</controllingFieldValue>
+            <valueName>Certificate</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Creator Fest</controllingFieldValue>
+            <controllingFieldValue>Payment</controllingFieldValue>
+            <valueName>Fee Waiver</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Creator Fest</controllingFieldValue>
+            <controllingFieldValue>Free the Textbook</controllingFieldValue>
+            <controllingFieldValue>Partner Resources</controllingFieldValue>
+            <controllingFieldValue>Errata</controllingFieldValue>
+            <controllingFieldValue>Editorial</controllingFieldValue>
+            <controllingFieldValue>Performance Forecast</controllingFieldValue>
+            <controllingFieldValue>Data Privacy</controllingFieldValue>
+            <controllingFieldValue>Demo</controllingFieldValue>
+            <controllingFieldValue>StepWise</controllingFieldValue>
+            <controllingFieldValue>Response Validation</controllingFieldValue>
+            <valueName>Information request</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Creator Fest</controllingFieldValue>
+            <controllingFieldValue>Instructor Resources</controllingFieldValue>
+            <valueName>Not Faculty</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Creator Fest</controllingFieldValue>
+            <controllingFieldValue>Donations</controllingFieldValue>
+            <controllingFieldValue>Payment</controllingFieldValue>
+            <valueName>Receipt</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Creator Fest</controllingFieldValue>
+            <controllingFieldValue>Donations</controllingFieldValue>
+            <controllingFieldValue>Payment</controllingFieldValue>
+            <controllingFieldValue>Ordering</controllingFieldValue>
+            <valueName>Refund</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Creator Fest</controllingFieldValue>
+            <valueName>Speaker</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Creator Fest</controllingFieldValue>
+            <controllingFieldValue>Marcom request</controllingFieldValue>
+            <controllingFieldValue>Webinar</controllingFieldValue>
+            <controllingFieldValue>Information Request</controllingFieldValue>
+            <valueName>Swag</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Creator Fest</controllingFieldValue>
+            <valueName>Webinar</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Chat</controllingFieldValue>
+            <valueName>Left Queue</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Feedback</controllingFieldValue>
+            <controllingFieldValue>Editorial</controllingFieldValue>
+            <valueName>Diversity/Inclusion</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Feedback</controllingFieldValue>
+            <controllingFieldValue>Add/Edit</controllingFieldValue>
+            <controllingFieldValue>Assignment Questions</controllingFieldValue>
+            <controllingFieldValue>Updates</controllingFieldValue>
+            <controllingFieldValue>Printing</controllingFieldValue>
+            <valueName>Formatting</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Feedback</controllingFieldValue>
+            <valueName>Negative</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Feedback</controllingFieldValue>
+            <valueName>Positive</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Feedback</controllingFieldValue>
+            <controllingFieldValue>UK Ordering</controllingFieldValue>
+            <controllingFieldValue>Ordering</controllingFieldValue>
+            <controllingFieldValue>Practice</controllingFieldValue>
+            <valueName>Quality</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Feedback</controllingFieldValue>
+            <valueName>Recommendation</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Feedback</controllingFieldValue>
+            <controllingFieldValue>Free the Textbook</controllingFieldValue>
+            <valueName>User Story</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Contact Information</controllingFieldValue>
+            <valueName>OpenStax</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Contact Information</controllingFieldValue>
+            <controllingFieldValue>Popup</controllingFieldValue>
+            <valueName>Update</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Free the Textbook</controllingFieldValue>
+            <controllingFieldValue>Sunset</controllingFieldValue>
+            <controllingFieldValue>Popup</controllingFieldValue>
+            <controllingFieldValue>Canvas Resource Suite</controllingFieldValue>
+            <controllingFieldValue>Details Page</controllingFieldValue>
+            <valueName>Feedback</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Free the Textbook</controllingFieldValue>
+            <controllingFieldValue>Note Taking</controllingFieldValue>
+            <controllingFieldValue>Add/Edit</controllingFieldValue>
+            <controllingFieldValue>UK Ordering</controllingFieldValue>
+            <controllingFieldValue>Google Doc</controllingFieldValue>
+            <controllingFieldValue>Study Guide</controllingFieldValue>
+            <controllingFieldValue>Log In</controllingFieldValue>
+            <controllingFieldValue>Errata</controllingFieldValue>
+            <controllingFieldValue>Sign Up</controllingFieldValue>
+            <controllingFieldValue>Enroll</controllingFieldValue>
+            <controllingFieldValue>Job Request</controllingFieldValue>
+            <controllingFieldValue>Editing</controllingFieldValue>
+            <controllingFieldValue>Payment</controllingFieldValue>
+            <controllingFieldValue>Customization</controllingFieldValue>
+            <controllingFieldValue>Ordering</controllingFieldValue>
+            <controllingFieldValue>Highlighting</controllingFieldValue>
+            <controllingFieldValue>LMS Integration</controllingFieldValue>
+            <controllingFieldValue>Assignment Setup</controllingFieldValue>
+            <controllingFieldValue>Student View</controllingFieldValue>
+            <controllingFieldValue>Roles</controllingFieldValue>
+            <controllingFieldValue>Canvas Resource Suite</controllingFieldValue>
+            <controllingFieldValue>Printing</controllingFieldValue>
+            <valueName>How To</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Free the Textbook</controllingFieldValue>
+            <valueName>Media</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Free the Textbook</controllingFieldValue>
+            <controllingFieldValue>Instructor Resources</controllingFieldValue>
+            <valueName>Tool Kit</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Free the Textbook</controllingFieldValue>
+            <controllingFieldValue>Account Profile</controllingFieldValue>
+            <valueName>Unsubscribe</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Note Taking</controllingFieldValue>
+            <controllingFieldValue>Add/Edit</controllingFieldValue>
+            <controllingFieldValue>Google Doc</controllingFieldValue>
+            <controllingFieldValue>Study Guide</controllingFieldValue>
+            <controllingFieldValue>Log In</controllingFieldValue>
+            <controllingFieldValue>Account Profile Widget</controllingFieldValue>
+            <controllingFieldValue>Course Picker</controllingFieldValue>
+            <controllingFieldValue>Dash</controllingFieldValue>
+            <controllingFieldValue>Scores</controllingFieldValue>
+            <controllingFieldValue>Assignment Links</controllingFieldValue>
+            <controllingFieldValue>Performance Forecast</controllingFieldValue>
+            <controllingFieldValue>Enroll</controllingFieldValue>
+            <controllingFieldValue>Assignment Questions</controllingFieldValue>
+            <controllingFieldValue>Payment</controllingFieldValue>
+            <controllingFieldValue>Highlighting</controllingFieldValue>
+            <controllingFieldValue>Student View</controllingFieldValue>
+            <controllingFieldValue>Popup</controllingFieldValue>
+            <controllingFieldValue>Practice</controllingFieldValue>
+            <controllingFieldValue>Canvas Resource Suite</controllingFieldValue>
+            <controllingFieldValue>StepWise</controllingFieldValue>
+            <controllingFieldValue>Response Validation</controllingFieldValue>
+            <controllingFieldValue>Search</controllingFieldValue>
+            <valueName>Error</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Note Taking</controllingFieldValue>
+            <controllingFieldValue>Study Guide</controllingFieldValue>
+            <controllingFieldValue>Question Library</controllingFieldValue>
+            <controllingFieldValue>Assignment Questions</controllingFieldValue>
+            <valueName>Print</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Add/Edit</controllingFieldValue>
+            <valueName>Create</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Add/Edit</controllingFieldValue>
+            <controllingFieldValue>Highlighting</controllingFieldValue>
+            <valueName>Delete</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Add/Edit</controllingFieldValue>
+            <controllingFieldValue>Google Doc</controllingFieldValue>
+            <controllingFieldValue>Account Profile</controllingFieldValue>
+            <valueName>Edit</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Add/Edit</controllingFieldValue>
+            <controllingFieldValue>Instructor Resources</controllingFieldValue>
+            <valueName>Licensing</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Add/Edit</controllingFieldValue>
+            <valueName>Math tool</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Add/Edit</controllingFieldValue>
+            <controllingFieldValue>Study Guide</controllingFieldValue>
+            <controllingFieldValue>Instructor Resources</controllingFieldValue>
+            <controllingFieldValue>Highlighting</controllingFieldValue>
+            <controllingFieldValue>Feature Request</controllingFieldValue>
+            <valueName>Sharing</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>UK Ordering</controllingFieldValue>
+            <controllingFieldValue>Ordering</controllingFieldValue>
+            <valueName>Damaged</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>UK Ordering</controllingFieldValue>
+            <controllingFieldValue>Ordering</controllingFieldValue>
+            <valueName>Out of Stock</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>UK Ordering</controllingFieldValue>
+            <controllingFieldValue>Partner Resources</controllingFieldValue>
+            <controllingFieldValue>Payment</controllingFieldValue>
+            <controllingFieldValue>Ordering</controllingFieldValue>
+            <valueName>Price</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>UK Ordering</controllingFieldValue>
+            <controllingFieldValue>Customization</controllingFieldValue>
+            <controllingFieldValue>Ordering</controllingFieldValue>
+            <valueName>Reorder</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>UK Ordering</controllingFieldValue>
+            <controllingFieldValue>Ordering</controllingFieldValue>
+            <valueName>Return</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>UK Ordering</controllingFieldValue>
+            <valueName>Status</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>UK Ordering</controllingFieldValue>
+            <controllingFieldValue>Comp</controllingFieldValue>
+            <controllingFieldValue>Ordering</controllingFieldValue>
+            <valueName>Tracking</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>UK Ordering</controllingFieldValue>
+            <controllingFieldValue>User Data</controllingFieldValue>
+            <valueName>Update Contact Info</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Google Doc</controllingFieldValue>
+            <controllingFieldValue>Instructor Resources</controllingFieldValue>
+            <valueName>Access Request</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Google Doc</controllingFieldValue>
+            <controllingFieldValue>Practice</controllingFieldValue>
+            <controllingFieldValue>Canvas Resource Suite</controllingFieldValue>
+            <valueName>Release Date</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Google Doc</controllingFieldValue>
+            <valueName>Unavailability</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Student Resources</controllingFieldValue>
+            <controllingFieldValue>Instructor Resources</controllingFieldValue>
+            <valueName>Ancillary Wishlist</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Student Resources</controllingFieldValue>
+            <controllingFieldValue>Instructor Resources</controllingFieldValue>
+            <valueName>Lab Manual</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Student Resources</controllingFieldValue>
+            <controllingFieldValue>Student View</controllingFieldValue>
+            <valueName>Lock icon</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Student Resources</controllingFieldValue>
+            <controllingFieldValue>Instructor Resources</controllingFieldValue>
+            <valueName>Solution Manual</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Sunset</controllingFieldValue>
+            <controllingFieldValue>Accessibility</controllingFieldValue>
+            <controllingFieldValue>Bye bye</controllingFieldValue>
+            <controllingFieldValue>Payment</controllingFieldValue>
+            <valueName>Options</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Sunset</controllingFieldValue>
+            <valueName>Timeline</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Partner Resources</controllingFieldValue>
+            <controllingFieldValue>Popup</controllingFieldValue>
+            <valueName>Log In</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Partner Resources</controllingFieldValue>
+            <valueName>Partnership Interest/Offer</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Study Guide</controllingFieldValue>
+            <controllingFieldValue>Canvas Resource Suite</controllingFieldValue>
+            <valueName>Customization</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Study Guide</controllingFieldValue>
+            <controllingFieldValue>Scores</controllingFieldValue>
+            <controllingFieldValue>Performance Forecast</controllingFieldValue>
+            <controllingFieldValue>Question Library</controllingFieldValue>
+            <controllingFieldValue>Course Settings</controllingFieldValue>
+            <controllingFieldValue>Accessibility</controllingFieldValue>
+            <controllingFieldValue>Unavailability</controllingFieldValue>
+            <controllingFieldValue>Highlighting</controllingFieldValue>
+            <controllingFieldValue>Assignment Setup</controllingFieldValue>
+            <controllingFieldValue>Student View</controllingFieldValue>
+            <controllingFieldValue>Practice</controllingFieldValue>
+            <controllingFieldValue>Details Page</controllingFieldValue>
+            <valueName>Feature Request</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Adoptions</controllingFieldValue>
+            <controllingFieldValue>Report Request</controllingFieldValue>
+            <valueName>Adopter</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Adoptions</controllingFieldValue>
+            <valueName>Closed/Lost</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Adoptions</controllingFieldValue>
+            <controllingFieldValue>Marcom Campaigns</controllingFieldValue>
+            <valueName>Contest</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Adoptions</controllingFieldValue>
+            <controllingFieldValue>Institutional Relations</controllingFieldValue>
+            <valueName>Interest</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Adoptions</controllingFieldValue>
+            <valueName>Reviewing Material</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Adoptions</controllingFieldValue>
+            <valueName>Which Book</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Log In</controllingFieldValue>
+            <valueName>6 Digit Pin</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Log In</controllingFieldValue>
+            <controllingFieldValue>Unavailability</controllingFieldValue>
+            <valueName>Access Pending</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Log In</controllingFieldValue>
+            <controllingFieldValue>Printing</controllingFieldValue>
+            <valueName>Browser</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Log In</controllingFieldValue>
+            <valueName>Forgot Password</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Log In</controllingFieldValue>
+            <controllingFieldValue>Enroll</controllingFieldValue>
+            <valueName>Multiple Accounts</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Log In</controllingFieldValue>
+            <valueName>Social</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Log In</controllingFieldValue>
+            <controllingFieldValue>Account Profile</controllingFieldValue>
+            <controllingFieldValue>Account Profile Widget</controllingFieldValue>
+            <valueName>Usernames</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Log In</controllingFieldValue>
+            <valueName>Wrong Domain</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Account Profile</controllingFieldValue>
+            <controllingFieldValue>Account Profile Widget</controllingFieldValue>
+            <valueName>Add/delete email</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Account Profile</controllingFieldValue>
+            <valueName>Adoption</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Account Profile</controllingFieldValue>
+            <valueName>Delete Account</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Account Profile</controllingFieldValue>
+            <valueName>Missing OS ID</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Account Profile</controllingFieldValue>
+            <controllingFieldValue>Account Profile Widget</controllingFieldValue>
+            <valueName>Password</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Account Profile</controllingFieldValue>
+            <controllingFieldValue>Popup</controllingFieldValue>
+            <valueName>Renewal</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Site Error</controllingFieldValue>
+            <valueName>Big Learn</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Site Error</controllingFieldValue>
+            <controllingFieldValue>Errata</controllingFieldValue>
+            <controllingFieldValue>Marcom Campaigns</controllingFieldValue>
+            <controllingFieldValue>Details Page</controllingFieldValue>
+            <valueName>Broken Link</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Site Error</controllingFieldValue>
+            <valueName>Browser Issue</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Site Error</controllingFieldValue>
+            <valueName>Creating an Account</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Site Error</controllingFieldValue>
+            <valueName>Page Load</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Site Error</controllingFieldValue>
+            <valueName>Platform</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Site Error</controllingFieldValue>
+            <valueName>Site Down</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Course Picker</controllingFieldValue>
+            <valueName>Add New Course</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Course Picker</controllingFieldValue>
+            <valueName>Colleague's Course</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Course Picker</controllingFieldValue>
+            <valueName>Teach Course Again</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Dash</controllingFieldValue>
+            <valueName>Browse the Book</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Dash</controllingFieldValue>
+            <valueName>Calendar</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Dash</controllingFieldValue>
+            <valueName>Event</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Dash</controllingFieldValue>
+            <valueName>External</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Dash</controllingFieldValue>
+            <valueName>Homework</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Dash</controllingFieldValue>
+            <valueName>Reading</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Scores</controllingFieldValue>
+            <valueName>Averages</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Scores</controllingFieldValue>
+            <controllingFieldValue>Question Library</controllingFieldValue>
+            <controllingFieldValue>Bye bye</controllingFieldValue>
+            <valueName>Export</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Scores</controllingFieldValue>
+            <valueName>Extension</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Scores</controllingFieldValue>
+            <controllingFieldValue>Performance Forecast</controllingFieldValue>
+            <valueName>Grades</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Scores</controllingFieldValue>
+            <controllingFieldValue>Assignment Setup</controllingFieldValue>
+            <valueName>Grading Template</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Scores</controllingFieldValue>
+            <valueName>Late Work</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Scores</controllingFieldValue>
+            <valueName>LMS Sync</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Scores</controllingFieldValue>
+            <valueName>Sort</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Errata</controllingFieldValue>
+            <valueName>Factual Inaccuracy</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Errata</controllingFieldValue>
+            <valueName>Fix Timeline</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Errata</controllingFieldValue>
+            <valueName>Incorrect Calc/Solution</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Errata</controllingFieldValue>
+            <valueName>Pedagogical Solution</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Errata</controllingFieldValue>
+            <valueName>Typo</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Errata</controllingFieldValue>
+            <valueName>Why Not</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Editorial</controllingFieldValue>
+            <valueName>AP Alignment</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Editorial</controllingFieldValue>
+            <controllingFieldValue>Details Page</controllingFieldValue>
+            <valueName>Attribution</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Editorial</controllingFieldValue>
+            <valueName>Citation</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Editorial</controllingFieldValue>
+            <valueName>Common Core Alignment</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Editorial</controllingFieldValue>
+            <valueName>Content Issue</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Editorial</controllingFieldValue>
+            <controllingFieldValue>Question Library</controllingFieldValue>
+            <valueName>Copyright</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Editorial</controllingFieldValue>
+            <controllingFieldValue>Can't Find Info</controllingFieldValue>
+            <controllingFieldValue>Release Date</controllingFieldValue>
+            <valueName>Edition</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Editorial</controllingFieldValue>
+            <valueName>Revision</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Contribution</controllingFieldValue>
+            <valueName>Article</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Contribution</controllingFieldValue>
+            <valueName>Existing Author</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Contribution</controllingFieldValue>
+            <controllingFieldValue>Can't Find Info</controllingFieldValue>
+            <valueName>Non OS Subject</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Contribution</controllingFieldValue>
+            <valueName>Potential Author</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Contribution</controllingFieldValue>
+            <valueName>Translation</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Comp</controllingFieldValue>
+            <valueName>New Title</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>PDF</controllingFieldValue>
+            <valueName>Downloads</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>PDF</controllingFieldValue>
+            <valueName>Exercises</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>PDF</controllingFieldValue>
+            <valueName>Mismatch</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>PDF</controllingFieldValue>
+            <valueName>Numbering</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>PDF</controllingFieldValue>
+            <valueName>Solutions</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Instructor Resources</controllingFieldValue>
+            <valueName>Already has access</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Instructor Resources</controllingFieldValue>
+            <valueName>Cartridge</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Instructor Resources</controllingFieldValue>
+            <controllingFieldValue>Question Library</controllingFieldValue>
+            <controllingFieldValue>Assignment Questions</controllingFieldValue>
+            <controllingFieldValue>Practice</controllingFieldValue>
+            <controllingFieldValue>Canvas Resource Suite</controllingFieldValue>
+            <controllingFieldValue>Details Page</controllingFieldValue>
+            <valueName>Errata</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Instructor Resources</controllingFieldValue>
+            <valueName>Homeschool</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Instructor Resources</controllingFieldValue>
+            <controllingFieldValue>Feature Request</controllingFieldValue>
+            <valueName>LMS Integration</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Instructor Resources</controllingFieldValue>
+            <valueName>Lost Access</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Instructor Resources</controllingFieldValue>
+            <valueName>No SF Lead</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Instructor Resources</controllingFieldValue>
+            <valueName>OER Commons</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Instructor Resources</controllingFieldValue>
+            <valueName>PowerPoint</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Instructor Resources</controllingFieldValue>
+            <valueName>Quizlet</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Instructor Resources</controllingFieldValue>
+            <valueName>Rejected by SheerId</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Instructor Resources</controllingFieldValue>
+            <valueName>Sample Syllabus Language</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Instructor Resources</controllingFieldValue>
+            <valueName>Test Banks</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Instructor Resources</controllingFieldValue>
+            <valueName>Verified-no access</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Question Library</controllingFieldValue>
+            <valueName>Exclusions</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Course Settings</controllingFieldValue>
+            <valueName>Add Co-Teacher</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Course Settings</controllingFieldValue>
+            <valueName>Change/Delete/Add Section</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Course Settings</controllingFieldValue>
+            <valueName>Change Course Date</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Course Settings</controllingFieldValue>
+            <valueName>Course Controls</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Course Settings</controllingFieldValue>
+            <valueName>Delete Course</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Course Settings</controllingFieldValue>
+            <valueName>Enrollment URL</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Course Settings</controllingFieldValue>
+            <valueName>Remove Teacher</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Course Settings</controllingFieldValue>
+            <valueName>Rename Course/Section</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Course Settings</controllingFieldValue>
+            <valueName>Student Drop</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Course Settings</controllingFieldValue>
+            <controllingFieldValue>Enroll</controllingFieldValue>
+            <valueName>Student ID</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Course Settings</controllingFieldValue>
+            <controllingFieldValue>Enroll</controllingFieldValue>
+            <valueName>Student URL</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Course Settings</controllingFieldValue>
+            <controllingFieldValue>Assignment Setup</controllingFieldValue>
+            <valueName>Time Zone</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Enrollment</controllingFieldValue>
+            <valueName>New Course</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Enrollment</controllingFieldValue>
+            <valueName>Second semester course</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Exercise Display</controllingFieldValue>
+            <controllingFieldValue>Dashboard</controllingFieldValue>
+            <controllingFieldValue>Assignment Questions</controllingFieldValue>
+            <controllingFieldValue>Practice</controllingFieldValue>
+            <valueName>Answer Selection</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Exercise Display</controllingFieldValue>
+            <controllingFieldValue>Dashboard</controllingFieldValue>
+            <controllingFieldValue>Assignment Questions</controllingFieldValue>
+            <controllingFieldValue>Practice</controllingFieldValue>
+            <valueName>Answer Submission</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Exercise Display</controllingFieldValue>
+            <controllingFieldValue>Dashboard</controllingFieldValue>
+            <controllingFieldValue>Assignment Questions</controllingFieldValue>
+            <valueName>Spaced Practice</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Sign Up</controllingFieldValue>
+            <valueName>Instructor Verification</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Enroll</controllingFieldValue>
+            <valueName>Wrong Course</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>CM</controllingFieldValue>
+            <valueName>Product Wishlist</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Marcom Campaigns</controllingFieldValue>
+            <controllingFieldValue>Release Date</controllingFieldValue>
+            <valueName>Books</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Marcom Campaigns</controllingFieldValue>
+            <controllingFieldValue>Automated Emails</controllingFieldValue>
+            <valueName>Faculty Access</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Marcom Campaigns</controllingFieldValue>
+            <valueName>Spring Onboarding</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Dashboard</controllingFieldValue>
+            <valueName>Breadcrumbs</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Dashboard</controllingFieldValue>
+            <controllingFieldValue>Details Page</controllingFieldValue>
+            <valueName>Navigation</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Dashboard</controllingFieldValue>
+            <controllingFieldValue>Assignment Questions</controllingFieldValue>
+            <valueName>Personalized Questions</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Accessibility</controllingFieldValue>
+            <valueName>Accessibility Standards</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Accessibility</controllingFieldValue>
+            <valueName>Audio</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Accessibility</controllingFieldValue>
+            <valueName>Braille</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Accessibility</controllingFieldValue>
+            <valueName>Document Request</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Accessibility</controllingFieldValue>
+            <valueName>Tables</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Can't Find Info</controllingFieldValue>
+            <valueName>Location</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Can't Find Info</controllingFieldValue>
+            <valueName>Book Page</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Can't Find Info</controllingFieldValue>
+            <controllingFieldValue>Details Page</controllingFieldValue>
+            <valueName>ISBN</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Can't Find Info</controllingFieldValue>
+            <valueName>Link</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Can't Find Info</controllingFieldValue>
+            <valueName>Print Date</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Can't Find Info</controllingFieldValue>
+            <controllingFieldValue>Reuse Request</controllingFieldValue>
+            <valueName>Resources</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Can't Find Info</controllingFieldValue>
+            <valueName>Retired Edition</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Can't Find Info</controllingFieldValue>
+            <valueName>Revision Confusion</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Can't Find Info</controllingFieldValue>
+            <valueName>Revision Number</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Can't Find Info</controllingFieldValue>
+            <valueName>School</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Donations</controllingFieldValue>
+            <valueName>From Us</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Donations</controllingFieldValue>
+            <valueName>Requirement Confusion</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Donations</controllingFieldValue>
+            <valueName>To Us</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Job Request</controllingFieldValue>
+            <controllingFieldValue>Demo</controllingFieldValue>
+            <valueName>Follow up</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Job Request</controllingFieldValue>
+            <valueName>Intern</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Report Request</controllingFieldValue>
+            <valueName>Sapling</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Report Request</controllingFieldValue>
+            <valueName>WebAssign</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Report Request</controllingFieldValue>
+            <valueName>WiseWire</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Reuse Request</controllingFieldValue>
+            <valueName>API</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Reuse Request</controllingFieldValue>
+            <valueName>Image</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Reuse Request</controllingFieldValue>
+            <valueName>Source Files</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Reuse Request</controllingFieldValue>
+            <valueName>Text</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Editing</controllingFieldValue>
+            <valueName>OX Content Issue</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Editing</controllingFieldValue>
+            <valueName>PDF Generation</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Editing</controllingFieldValue>
+            <valueName>Platform Issue</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Editing</controllingFieldValue>
+            <valueName>Print Style</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Editing</controllingFieldValue>
+            <valueName>Template Issue</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Editing</controllingFieldValue>
+            <valueName>User Content Issue</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Marcom request</controllingFieldValue>
+            <valueName>Conference</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Marcom request</controllingFieldValue>
+            <valueName>Email opt out</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Marcom request</controllingFieldValue>
+            <valueName>Giveaway timeline</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Marcom request</controllingFieldValue>
+            <valueName>Interview</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Marcom request</controllingFieldValue>
+            <valueName>Presentation</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Marcom request</controllingFieldValue>
+            <valueName>Survey</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Assignment Questions</controllingFieldValue>
+            <controllingFieldValue>Canvas Resource Suite</controllingFieldValue>
+            <controllingFieldValue>Details Page</controllingFieldValue>
+            <controllingFieldValue>Error</controllingFieldValue>
+            <valueName>Loading</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Webinar</controllingFieldValue>
+            <valueName>Recording</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Webinar</controllingFieldValue>
+            <valueName>Register</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Payment</controllingFieldValue>
+            <valueName>Bookstore Code</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Payment</controllingFieldValue>
+            <valueName>Chargeback</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Payment</controllingFieldValue>
+            <valueName>Financial Aid</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Payment</controllingFieldValue>
+            <valueName>Invoice</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Payment</controllingFieldValue>
+            <valueName>Price Change</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Payment</controllingFieldValue>
+            <controllingFieldValue>Ordering</controllingFieldValue>
+            <valueName>Purchase Order</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Unavailability</controllingFieldValue>
+            <controllingFieldValue>Ordering</controllingFieldValue>
+            <valueName>International</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Unavailability</controllingFieldValue>
+            <valueName>Middle School</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Unavailability</controllingFieldValue>
+            <valueName>Organization Type</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Unavailability</controllingFieldValue>
+            <valueName>Self-learner</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Unavailability</controllingFieldValue>
+            <valueName>Wishlist</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Customization</controllingFieldValue>
+            <valueName>Combining Texts</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Customization</controllingFieldValue>
+            <valueName>Custom Print</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Ordering</controllingFieldValue>
+            <valueName>Amazon</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Ordering</controllingFieldValue>
+            <valueName>Amazon Associates</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Ordering</controllingFieldValue>
+            <valueName>Bookstore Suppliers</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Ordering</controllingFieldValue>
+            <valueName>Purchase Options</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Ordering</controllingFieldValue>
+            <valueName>Third Party</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Information Request</controllingFieldValue>
+            <valueName>Legal question</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Information Request</controllingFieldValue>
+            <valueName>Marcom Email</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Highlighting</controllingFieldValue>
+            <controllingFieldValue>Details Page</controllingFieldValue>
+            <valueName>Mobile</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>LMS Integration</controllingFieldValue>
+            <valueName>Error: Enrollment</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>LMS Integration</controllingFieldValue>
+            <valueName>Error: Log In</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>LMS Integration</controllingFieldValue>
+            <valueName>Instructor Setup</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>LMS Integration</controllingFieldValue>
+            <valueName>Multiple Sections</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>LMS Integration</controllingFieldValue>
+            <valueName>Request</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>LMS Integration</controllingFieldValue>
+            <valueName>Student join link error</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Server</controllingFieldValue>
+            <valueName>Outage</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Server</controllingFieldValue>
+            <controllingFieldValue>StepWise</controllingFieldValue>
+            <valueName>Timeout</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Translate</controllingFieldValue>
+            <valueName>Spanish</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Assignment Setup</controllingFieldValue>
+            <valueName>Assignment Details</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Assignment Setup</controllingFieldValue>
+            <valueName>Close Date</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Assignment Setup</controllingFieldValue>
+            <valueName>Due Date</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Assignment Setup</controllingFieldValue>
+            <valueName>Preview Course</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Assignment Setup</controllingFieldValue>
+            <valueName>Publish</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Assignment Setup</controllingFieldValue>
+            <valueName>Submission Overview</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Assignment Setup</controllingFieldValue>
+            <valueName>View Assignment</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Data Privacy</controllingFieldValue>
+            <valueName>Cookies</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Data Privacy</controllingFieldValue>
+            <valueName>Privacy Policy</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Data Privacy</controllingFieldValue>
+            <valueName>Signature Request</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Data Privacy</controllingFieldValue>
+            <valueName>Terms of Use</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Popup</controllingFieldValue>
+            <valueName>Donation</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Popup</controllingFieldValue>
+            <valueName>Pulse Insights</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Automated Emails</controllingFieldValue>
+            <valueName>Hurricane of Emails</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Automated Emails</controllingFieldValue>
+            <valueName>Wrong Subject</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Demo</controllingFieldValue>
+            <valueName>Schedule</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Demo</controllingFieldValue>
+            <valueName>Tell Me Everything</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Roles</controllingFieldValue>
+            <valueName>Definition</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Canvas Resource Suite</controllingFieldValue>
+            <valueName>Content Use Request</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Details Page</controllingFieldValue>
+            <valueName>Table of Contents</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>User Data</controllingFieldValue>
+            <valueName>Archive Contact</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Error</controllingFieldValue>
+            <valueName>Connection</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Updates</controllingFieldValue>
+            <valueName>Answer Keys</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Updates</controllingFieldValue>
+            <valueName>Exercise Numbering</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Updates</controllingFieldValue>
+            <valueName>Figure Numbering</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Updates</controllingFieldValue>
+            <valueName>Highlighting</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Updates</controllingFieldValue>
+            <valueName>Page Numbering</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Search</controllingFieldValue>
+            <valueName>Keywords</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Search</controllingFieldValue>
+            <valueName>Search Results</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Printing</controllingFieldValue>
+            <valueName>Printing</valueName>
+        </valueSettings>
+    </valueSet>
+</CustomField>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WebLink xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Which_Book</fullName>
+    <availability>online</availability>
+    <description>Sends an email asking which book is the one they are adopting?</description>
+    <displayType>link</displayType>
+    <encodingKey>UTF-8</encodingKey>
+    <linkType>url</linkType>
+    <masterLabel>Which Book</masterLabel>
+    <openType>replace</openType>
+    <protected>false</protected>
+    <url>/_ui/core/email/author/EmailAuthor?
+rtype=00Q
+&amp;
+retURL=%2F{!Lead.Id}
+&amp;
+p2_lkid={!Lead.Id}
+&amp;
+p5=""
+&amp;
+p26="info@openstaxcollege.org"
+&amp;
+template_id=00XU0000000xmsV&amp;</url>
+</WebLink>

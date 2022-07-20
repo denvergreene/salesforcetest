@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>RedShelf__c</fullName>
+    <defaultValue>false</defaultValue>
+    <description>needed to separate our Inclusive Access partner</description>
+    <externalId>false</externalId>
+    <inlineHelpText>needed to separate our Inclusive Access partner</inlineHelpText>
+    <label>RedShelf</label>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Checkbox</type>
+</CustomField>

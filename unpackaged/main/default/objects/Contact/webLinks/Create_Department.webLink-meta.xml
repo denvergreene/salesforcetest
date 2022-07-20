@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WebLink xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Create_Department</fullName>
+    <availability>online</availability>
+    <description>Creates a Department with this contact as the main contact</description>
+    <displayType>link</displayType>
+    <encodingKey>UTF-8</encodingKey>
+    <linkType>url</linkType>
+    <masterLabel>Dept Revamp</masterLabel>
+    <openType>replace</openType>
+    <protected>false</protected>
+    <url>/flow/Create_Departments?
+varAccountID={!Account.Id}
+&amp;
+varContactDescription={!Contact.Description}
+&amp;
+varUserName={!User.Name}
+&amp;
+varContactID={!Contact.Id}
+&amp;
+retURL=%2F{!Contact.Id}</url>
+</WebLink>

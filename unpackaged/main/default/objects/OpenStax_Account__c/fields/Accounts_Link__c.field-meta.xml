@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Accounts_Link__c</fullName>
+    <description>Link to this users account admin profile page on OpenStax Account</description>
+    <externalId>false</externalId>
+    <formula>IF(TEXT(Environment__c) == 'dev', 
+  HYPERLINK("https://dev.accounts.openstax.org/admin/users/" &amp; TEXT(Account_ID__c) &amp;"/edit/", TEXT(Account_ID__c)), 
+
+IF(TEXT(Environment__c) == 'qa', 
+  HYPERLINK("https://qa.accounts.openstax.org/admin/users/" &amp; TEXT(Account_ID__c) &amp;"/edit/", TEXT(Account_ID__c)),
+
+IF(TEXT(Environment__c) == 'staging', 
+  HYPERLINK("https://staging.accounts.openstax.org/admin/users/" &amp; TEXT(Account_ID__c) &amp;"/edit/", TEXT(Account_ID__c)),
+
+IF(TEXT(Environment__c) == 'production', 
+  HYPERLINK("https://accounts.openstax.org/admin/users/" &amp; TEXT(Account_ID__c) &amp;"/edit/", TEXT(Account_ID__c)), 
+
+NULL))))</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <inlineHelpText>Link to this users account admin profile page on OpenStax Account</inlineHelpText>
+    <label>Accounts Link</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

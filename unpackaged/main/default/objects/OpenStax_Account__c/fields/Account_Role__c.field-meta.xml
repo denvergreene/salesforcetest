@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Account_Role__c</fullName>
+    <description>Type of account created. Currently, OpenStax Accounts has the option on Student or Instructor accounts.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Type of account created. Currently, OpenStax Accounts has the option on Student or Instructor accounts.</inlineHelpText>
+    <label>Account Role</label>
+    <required>true</required>
+    <trackFeedHistory>true</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetName>Account_Role</valueSetName>
+    </valueSet>
+</CustomField>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Book_Opportunity__c</fullName>
+    <externalId>false</externalId>
+    <formula>OR(  RecordTypeId = "0120B000000NAH0", RecordTypeId = "0120B000000NAH5")</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>Book Opportunity</label>
+    <trackHistory>false</trackHistory>
+    <type>Checkbox</type>
+</CustomField>

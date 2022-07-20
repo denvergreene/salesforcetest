@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>All_Time_Students2__c</fullName>
+    <externalId>false</externalId>
+    <formula>Students_Current_Year__c +
+ Students_Next_Year__c +
+ Students_Past_Years__c +
+ Students_Previous_Year__c</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <inlineHelpText>Past + Present + Future Students</inlineHelpText>
+    <label>Students All Time</label>
+    <precision>18</precision>
+    <required>false</required>
+    <scale>0</scale>
+    <trackHistory>false</trackHistory>
+    <type>Number</type>
+    <unique>false</unique>
+</CustomField>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Contacts_with_Unknown_Schools</fullName>
+    <columns>FULL_NAME</columns>
+    <columns>FV_Status__c</columns>
+    <columns>ACCOUNT.NAME</columns>
+    <columns>CONTACT.EMAIL</columns>
+    <columns>OpenStax_Account_Signup_Date__c</columns>
+    <columns>CONTACT.CREATED_DATE</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>FV_Status__c</field>
+        <operation>equals</operation>
+        <value>pending_faculty</value>
+    </filters>
+    <filters>
+        <field>Accounts_UUID__c</field>
+        <operation>notEqual</operation>
+    </filters>
+    <label>Contacts Needing CS Review</label>
+</ListView>

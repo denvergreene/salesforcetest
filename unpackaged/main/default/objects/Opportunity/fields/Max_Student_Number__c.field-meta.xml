@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Max_Student_Number__c</fullName>
+    <externalId>false</externalId>
+    <formula>MAX( Students__c ,  Fall_Students__c ,  Spring_Students__c ,  Summer_Students__c ,  Fall_Dept_Max_Students__c ,  Spring_Dept_Max_Students__c ,  Summer_Dept_Max_Students__c ,  Students_Stored__c ,  Dept_Students_Stored__c )</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>Max Student Number</label>
+    <precision>18</precision>
+    <required>false</required>
+    <scale>0</scale>
+    <trackHistory>false</trackHistory>
+    <type>Number</type>
+    <unique>false</unique>
+</CustomField>

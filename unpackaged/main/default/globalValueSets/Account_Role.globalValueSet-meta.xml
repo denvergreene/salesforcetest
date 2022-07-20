@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customValue>
+        <fullName>Instructor</fullName>
+        <default>false</default>
+        <label>Instructor</label>
+    </customValue>
+    <customValue>
+        <fullName>Student</fullName>
+        <default>false</default>
+        <label>Student</label>
+    </customValue>
+    <customValue>
+        <fullName>Unknown Role</fullName>
+        <default>false</default>
+        <label>Unknown Role</label>
+    </customValue>
+    <customValue>
+        <fullName>Administrator</fullName>
+        <default>false</default>
+        <label>Administrator</label>
+    </customValue>
+    <customValue>
+        <fullName>Other</fullName>
+        <default>false</default>
+        <label>Other</label>
+    </customValue>
+    <description>Type of account that was created from OpenStax Accounts. Currently, we have Student and Instructor type accounts created.</description>
+    <masterLabel>Account Role</masterLabel>
+    <sorted>false</sorted>
+</GlobalValueSet>

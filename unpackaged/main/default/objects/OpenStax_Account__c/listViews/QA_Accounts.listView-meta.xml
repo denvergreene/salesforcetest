@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>QA_Accounts</fullName>
+    <columns>NAME</columns>
+    <columns>Accounts_Link__c</columns>
+    <columns>Signup_Date__c</columns>
+    <columns>Contact__c</columns>
+    <columns>Lead__c</columns>
+    <columns>Faculty_Status__c</columns>
+    <columns>Account_Role__c</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>Environment__c</field>
+        <operation>equals</operation>
+        <value>qa</value>
+    </filters>
+    <filters>
+        <field>Signup_Date__c</field>
+        <operation>equals</operation>
+        <value>THIS_MONTH</value>
+    </filters>
+    <label>QA Accounts This Month</label>
+</ListView>

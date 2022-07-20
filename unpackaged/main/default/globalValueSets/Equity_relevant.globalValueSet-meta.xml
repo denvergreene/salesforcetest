@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customValue>
+        <fullName>We haven’t incorporated this yet.</fullName>
+        <default>false</default>
+        <label>We haven’t incorporated this yet.</label>
+    </customValue>
+    <customValue>
+        <fullName>There are very few social, emotional, and academic supports.</fullName>
+        <default>false</default>
+        <label>There are very few social, emotional, and academic supports.</label>
+    </customValue>
+    <customValue>
+        <fullName>Social, emotional, and academic supports are customizable and embedded throughout the tool.</fullName>
+        <default>false</default>
+        <label>Social, emotional, and academic supports are customizable and embedded throughout the tool.</label>
+    </customValue>
+    <customValue>
+        <fullName>Social, emotional, and academic supports tools are customizable and embedded throughout, are culturally relevant, and focus on students’ strengths rather than perceived inadequacies.</fullName>
+        <default>false</default>
+        <label>Social, emotional, and academic supports tools are customizable and embedded throughout, are culturally relevant, and focus on students’ strengths rather than perceived inadequacies.</label>
+    </customValue>
+    <masterLabel>Equity relevant</masterLabel>
+    <sorted>false</sorted>
+</GlobalValueSet>

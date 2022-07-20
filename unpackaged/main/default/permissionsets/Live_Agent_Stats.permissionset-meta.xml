@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?><PermissionSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <description>View information on CS and customer interactions online; ex: how many chat requests were processed, how long agents spent online, or how long agents were actively engaged in chats with customers.</description>
+    <hasActivationRequired>false</hasActivationRequired>
+    <label>Live Agent Stats</label>
+</PermissionSet>

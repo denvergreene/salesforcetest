@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>New_Partner_Type__c</fullName>
+    <externalId>false</externalId>
+    <label>New Partner Type</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Clicker/classroom engagement</fullName>
+                <default>false</default>
+                <label>Clicker/classroom engagement</label>
+            </value>
+            <value>
+                <fullName>Content customization</fullName>
+                <default>false</default>
+                <label>Content customization</label>
+            </value>
+            <value>
+                <fullName>Adaptive Courseware</fullName>
+                <default>false</default>
+                <label>Adaptive Courseware</label>
+            </value>
+            <value>
+                <fullName>Online homework</fullName>
+                <default>false</default>
+                <label>Online homework</label>
+            </value>
+            <value>
+                <fullName>Reading comprehension</fullName>
+                <default>false</default>
+                <label>Reading comprehension</label>
+            </value>
+            <value>
+                <fullName>E-Reader</fullName>
+                <default>false</default>
+                <label>E-Reader</label>
+            </value>
+            <value>
+                <fullName>Labs and Lab Manuals</fullName>
+                <default>false</default>
+                <label>Labs and Lab Manuals</label>
+            </value>
+            <value>
+                <fullName>Simulations</fullName>
+                <default>false</default>
+                <label>Simulations</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

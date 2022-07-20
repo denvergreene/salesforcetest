@@ -1,0 +1,29 @@
+<apex:page >
+    <h1>Title</h1>
+    <p><b>Purpose: </b><br/>
+    Purpose here </p>
+    
+<b>Actions:</b>
+<ol>
+    <li></li>
+    <li></li>
+    <li></li>
+</ol>
+    
+<b>Behind the Scenes:</b>
+<ol>
+    <li>Something</li>
+    <li>Something else</li>
+        <ol type="A">
+            <li>Sub Somethings</li>
+        </ol>
+    <li>One more something</li>
+    
+</ol>
+    
+
+    <br/>
+    <b>Links:</b><br/>
+    Flow: <a href="link to thing" target="_blank">link to thing</a>
+    
+</apex:page>

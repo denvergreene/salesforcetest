@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Renewal_Date__c</fullName>
+    <description>The date that they filled out a renewal form which got entered as a lead and then processed.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>The most recent date that someone has confirmed adoption</inlineHelpText>
+    <label>Recent Adoption Date</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Date</type>
+</CustomField>

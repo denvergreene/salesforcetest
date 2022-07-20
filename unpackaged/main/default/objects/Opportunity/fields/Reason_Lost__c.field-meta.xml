@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Reason_Lost__c</fullName>
+    <externalId>false</externalId>
+    <label>Reason Lost</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <controllingField>StageName</controllingField>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Course Not Offered</fullName>
+                <default>false</default>
+                <label>Course Not Offered</label>
+            </value>
+            <value>
+                <fullName>Dissatisfied</fullName>
+                <default>false</default>
+                <label>Dissatisfied</label>
+            </value>
+            <value>
+                <fullName>No online HW available</fullName>
+                <default>false</default>
+                <label>No online HW available</label>
+            </value>
+            <value>
+                <fullName>Not Teaching</fullName>
+                <default>false</default>
+                <label>Not Teaching</label>
+            </value>
+            <value>
+                <fullName>Won't Charge Students</fullName>
+                <default>false</default>
+                <label>Won't Charge Students</label>
+            </value>
+            <value>
+                <fullName>Using Competitor</fullName>
+                <default>false</default>
+                <label>Using Competitor</label>
+            </value>
+            <value>
+                <fullName>Other</fullName>
+                <default>false</default>
+                <label>Other</label>
+            </value>
+            <value>
+                <fullName>LIT &gt;3 years ago</fullName>
+                <default>false</default>
+                <label>LIT &gt;3 years ago</label>
+            </value>
+        </valueSetDefinition>
+        <valueSettings>
+            <controllingFieldValue>Closed Lost</controllingFieldValue>
+            <valueName>Course Not Offered</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Closed Lost</controllingFieldValue>
+            <valueName>Dissatisfied</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Closed Lost</controllingFieldValue>
+            <valueName>No online HW available</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Closed Lost</controllingFieldValue>
+            <valueName>Not Teaching</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Closed Lost</controllingFieldValue>
+            <valueName>Won't Charge Students</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Closed Lost</controllingFieldValue>
+            <valueName>Using Competitor</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Closed Lost</controllingFieldValue>
+            <valueName>Other</valueName>
+        </valueSettings>
+    </valueSet>
+</CustomField>

@@ -1,0 +1,141 @@
+<apex:page title="OpenStax Help" cache="false" standardStylesheets="false" showHeader="false" sidebar="false" controller="pkb_Controller_2017" language="en_US" applyBodyTag="false" applyHtmlTag="false" docType="html-5.0">
+	<apex:composition template="pkb_Template_2017">
+		<apex:define name="body">
+			<apex:outputPanel id="mainContent" styleClass="ax_default mainContent {!If(searchPhrase!='','searchPadding','')}" layout="block">
+				<div id="mainContent_state0" class="panel_state" data-label="browse popular articles">
+					<div id="mainContent_state0_content" class="panel_state_content">
+						<apex:pageMessages />
+						<!--Showing Featured Articles -->
+						<apex:outputPanel rendered="{!searchPhrase == ''}">
+							<div id="u200" class="ax_default osweb_h3_heading">
+								<div id="u200_div" class=""></div>
+								<div id="u200_text" class="text " style="left: 0px; width: 273px; transform-origin: 136.5px 12.5px 0px;">
+									<p><span>Browse popular articles</span></p>
+								</div>
+							</div>
+
+							<apex:repeat value="{!featuredArticles}" var="article" id="featuredArticles">
+								<div class="ax_default articleListingContainer">
+									<div class="ax_default support_page_link_style_normal_active">
+										<div class="text ">
+											<p>
+												<span style="text-decoration:underline;">
+														<apex:outputLink value="{!'/articles/FAQ/'+article.UrlName}">
+															{!article.Title}
+														</apex:outputLink>
+												</span>
+											</p>
+										</div>
+									</div>
+									<div class="ax_default articleListingDescriptor">
+										<span class="ax_default text_field_hint_text">
+											<span class="text ">
+												<span>
+													<apex:outputText value="{0,date,MMMM dd, yyyy}">
+														<apex:param value="{!article.LastPublishedDate}" />
+													</apex:outputText>
+												 - </span>
+											</span>
+										</span>
+										<span class="ax_default osweb_body_copy_regular">
+											<span class="text ">
+												<span>{!mapArticleProducts[article.ArticleId]}</span>
+											</span>
+										</span>
+									</div>
+								</div>
+							</apex:repeat>
+						</apex:outputPanel>
+
+						<!--Showing Search Results -->
+						<apex:outputPanel rendered="{!searchPhrase != ''}">
+							<div class="breadcrumbs breadcrumbs_home" data-left="0" data-top="22" data-width="222" data-height="20">
+				              <!-- Unnamed (Rectangle) -->
+				              <span id="u782" class="osweb_link_style_normal_active" style="cursor: pointer;">
+				                <span id="u782_text" class="text ">
+				                  	<apex:outputLink value="/pkb_home_2017">
+										Support home
+									</apex:outputLink>
+				                </span>
+				              </span>
+				              <!-- Unnamed (Shape) -->
+				              <span id="u783">
+				                <span id="u783_text" class="text ">
+				                  <span>&gt;</span>
+				                </span>
+				              </span>
+				              <!-- Unnamed (Rectangle) -->
+				              <span id="u784">
+				                <span id="u784_text" class="text ">
+				                  <span>Search results</span>
+				                </span>
+				              </span>
+				            </div>
+							<div id="u200" class="osweb_h3_heading">
+								<div id="u200_div" class=""></div>
+								<div id="u200_text" class="text ">
+									<p><span>Search Results</span></p>
+								</div>
+							</div>
+							<div id="u762" class="osweb_helper_label_text">
+				              <div id="u762_div" class=""></div>
+				              <div id="u762_text" class="text " style="left: 0px; width: 116px; transform-origin: 58px 10px 0px;">
+				                <p><span>{!numOfResults} results found</span></p>
+				              </div>
+				            </div>
+				            <apex:repeat value="{!searchResultsMap[currPage]}" var="art2" id="searchResults">
+								<div class="ax_default articleListingContainer">
+									<div class="ax_default support_page_link_style_normal_active">
+										<div class="text ">
+											<p>
+												<span style="text-decoration:underline;">
+														<apex:outputLink value="{!'/articles/FAQ/'+art2.UrlName+
+														If(searchPhrase!='','?search='+searchPhrase,'')}">
+															{!art2.Title}
+														</apex:outputLink>
+												</span>
+											</p>
+										</div>
+									</div>
+									<div class="ax_default articleListingDescriptor">
+										<span class="ax_default text_field_hint_text">
+											<span class="text ">
+												<span>
+													<apex:outputText value="{0,date,MMMM dd, yyyy}">
+														<apex:param value="{!art2.LastPublishedDate}" />
+													</apex:outputText>
+												 - </span>
+											</span>
+										</span>
+										<span class="ax_default osweb_body_copy_regular">
+											<span class="text ">
+												<span>{!mapArticleProducts[art2.ArticleId]}</span>
+											</span>
+										</span>
+									</div>
+								</div>
+							</apex:repeat>
+							<apex:outputPanel layout="block" styleClass="pageNumSection" id="pgNumSection">
+								<apex:outputPanel styleClass="pageNoBtn" layout="block" rendered="{!currPage>0}">
+									<apex:commandLink reRender="mainContent" id="decPgDiv">
+										<apex:param assignTo="{!currPage}" value="{!currPage - 1}" id="decrementPage" name="currPage" />
+										<img class="img arrowLeft" src="{!URLFOR($Resource.pkbresources, 'pkbresources/images/downArrow.png')}" />
+									</apex:commandLink>
+								</apex:outputPanel>
+								<apex:outputPanel styleClass="pageNoBtn pageNoBtnBorder" layout="block">{!currPage+1}</apex:outputPanel>
+								<apex:outputPanel styleClass="pageNoBtn" layout="block"> of {!NumOfPages}</apex:outputPanel>
+								<apex:outputPanel styleClass="pageNoBtn" layout="block" rendered="{!currPage+1<NumOfPages}" style="margin-left:10px">
+									<apex:commandLink reRender="mainContent" id="incPgDiv">
+										<apex:param assignTo="{!currPage}" value="{!currPage + 1}" id="incrementPage" name="currPage" />
+										<img class="img arrowRight" src="{!URLFOR($Resource.pkbresources, 'pkbresources/images/downArrow.png')}"/>
+									</apex:commandLink>
+								</apex:outputPanel>
+							</apex:outputPanel>
+						</apex:outputPanel>
+					</div>
+				</div>
+			</apex:outputPanel>
+		</apex:define>
+	</apex:composition>
+
+</apex:page>

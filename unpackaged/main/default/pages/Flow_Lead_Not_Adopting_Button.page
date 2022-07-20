@@ -1,0 +1,52 @@
+<apex:page >
+    <h1>Lead Not Adopting Button</h1>
+    <p><b>Purpose: </b><br/>
+    This flow is used when a lead come in that says they are not using the book anymore. It deletes the IAs for this year, then sets the previous IAs and opps as previous adoption, then updates everyones description. </p>
+    
+<b>Actions:</b>
+<ul>
+    <li>Just click the link</li>
+</ul>
+    
+<b>Behind the Scenes:</b>
+<ol>
+    <li>Lead Lookup, get values</li>
+    <li>Descision: Is stage set to "Not using"</li>
+        <ol type="A">
+            <li>Nope: Endscreen</li>
+            <li>Yup: proceed</li>
+        </ol>
+    <li>Lead Update: Clear out needs</li>
+    <li>Book Lookup: Book ID</li>
+    <li>IA Lookup: Find if current IA exists for this subject</li>
+    <li>Decision: Was an IA found?</li>
+        <ol>
+            <li>If IA Found: Delete it</li>
+            <li>Not found: Proceed</li>
+        </ol>
+    <li>IA Lookup: Look if previous IA exists</li>
+    <li>Decision: Was an IA found?</li>
+        <ol>
+            <li>If IA Found: Update Description, Stage</li>
+            <li>Not found: Proceed</li>
+        </ol>
+    <li>Opp Lookup: Find the relevant Opp</li>
+    <li>Decision: Was an Opp found?</li>
+        <ol>
+            <li>If Opp Found: Update Description, Stage</li>
+            <li>Not found: Proceed</li>
+        </ol>
+    <li>Contact Lookup</li>
+    <li>Decision: Was a Contact found?</li>
+        <ol>
+            <li>If Contact Found: Update Description</li>
+            <li>Not found: End</li>
+        </ol>    
+</ol>
+    
+
+    <br/>
+    <b>Links:</b><br/>
+    Flow: link to thing
+    
+</apex:page>

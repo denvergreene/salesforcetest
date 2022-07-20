@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Disallow_Editing_of_Converted_Leads</fullName>
+    <active>true</active>
+    <description>When leads have been converted and someone has the permission to view them - don't allow them to be edited.</description>
+    <errorConditionFormula>AND( 
+
+    ISCHANGED(IsConverted ) = false, 
+
+    IsConverted = true
+
+)</errorConditionFormula>
+    <errorMessage>You cannot edit a lead that has been converted. Please edit the contact instead.</errorMessage>
+</ValidationRule>

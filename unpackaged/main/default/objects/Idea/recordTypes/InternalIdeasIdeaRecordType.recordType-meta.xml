@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RecordType xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>InternalIdeasIdeaRecordType</fullName>
+    <active>true</active>
+    <description>Record Type used to associate ideas with a specific community</description>
+    <label>Internal Ideas: Idea Record Type</label>
+    <picklistValues>
+        <picklist>Categories</picklist>
+        <values>
+            <fullName>Automation Requests</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Book Interests</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Other</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Structural changes</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Objects_Affected__c</picklist>
+        <values>
+            <fullName>Adoption Opportunities</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Book Interests</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Books</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Comp Copies</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Contacts</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Dashboards</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Ideas</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Leads</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Opportunities</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Partners</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Reports</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Schools</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Status</picklist>
+        <values>
+            <fullName>Coming Soon</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Information Gathering</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Now Available</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Rejected</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Under Review</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+</RecordType>

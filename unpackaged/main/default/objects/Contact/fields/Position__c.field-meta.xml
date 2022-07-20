@@ -1,0 +1,1144 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Position__c</fullName>
+    <externalId>false</externalId>
+    <label>Position</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>MultiselectPicklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Adjunct Faculty</fullName>
+                <default>false</default>
+                <label>Adjunct Faculty</label>
+            </value>
+            <value>
+                <fullName>Administrator</fullName>
+                <default>false</default>
+                <label>Administrator</label>
+            </value>
+            <value>
+                <fullName>Bookstore</fullName>
+                <default>false</default>
+                <label>Bookstore</label>
+            </value>
+            <value>
+                <fullName>Department Head</fullName>
+                <default>false</default>
+                <label>Department Head</label>
+            </value>
+            <value>
+                <fullName>Faculty</fullName>
+                <default>false</default>
+                <label>Faculty</label>
+            </value>
+            <value>
+                <fullName>Grad Student</fullName>
+                <default>false</default>
+                <label>Grad Student</label>
+            </value>
+            <value>
+                <fullName>Home School Teacher</fullName>
+                <default>false</default>
+                <label>Home School Teacher</label>
+            </value>
+            <value>
+                <fullName>Instructional Designer</fullName>
+                <default>false</default>
+                <label>Instructional Designer</label>
+            </value>
+            <value>
+                <fullName>Librarian</fullName>
+                <default>false</default>
+                <label>Librarian</label>
+            </value>
+            <value>
+                <fullName>Marketer</fullName>
+                <default>false</default>
+                <label>Marketer</label>
+            </value>
+            <value>
+                <fullName>Partner</fullName>
+                <default>false</default>
+                <label>Partner</label>
+            </value>
+            <value>
+                <fullName>Student</fullName>
+                <default>false</default>
+                <label>Student</label>
+            </value>
+            <value>
+                <fullName>Primary</fullName>
+                <default>false</default>
+                <label>Primary</label>
+            </value>
+            <value>
+                <fullName>Marketing</fullName>
+                <default>false</default>
+                <label>Marketing</label>
+            </value>
+            <value>
+                <fullName>Leads</fullName>
+                <default>false</default>
+                <label>Leads</label>
+            </value>
+            <value>
+                <fullName>Accounting</fullName>
+                <default>false</default>
+                <label>Accounting</label>
+            </value>
+            <value>
+                <fullName>Partner Portal User</fullName>
+                <default>false</default>
+                <label>Partner Portal User</label>
+            </value>
+            <value>
+                <fullName>Instructor</fullName>
+                <default>false</default>
+                <label>Instructor</label>
+            </value>
+            <value>
+                <fullName>Other</fullName>
+                <default>false</default>
+                <label>Other</label>
+            </value>
+            <value>
+                <fullName>Academic Developer</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Academic Developer</label>
+            </value>
+            <value>
+                <fullName>Academic Information Specialist</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Academic Information Specialist</label>
+            </value>
+            <value>
+                <fullName>Academic Librarian</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Academic Librarian</label>
+            </value>
+            <value>
+                <fullName>Academic Manager</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Academic Manager</label>
+            </value>
+            <value>
+                <fullName>Academic Success Tutor for all Subjects</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Academic Success Tutor for all Subjects</label>
+            </value>
+            <value>
+                <fullName>Academic Tutor for Anatomy and Physiology</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Academic Tutor for Anatomy and Physiology</label>
+            </value>
+            <value>
+                <fullName>Academic Unit Assistant</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Academic Unit Assistant</label>
+            </value>
+            <value>
+                <fullName>Adjunct Instructor</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Adjunct Instructor</label>
+            </value>
+            <value>
+                <fullName>Adjunt</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Adjunt</label>
+            </value>
+            <value>
+                <fullName>Administrative Assistant</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Administrative Assistant</label>
+            </value>
+            <value>
+                <fullName>Administrator of Nampa Personalized Learning</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Administrator of Nampa Personalized Learning</label>
+            </value>
+            <value>
+                <fullName>Affiliate Faculty - Policy Fellow</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Affiliate Faculty - Policy Fellow</label>
+            </value>
+            <value>
+                <fullName>As a Professional Learning Facilitator, I support the K-12 Social Studies teachers in my district.</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>As a Professional Learning Facilitator, I support the K-12 Social Studies teachers in my district.</label>
+            </value>
+            <value>
+                <fullName>Assistant Professor</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Assistant Professor</label>
+            </value>
+            <value>
+                <fullName>Biology curriculum and instruction specialist</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Biology curriculum and instruction specialist</label>
+            </value>
+            <value>
+                <fullName>Bookkeeper</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Bookkeeper</label>
+            </value>
+            <value>
+                <fullName>Boss</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Boss</label>
+            </value>
+            <value>
+                <fullName>Building Services</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Building Services</label>
+            </value>
+            <value>
+                <fullName>Business Librarian and OER Coordinator</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Business Librarian and OER Coordinator</label>
+            </value>
+            <value>
+                <fullName>Center for Online Learning</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Center for Online Learning</label>
+            </value>
+            <value>
+                <fullName>Charles A Dana Center manager of curriculum development</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Charles A Dana Center manager of curriculum development</label>
+            </value>
+            <value>
+                <fullName>College Services Associate</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>College Services Associate</label>
+            </value>
+            <value>
+                <fullName>Consultant teacher</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Consultant teacher</label>
+            </value>
+            <value>
+                <fullName>Content Specialist</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Content Specialist</label>
+            </value>
+            <value>
+                <fullName>Coord of Instructional Technology/Moodle Admin</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Coord of Instructional Technology/Moodle Admin</label>
+            </value>
+            <value>
+                <fullName>Coordinator Workforce Solutions (Workforce Development)</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Coordinator Workforce Solutions (Workforce Development)</label>
+            </value>
+            <value>
+                <fullName>Counseling and Psychological Services</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Counseling and Psychological Services</label>
+            </value>
+            <value>
+                <fullName>Counselor/Professor</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Counselor/Professor</label>
+            </value>
+            <value>
+                <fullName>Course Coordinator</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Course Coordinator</label>
+            </value>
+            <value>
+                <fullName>Course Developer</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Course Developer</label>
+            </value>
+            <value>
+                <fullName>Course Development</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Course Development</label>
+            </value>
+            <value>
+                <fullName>Curriculum Specialist</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Curriculum Specialist</label>
+            </value>
+            <value>
+                <fullName>Curriculum Support</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Curriculum Support</label>
+            </value>
+            <value>
+                <fullName>Data Specialist</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Data Specialist</label>
+            </value>
+            <value>
+                <fullName>Dean</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Dean</label>
+            </value>
+            <value>
+                <fullName>Department</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Department</label>
+            </value>
+            <value>
+                <fullName>Department Chair</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Department Chair</label>
+            </value>
+            <value>
+                <fullName>Digital Resources Librarian</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Digital Resources Librarian</label>
+            </value>
+            <value>
+                <fullName>Director</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Director</label>
+            </value>
+            <value>
+                <fullName>Director Institute for Virtual Education</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Director Institute for Virtual Education</label>
+            </value>
+            <value>
+                <fullName>Director of Education (College Dean)</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Director of Education (College Dean)</label>
+            </value>
+            <value>
+                <fullName>Director of Technology</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Director of Technology</label>
+            </value>
+            <value>
+                <fullName>Director of the Leiden University Medical School</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Director of the Leiden University Medical School</label>
+            </value>
+            <value>
+                <fullName>Director of the Library Learning Hub</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Director of the Library Learning Hub</label>
+            </value>
+            <value>
+                <fullName>Director, Office of Distance and Extended Learning</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Director, Office of Distance and Extended Learning</label>
+            </value>
+            <value>
+                <fullName>Educational technology or services provider</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Educational technology or services provider</label>
+            </value>
+            <value>
+                <fullName>Embedded Learning Specialist</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Embedded Learning Specialist</label>
+            </value>
+            <value>
+                <fullName>Executive Master Teacher</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Executive Master Teacher</label>
+            </value>
+            <value>
+                <fullName>Faculty - Fulltime</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Faculty - Fulltime</label>
+            </value>
+            <value>
+                <fullName>Faculty Counselor</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Faculty Counselor</label>
+            </value>
+            <value>
+                <fullName>Faculty Librarian</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Faculty Librarian</label>
+            </value>
+            <value>
+                <fullName>Faculty Support Specialist</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Faculty Support Specialist</label>
+            </value>
+            <value>
+                <fullName>Front office</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Front office</label>
+            </value>
+            <value>
+                <fullName>Full Time Instructor - Psychology</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Full Time Instructor - Psychology</label>
+            </value>
+            <value>
+                <fullName>Grader</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Grader</label>
+            </value>
+            <value>
+                <fullName>Graduate Student Instructor (I will be teaching an Intro to Sociology next semester but I am a graduate student)</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Graduate Student Instructor (I will be teaching an Intro to Sociology next semester but I am a graduate student)</label>
+            </value>
+            <value>
+                <fullName>Graduate Teaching Assistant</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Graduate Teaching Assistant</label>
+            </value>
+            <value>
+                <fullName>Head of Studies / Academic Director</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Head of Studies / Academic Director</label>
+            </value>
+            <value>
+                <fullName>Head of foreign languages</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Head of foreign languages</label>
+            </value>
+            <value>
+                <fullName>High school social studies :/ English</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>High school social studies :/ English</label>
+            </value>
+            <value>
+                <fullName>I am a Teacher Assistant grader</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>I am a Teacher Assistant grader</label>
+            </value>
+            <value>
+                <fullName>I am the math &amp; science academic interventionist.</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>I am the math &amp; science academic interventionist.</label>
+            </value>
+            <value>
+                <fullName>Instructional Assistant</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Instructional Assistant</label>
+            </value>
+            <value>
+                <fullName>Instructional Coach</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Instructional Coach</label>
+            </value>
+            <value>
+                <fullName>Instructional Coach / Facilitator</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Instructional Coach / Facilitator</label>
+            </value>
+            <value>
+                <fullName>Instructional Design</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Instructional Design</label>
+            </value>
+            <value>
+                <fullName>Instructional Designer and Adjunct Faculty</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Instructional Designer and Adjunct Faculty</label>
+            </value>
+            <value>
+                <fullName>Instructional Facilitator</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Instructional Facilitator</label>
+            </value>
+            <value>
+                <fullName>Instructional Librarian</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Instructional Librarian</label>
+            </value>
+            <value>
+                <fullName>Instructional Specialist</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Instructional Specialist</label>
+            </value>
+            <value>
+                <fullName>Instructional Technologist</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Instructional Technologist</label>
+            </value>
+            <value>
+                <fullName>Instructional Technology Coach</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Instructional Technology Coach</label>
+            </value>
+            <value>
+                <fullName>Instructional Technology Support Specialist</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Instructional Technology Support Specialist</label>
+            </value>
+            <value>
+                <fullName>Instructor, Program Dev</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Instructor, Program Dev</label>
+            </value>
+            <value>
+                <fullName>LMS administrator</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>LMS administrator</label>
+            </value>
+            <value>
+                <fullName>Lab Coordinator</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Lab Coordinator</label>
+            </value>
+            <value>
+                <fullName>Lab Facilitator</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Lab Facilitator</label>
+            </value>
+            <value>
+                <fullName>Learning Assistance Center Coordinator</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Learning Assistance Center Coordinator</label>
+            </value>
+            <value>
+                <fullName>Learning Assistant</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Learning Assistant</label>
+            </value>
+            <value>
+                <fullName>Learning Center Staff</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Learning Center Staff</label>
+            </value>
+            <value>
+                <fullName>Learning Specialist</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Learning Specialist</label>
+            </value>
+            <value>
+                <fullName>Lecture</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Lecture</label>
+            </value>
+            <value>
+                <fullName>Lecturer</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Lecturer</label>
+            </value>
+            <value>
+                <fullName>Librarian (on an committee to help promote and implement OER)</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Librarian (on an committee to help promote and implement OER)</label>
+            </value>
+            <value>
+                <fullName>Librarian and ASCCC OER liaison for college</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Librarian and ASCCC OER liaison for college</label>
+            </value>
+            <value>
+                <fullName>Librarian and Math Teacher</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Librarian and Math Teacher</label>
+            </value>
+            <value>
+                <fullName>Librarian- participant in the OpenStax Institutional Partnership</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Librarian- participant in the OpenStax Institutional Partnership</label>
+            </value>
+            <value>
+                <fullName>Library</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Library</label>
+            </value>
+            <value>
+                <fullName>Library Director and OER Grant Administrator</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Library Director and OER Grant Administrator</label>
+            </value>
+            <value>
+                <fullName>Library Director, Assistant Professor</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Library Director, Assistant Professor</label>
+            </value>
+            <value>
+                <fullName>Library Media Specialist</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Library Media Specialist</label>
+            </value>
+            <value>
+                <fullName>Library Staff</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Library Staff</label>
+            </value>
+            <value>
+                <fullName>Library faculty</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Library faculty</label>
+            </value>
+            <value>
+                <fullName>Literacy Coach and Social Studies Teacher</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Literacy Coach and Social Studies Teacher</label>
+            </value>
+            <value>
+                <fullName>Manager of Auxiliary Services, Book Buyer</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Manager of Auxiliary Services, Book Buyer</label>
+            </value>
+            <value>
+                <fullName>Math Tutor in Learning Lab, embedded in College Algebra class</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Math Tutor in Learning Lab, embedded in College Algebra class</label>
+            </value>
+            <value>
+                <fullName>Math teacher</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Math teacher</label>
+            </value>
+            <value>
+                <fullName>Math/STEM Coach</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Math/STEM Coach</label>
+            </value>
+            <value>
+                <fullName>Media Coordinator</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Media Coordinator</label>
+            </value>
+            <value>
+                <fullName>Media Specialist</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Media Specialist</label>
+            </value>
+            <value>
+                <fullName>Media specialist and director of PHS Peer Tutoring Center</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Media specialist and director of PHS Peer Tutoring Center</label>
+            </value>
+            <value>
+                <fullName>Mentor Teacher</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Mentor Teacher</label>
+            </value>
+            <value>
+                <fullName>Office of Disability Services/ Assistive Technology Lab Technician</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Office of Disability Services/ Assistive Technology Lab Technician</label>
+            </value>
+            <value>
+                <fullName>Online Ed - Instructional Technologist</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Online Ed - Instructional Technologist</label>
+            </value>
+            <value>
+                <fullName>Online Learning Support Specialist</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Online Learning Support Specialist</label>
+            </value>
+            <value>
+                <fullName>Operations Coordinator</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Operations Coordinator</label>
+            </value>
+            <value>
+                <fullName>Paraeducator</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Paraeducator</label>
+            </value>
+            <value>
+                <fullName>Paraprofessional</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Paraprofessional</label>
+            </value>
+            <value>
+                <fullName>Parent liaison</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Parent liaison</label>
+            </value>
+            <value>
+                <fullName>Part time instructor</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Part time instructor</label>
+            </value>
+            <value>
+                <fullName>Part-time XBlock Instructor. Also on Advancement staff.</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Part-time XBlock Instructor. Also on Advancement staff.</label>
+            </value>
+            <value>
+                <fullName>Partner and Community Manager</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Partner and Community Manager</label>
+            </value>
+            <value>
+                <fullName>PhD</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>PhD</label>
+            </value>
+            <value>
+                <fullName>Postdoctoral researcher</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Postdoctoral researcher</label>
+            </value>
+            <value>
+                <fullName>Primary Support Person/SNA</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Primary Support Person/SNA</label>
+            </value>
+            <value>
+                <fullName>Professional Development Specialist</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Professional Development Specialist</label>
+            </value>
+            <value>
+                <fullName>Professional Tutor</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Professional Tutor</label>
+            </value>
+            <value>
+                <fullName>Professor</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Professor</label>
+            </value>
+            <value>
+                <fullName>Professor emerita, tutor</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Professor emerita, tutor</label>
+            </value>
+            <value>
+                <fullName>Program Coordinator</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Program Coordinator</label>
+            </value>
+            <value>
+                <fullName>Reciation Leader</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Reciation Leader</label>
+            </value>
+            <value>
+                <fullName>Registrar/ID</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Registrar/ID</label>
+            </value>
+            <value>
+                <fullName>Research Assistant</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Research Assistant</label>
+            </value>
+            <value>
+                <fullName>Research Faculty</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Research Faculty</label>
+            </value>
+            <value>
+                <fullName>Researcher</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Researcher</label>
+            </value>
+            <value>
+                <fullName>Resource Specialist</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Resource Specialist</label>
+            </value>
+            <value>
+                <fullName>STEM Math Coach</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>STEM Math Coach</label>
+            </value>
+            <value>
+                <fullName>School Librarian Media Specialist</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>School Librarian Media Specialist</label>
+            </value>
+            <value>
+                <fullName>School librarian/tutor</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>School librarian/tutor</label>
+            </value>
+            <value>
+                <fullName>Science Support Teacher</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Science Support Teacher</label>
+            </value>
+            <value>
+                <fullName>Science Teaching Assistant and Tutor</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Science Teaching Assistant and Tutor</label>
+            </value>
+            <value>
+                <fullName>Secondary Instructional Lead Teacher</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Secondary Instructional Lead Teacher</label>
+            </value>
+            <value>
+                <fullName>Secretary</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Secretary</label>
+            </value>
+            <value>
+                <fullName>Senior Teacher</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Senior Teacher</label>
+            </value>
+            <value>
+                <fullName>Social Worker</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Social Worker</label>
+            </value>
+            <value>
+                <fullName>Some instruction, some administration</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Some instruction, some administration</label>
+            </value>
+            <value>
+                <fullName>Special education  paraprofessional</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Special education  paraprofessional</label>
+            </value>
+            <value>
+                <fullName>Speech Language Pathologist</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Speech Language Pathologist</label>
+            </value>
+            <value>
+                <fullName>Student Support Services Tutor</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Student Support Services Tutor</label>
+            </value>
+            <value>
+                <fullName>Student Teacher</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Student Teacher</label>
+            </value>
+            <value>
+                <fullName>Student Tutor/Teaching Intern</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Student Tutor/Teaching Intern</label>
+            </value>
+            <value>
+                <fullName>Substitute Teacher</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Substitute Teacher</label>
+            </value>
+            <value>
+                <fullName>Supplemental Instructor</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Supplemental Instructor</label>
+            </value>
+            <value>
+                <fullName>TA</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>TA</label>
+            </value>
+            <value>
+                <fullName>TSR representative</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>TSR representative</label>
+            </value>
+            <value>
+                <fullName>Teacher</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Teacher</label>
+            </value>
+            <value>
+                <fullName>Teacher Development Specialist</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Teacher Development Specialist</label>
+            </value>
+            <value>
+                <fullName>Teaching Assistant</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Teaching Assistant</label>
+            </value>
+            <value>
+                <fullName>Teaching faculty’s</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Teaching faculty’s</label>
+            </value>
+            <value>
+                <fullName>Technology Instructional Specialist</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Technology Instructional Specialist</label>
+            </value>
+            <value>
+                <fullName>Testing and Data Coach</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Testing and Data Coach</label>
+            </value>
+            <value>
+                <fullName>Tutor</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Tutor</label>
+            </value>
+            <value>
+                <fullName>Tutors</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Tutors</label>
+            </value>
+            <value>
+                <fullName>University Faculty Senate</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>University Faculty Senate</label>
+            </value>
+            <value>
+                <fullName>Virtual Bookstore Liaison</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Virtual Bookstore Liaison</label>
+            </value>
+            <value>
+                <fullName>Workforce Development Specialist</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Workforce Development Specialist</label>
+            </value>
+            <value>
+                <fullName>adjunct</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>adjunct</label>
+            </value>
+            <value>
+                <fullName>coordinator</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>coordinator</label>
+            </value>
+            <value>
+                <fullName>dept chair</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>dept chair</label>
+            </value>
+            <value>
+                <fullName>designer</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>designer</label>
+            </value>
+            <value>
+                <fullName>educational support team</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>educational support team</label>
+            </value>
+            <value>
+                <fullName>elearning Specialist, LMS Administrator &amp; Adjunct instructor</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>elearning Specialist, LMS Administrator &amp; Adjunct instructor</label>
+            </value>
+            <value>
+                <fullName>faculty - Instructor</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>faculty - Instructor</label>
+            </value>
+            <value>
+                <fullName>homeschool</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>homeschool</label>
+            </value>
+            <value>
+                <fullName>instructional aide</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>instructional aide</label>
+            </value>
+            <value>
+                <fullName>lab tech</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>lab tech</label>
+            </value>
+            <value>
+                <fullName>librarian faculty</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>librarian faculty</label>
+            </value>
+            <value>
+                <fullName>online tutor</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>online tutor</label>
+            </value>
+            <value>
+                <fullName>postdoc with a teaching position</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>postdoc with a teaching position</label>
+            </value>
+            <value>
+                <fullName>reference technician</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>reference technician</label>
+            </value>
+            <value>
+                <fullName>tutor at tutoring center of RCC.</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>tutor at tutoring center of RCC.</label>
+            </value>
+            <value>
+                <fullName>unknown_role</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>unknown_role</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+    <visibleLines>4</visibleLines>
+</CustomField>

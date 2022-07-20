@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Account__c</fullName>
+    <externalId>false</externalId>
+    <label>Organization</label>
+    <lookupFilter>
+        <active>true</active>
+        <errorMessage>Needs to be a partner</errorMessage>
+        <filterItems>
+            <field>Account.RecordTypeName__c</field>
+            <operation>equals</operation>
+            <value>Partner</value>
+        </filterItems>
+        <isOptional>false</isOptional>
+    </lookupFilter>
+    <referenceTo>Account</referenceTo>
+    <relationshipLabel>Partner Changes</relationshipLabel>
+    <relationshipName>Partner_Changes</relationshipName>
+    <relationshipOrder>0</relationshipOrder>
+    <reparentableMasterDetail>false</reparentableMasterDetail>
+    <trackTrending>false</trackTrending>
+    <type>MasterDetail</type>
+    <writeRequiresMasterRead>false</writeRequiresMasterRead>
+</CustomField>

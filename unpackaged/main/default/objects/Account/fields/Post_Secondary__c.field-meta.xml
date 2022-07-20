@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Post_Secondary__c</fullName>
+    <externalId>false</externalId>
+    <formula>IF(  ISPICKVAL( Type, "College/University (4)"),true,
+IF(  ISPICKVAL( Type, "Technical/Community College (2)"), true,
+IF(  ISPICKVAL( Type, "Career School/For-Profit (2)"), true,
+False
+)))</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>Post Secondary</label>
+    <trackHistory>false</trackHistory>
+    <type>Checkbox</type>
+</CustomField>

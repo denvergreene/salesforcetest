@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customValue>
+        <fullName>no_faculty_info</fullName>
+        <default>false</default>
+        <label>No Faculty Info</label>
+    </customValue>
+    <customValue>
+        <fullName>incomplete_signup</fullName>
+        <default>false</default>
+        <label>Incomplete Signup</label>
+    </customValue>
+    <customValue>
+        <fullName>pending_faculty</fullName>
+        <default>false</default>
+        <label>Pending</label>
+    </customValue>
+    <customValue>
+        <fullName>rejected_by_sheerid</fullName>
+        <default>false</default>
+        <label>Rejected by SheerID</label>
+    </customValue>
+    <customValue>
+        <fullName>rejected_faculty</fullName>
+        <default>false</default>
+        <label>Rejected</label>
+    </customValue>
+    <customValue>
+        <fullName>confirmed_faculty</fullName>
+        <default>false</default>
+        <label>Confirmed</label>
+    </customValue>
+    <masterLabel>FV Status</masterLabel>
+    <sorted>false</sorted>
+</GlobalValueSet>

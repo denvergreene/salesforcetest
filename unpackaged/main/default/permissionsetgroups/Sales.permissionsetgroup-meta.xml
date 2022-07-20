@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<PermissionSetGroup xmlns="http://soap.sforce.com/2006/04/metadata">
+    <description>Permission set group needed for Sales team members</description>
+    <hasActivationRequired>false</hasActivationRequired>
+    <label>Sales</label>
+    <permissionSets>Campaign_Influence</permissionSets>
+    <permissionSets>Marketing_User_Permissions</permissionSets>
+    <permissionSets>Merge_Accounts</permissionSets>
+    <permissionSets>Multi_Factor_Authentication_Required</permissionSets>
+    <permissionSets>force__AnalyticsViewOnlyUser</permissionSets>
+    <permissionSets>force__B2BMarketingAnalytics</permissionSets>
+    <permissionSets>force__StandardEinsteinActivityCapturePsl</permissionSets>
+    <permissionSets>pi__Sales_Edge</permissionSets>
+    <status>Updated</status>
+</PermissionSetGroup>

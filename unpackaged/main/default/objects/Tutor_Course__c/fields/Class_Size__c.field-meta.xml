@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Class_Size__c</fullName>
+    <externalId>false</externalId>
+    <formula>IF(AND(Students_Using__c &gt;= 3,Students_Using__c &lt;= 50),"Small",
+IF(AND(Students_Using__c &gt;= 51,Students_Using__c &lt;= 100), "Med",
+IF(AND(Students_Using__c &gt;= 101,Students_Using__c &lt;= 150), "Large",
+IF(Students_Using__c &gt; 151, "XLG",
+NULL))))</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>Class Size</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

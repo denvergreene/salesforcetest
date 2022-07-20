@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>School_Year__c</fullName>
+    <externalId>false</externalId>
+    <formula>CASE(Base_Year__c, 
+2011, "2011 - 12", 
+2012, "2012 - 13", 
+2013, "2013 - 14", 
+2014, "2014 - 15", 
+2015, "2015 - 16", 
+2016, "2016 - 17", 
+2017, "2017 - 18", 
+2018, "2018 - 19", 
+2019, "2019 - 20", 
+2020, "2020 - 21", 
+2021, "2021 - 22", 
+2022, "2022 - 23", 
+"fix formula")</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>School Year</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

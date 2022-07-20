@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Campaign_Status__c</fullName>
+    <externalId>false</externalId>
+    <formula>IF(pi__score__c  &gt;= 300, 'SQL',
+IF(AND (pi__score__c  &gt;= 100, pi__score__c  &lt; 300), 'MQL',
+IF(AND (pi__score__c  &gt;= 51, pi__score__c  &lt; 100), 'Warm', 
+IF(AND (pi__score__c  &gt;= 0, pi__score__c  &lt; 50), 'Cold'
+,""
+))))</formula>
+    <label>Campaign Status</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Tutor_Renewal__c</fullName>
+    <externalId>false</externalId>
+    <formula>IF(
+Base_Year__c - YEAR(Contact__r.Initial_tutor_date__c) - IF( MONTH(Contact__r.Initial_tutor_date__c) &gt; 6, 0, 1)  
+
+   &gt;0,TRUE,FALSE)</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>Tutor Renewal</label>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+</CustomField>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<PermissionSetGroup xmlns="http://soap.sforce.com/2006/04/metadata">
+    <description>Customer service required permission sets</description>
+    <hasActivationRequired>false</hasActivationRequired>
+    <label>Customer Service</label>
+    <permissionSets>Live_Agent_Stats</permissionSets>
+    <permissionSets>Merge_Accounts</permissionSets>
+    <permissionSets>Multi_Factor_Authentication_Required</permissionSets>
+    <permissionSets>View_Converted_Leads</permissionSets>
+    <permissionSets>force__VoiceInbound</permissionSets>
+    <permissionSets>force__VoiceOutbound</permissionSets>
+    <status>Updated</status>
+</PermissionSetGroup>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Book_Subject_Difference__c</fullName>
+    <externalId>false</externalId>
+    <formula>IF(  Number_of_books_adopted__c &gt; Number_of_Subjects__c , Number_of_books_adopted__c - Number_of_Subjects__c,0)</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <inlineHelpText>Difference between number of books adopted and interested</inlineHelpText>
+    <label>Book Subject Difference</label>
+    <precision>18</precision>
+    <required>false</required>
+    <scale>0</scale>
+    <trackHistory>false</trackHistory>
+    <type>Number</type>
+    <unique>false</unique>
+</CustomField>

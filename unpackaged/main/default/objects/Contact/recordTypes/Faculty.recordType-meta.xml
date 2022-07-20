@@ -1,0 +1,1719 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RecordType xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Faculty</fullName>
+    <active>true</active>
+    <label>Faculty</label>
+    <picklistValues>
+        <picklist>Adoption_Status_Pick__c</picklist>
+        <values>
+            <fullName>Current Adopter</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Future Adopter</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Not Adopter</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Past Adopter</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Contribution_Subject__c</picklist>
+        <values>
+            <fullName>AP Bio</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>AP History</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>AP Macro Econ</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>AP Micro Econ</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>AP Physics</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Algebra and Trigonometry</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>American Government</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Anatomy %26 Physiology</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Astronomy</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Basic College Math</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Biology</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Business Ethics</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Business Statistics</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Calculus</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Career Readiness</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Chem%3A Atoms First</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Chemistry</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>College Algebra</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>College Physics %28Algebra%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>College Success</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Concepts of Bio %28non-majors%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Economics</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Elementary Algebra</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Entrepreneurship</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Financial Accounting</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Finite Algebra</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>HS Physics</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>HS Statistics</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Intermediate Algebra</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Introduction to Business</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Introduction to Sociology</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Introductory Statistics</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Macro Econ</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Management</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Managerial_Accounting</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Math</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Micro Econ</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Microbiology</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Organizational Behavior</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Other</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Prealgebra</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Precalc</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Psychology</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>US History</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>University Physics %28Calc%29</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Contribution_level__c</picklist>
+        <values>
+            <fullName>Advisor%2FAdvocate</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Ancillary%2FComponent</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Author%2FContent Lead</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Content Donation%2FHub Contribution</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Interest</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Neither</fullName>
+            <default>true</default>
+        </values>
+        <values>
+            <fullName>Reviewer</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Discipline__c</picklist>
+        <values>
+            <fullName>Business</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>College Success</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Essentials</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>High School</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Humanities</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Math</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Science</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Social Sciences</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>FV_Status__c</picklist>
+        <values>
+            <fullName>confirmed_faculty</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>incomplete_signup</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>no_faculty_info</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>pending_faculty</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>rejected_by_sheerid</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>rejected_faculty</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Funnel_Subphase__c</picklist>
+        <values>
+            <fullName>Adoption</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Decision</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Engaged</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Interest</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Retention</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>How_did_you_Hear__c</picklist>
+        <values>
+            <fullName>Colleague</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Conference</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Email</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Facebook</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Partner organization</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Twitter</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Web Search</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Webinar</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>LMS_Option__c</picklist>
+        <values>
+            <fullName>Blackboard</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Canvas</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>D2L %28Desire2Learn%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Moodle</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Other</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>LeadSource</picklist>
+        <values>
+            <fullName>Adoption Form</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>BMG Import</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Chat</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Comp Request</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Conference</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Customer Service Ticket</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Donation</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Email</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Facebook Ads</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Followup Form</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Institutional Relations</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>LinkedIn Ads</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Manual List Adds</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Newsletter</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Offsite Creator Feast Registration Form</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Offsite Go-To-Webinar Form</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Partner</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Partner Marketplace</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Phone</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Referral Form</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Renewal Form</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Renewal Popup</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Rover</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Student</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>TSR</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Testimonial</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Web</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Webinar</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Website Contact Us Form</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Website E-Newsletter Sign-Up Form</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Website Institutional Partner Sign Up Form</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Website Tutor Webinar Form</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Master_Review__c</picklist>
+        <values>
+            <fullName>Completed</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Needs Review</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>No Change</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Name</picklist>
+        <values>
+            <fullName>Dr%2E</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Mr%2E</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Mrs%2E</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Ms%2E</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Mx%2E</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Prof%2E</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Page_Source__c</picklist>
+        <values>
+            <fullName>About</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Blog</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Book Details -  Business - Higher Ed - Business</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Book Details - Business - HS - Business Ethics</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Book Details - Business - HS - Business Law Essentials 1</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Book Details - Business - HS - Intro to Business</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Book Details - Business - HS - Principles of Mgmt</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Book Details - Business - Higher Ed - Accounting</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Book Details - College Success - HS%2FHigher Ed - College Success</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Book Details - Humanities - Higher Ed - History</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Book Details - Management - Higher Ed - Management %26 Organization Behavior</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Book Details - Math - HS - Algebra %26 Trigonometry</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Book Details - Math - HS - Calculus</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Book Details - Math - HS - Elementary Algebra</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Book Details - Math - HS - High School Statistics</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Book Details - Math - HS - Intermediate Algebra</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Book Details - Math - HS - Introductory Statistics</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Book Details - Math - HS - Prealgebra</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Book Details - Math - HS - Precalculus</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Book Details - Math - Higher Ed - Calculus</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Book Details - Math - Higher Ed - Developmental Math</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Book Details - Math - Higher Ed - Precalculus Series</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Book Details - Math - Higher Ed - Statistics</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Book Details - Science - HS - Anatomy %26 Physiology</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Book Details - Science - HS - Biology</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Book Details - Science - HS - Biology for AP Courses</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Book Details - Science - HS - Chemistry Atoms First</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Book Details - Science - HS - College Physics</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Book Details - Science - HS - Concepts of Biology</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Book Details - Science - HS - High School Physics</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Book Details - Science - HS - Microbiology</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Book Details - Science - HS - Physics for AP Courses</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Book Details - Science - HS - University Physics</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Book Details - Science - Higher Ed - Anatomy %26 Physiology</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Book Details - Science - Higher Ed - Astronomy</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Book Details - Science - Higher Ed - Biology</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Book Details - Science - Higher Ed - Chemistry</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Book Details - Science - Higher Ed - College Physics</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Book Details - Science - Higher Ed - University Physics</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Book Details - Science HS - Chemistry</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Book Details - Social Science - HS - AP Macroeconomics</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Book Details - Social Science - HS - AP Microeconomics</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Book Details - Social Science - HS - Macroeconomics</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Book Details - Social Science - HS - Microeconomics</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Book Details - Social Science - HS - Principles of Economics</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Book Details - Social Sciences - Higher Ed - Economics</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Book Details - Social Sciences - Higher Ed - Government</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Book Details - Social Sciences - Higher Ed - Psychology</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Book Details - Social Sciences - Higher Ed - Sociology</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Book Details - Social Studies - HS - AP US History</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Book Details - Social Studies - HS - American Government</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Book Details - Social Studies - HS - US History</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Bookstore Suppliers</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Contact</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Creator Fest</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Dedicated Pardot Landing Page</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>EventBrite</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>FAQ</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>General Online Resources</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Go-To Webinar</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Home</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Impact</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Institutional Partners</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Partners</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Research</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Rover</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Support</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Team</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Tech Scout</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Tutor</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Webinars</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Participant_Type__c</picklist>
+        <values>
+            <fullName>External</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Internal</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Position__c</picklist>
+        <values>
+            <fullName>Accounting</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Adjunct Faculty</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Administrator</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Bookstore</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Department Head</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Faculty</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Grad Student</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Home School Teacher</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Instructional Designer</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Instructor</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Leads</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Librarian</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Marketer</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Marketing</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Other</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Partner</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Partner Portal User</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Primary</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Student</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Research__c</picklist>
+        <values>
+            <fullName>Interested</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Not Interested</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Participating</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Undecided</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Role__c</picklist>
+        <values>
+            <fullName>Instructor</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Student</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Selected_Books__c</picklist>
+        <values>
+            <fullName>AP Bio</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>AP Macro Econ</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>AP Micro Econ</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>AP Physics</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Algebra and Trigonometry</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>American Government</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Anatomy %26 Physiology</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Anthropology</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Astronomy</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Biology</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Business Ethics</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Business Law I Essentials</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Business Statistics</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Calculus</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Chem%3A Atoms First</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Chemistry</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>College Algebra</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>College Algebra with Corequisite Support</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>College Physics %28Algebra%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>College Success</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Concepts of Bio %28non-majors%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Contemporary Math</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Economics</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Elementary Algebra</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Entrepreneurship</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Financial Accounting</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Física universitaria</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>HS Physics</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>HS Statistics</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Intellectual Property</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Intermediate Algebra</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Introducción a la estadística</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Introducción a la estadística empresarial</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Introduction to Business</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Introduction to Intellectual Property</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Introduction to Philosophy</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Introduction to Political Science</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Introduction to Sociology</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Introductory Statistics</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>LLPH</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Macro Econ</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Management</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Managerial Accounting</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Micro Econ</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Microbiology</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Not Listed</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Organizational Behavior</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Prealgebra</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Precalc</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Principles of Finance</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Psychology</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>US History</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>University Physics %28Calc%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>World History</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Writing Guide</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Subject_Interest__c</picklist>
+        <values>
+            <fullName>AP Bio</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>AP Macro Econ</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>AP Micro Econ</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>AP Physics</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Algebra and Trigonometry</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>American Government</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Anatomy %26 Physiology</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Anthropology</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Astronomy</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Biology</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Business Ethics</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Business Law I Essentials</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Business Statistics</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Calculus</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Chem%3A Atoms First</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Chemistry</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>College Algebra</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>College Algebra with Corequisite Support</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>College Physics %28Algebra%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>College Success</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Concepts of Bio %28non-majors%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Contemporary Math</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Economics</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Elementary Algebra</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Entrepreneurship</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Financial Accounting</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Física universitaria</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>HS Physics</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>HS Statistics</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Intellectual Property</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Intermediate Algebra</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Introducción a la estadística</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Introducción a la estadística empresarial</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Introduction to Business</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Introduction to Intellectual Property</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Introduction to Philosophy</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Introduction to Political Science</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Introduction to Sociology</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Introductory Statistics</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>LLPH</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Macro Econ</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Management</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Managerial Accounting</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Micro Econ</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Microbiology</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Not Listed</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Organizational Behavior</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Prealgebra</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Precalc</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Principles of Finance</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Psychology</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>US History</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>University Physics %28Calc%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>World History</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Writing Guide</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Subject__c</picklist>
+        <values>
+            <fullName>AP Bio</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>AP Macro Econ</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>AP Micro Econ</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>AP Physics</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Administrator</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Algebra and Trigonometry</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>American Government</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Anatomy %26 Physiology</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Anthropology</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Astronomy</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Basic College Math</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Biology</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Business Ethics</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Business Law I Essentials</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Business Statistics</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Calculus</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Career Readiness</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Chem%3A Atoms First</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Chemistry</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>College Algebra</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>College Algebra with Corequisite Support</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>College Physics %28Algebra%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>College Success</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Concepts of Bio %28non-majors%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Contemporary Math</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Economics</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Elementary Algebra</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Entrepreneurship</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Financial Accounting</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Finite Algebra</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>HS Physics</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>HS Statistics</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Intellectual Property</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Intermediate Algebra</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Introduction to Business</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Introduction to Intellectual Property</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Introduction to Philosophy</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Introduction to Political Science</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Introduction to Sociology</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Introductory Statistics</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>LLPH</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Macro Econ</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Management</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Managerial Accounting</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Math</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Micro Econ</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Microbiology</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Not Listed</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Organizational Behavior</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Other</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Prealgebra</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Precalc</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Principles of Finance</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Psychology</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>US History</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>University Physics %28Calc%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>World History</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Writing Guide</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>TSR_Status__c</picklist>
+        <values>
+            <fullName>Contacted</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Demo</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Interested</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Lost</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Testimonial__c</picklist>
+        <values>
+            <fullName>No</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Yes</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Tutor__c</picklist>
+        <values>
+            <fullName>1%2E Warm</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>2%2E Contacted</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>3%2E Interested</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>4%2E Demo</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>5%2E Created a preview course in Tutor</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>6%2E Created a Real Course in Tutor</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>7%2E Lost</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>who_chooses_books__c</picklist>
+        <values>
+            <fullName>Committee</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Coordinator</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Instructor</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+</RecordType>

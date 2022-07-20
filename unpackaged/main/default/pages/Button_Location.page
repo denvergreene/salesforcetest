@@ -1,0 +1,20 @@
+<apex:page sidebar="false" showHeader="false" lightningStylesheets="true">
+    <apex:slds />
+    
+        <div>
+       <p class="slds-text-heading_medium">
+        <b>Breakdown by Location</b> </p>
+        <ul class="slds-list_dotted">
+         <li> Student numbers</li>
+         <li> Texas Percentage</li>
+         <li> Countries with Adoptions</li>
+        </ul>
+        <br />
+
+        <div class="slds-grid slds-wrap slds-size_1-of-1">
+            <a href="https://openstax.lightning.force.com/lightning/r/Dashboard/01Z6f000001605AEAQ/view?queryScope=userFolders" class="slds-button slds-button_brand" > 
+                Location
+            </a>
+        </div>
+    </div>  
+</apex:page>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customValue>
+        <fullName>We haven’t incorporated this yet.</fullName>
+        <default>false</default>
+        <label>We haven’t incorporated this yet.</label>
+    </customValue>
+    <customValue>
+        <fullName>Our product uses language that reflects diversity, but does not use equity-minded language to address systemic barriers affecting student populations.</fullName>
+        <default>false</default>
+        <label>Our product uses language that reflects diversity, but does not use equity-minded language to address systemic barriers affecting student populations.</label>
+    </customValue>
+    <customValue>
+        <fullName>Our product uses limited equity-minded language.</fullName>
+        <default>false</default>
+        <label>Our product uses limited equity-minded language.</label>
+    </customValue>
+    <customValue>
+        <fullName>Our product uses equity-minded language throughout.</fullName>
+        <default>false</default>
+        <label>Our product uses equity-minded language throughout.</label>
+    </customValue>
+    <masterLabel>Equity Language</masterLabel>
+    <sorted>false</sorted>
+</GlobalValueSet>

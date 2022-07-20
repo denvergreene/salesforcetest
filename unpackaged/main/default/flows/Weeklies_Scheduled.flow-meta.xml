@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Flow xmlns="http://soap.sforce.com/2006/04/metadata">
+    <apiVersion>51.0</apiVersion>
+    <description>Goes to Subflow only</description>
+    <interviewLabel>Weeklies Scheduled {!$Flow.CurrentDateTime}</interviewLabel>
+    <label>Weeklies Scheduled</label>
+    <processMetadataValues>
+        <name>BuilderType</name>
+        <value>
+            <stringValue>LightningFlowBuilder</stringValue>
+        </value>
+    </processMetadataValues>
+    <processMetadataValues>
+        <name>CanvasMode</name>
+        <value>
+            <stringValue>FREE_FORM_CANVAS</stringValue>
+        </value>
+    </processMetadataValues>
+    <processMetadataValues>
+        <name>OriginBuilderType</name>
+        <value>
+            <stringValue>LightningFlowBuilder</stringValue>
+        </value>
+    </processMetadataValues>
+    <processType>AutoLaunchedFlow</processType>
+    <start>
+        <locationX>20</locationX>
+        <locationY>50</locationY>
+        <connector>
+            <targetReference>Weeklies_Base</targetReference>
+        </connector>
+        <schedule>
+            <frequency>Weekly</frequency>
+            <startDate>2021-03-14</startDate>
+            <startTime>07:00:00.000Z</startTime>
+        </schedule>
+        <triggerType>Scheduled</triggerType>
+    </start>
+    <status>Active</status>
+    <subflows>
+        <name>Weeklies_Base</name>
+        <label>Weeklies Base</label>
+        <locationX>496</locationX>
+        <locationY>112</locationY>
+        <flowName>Weeklies_Base</flowName>
+        <inputAssignments>
+            <name>varRecordID</name>
+            <value>
+                <elementReference>varRecordID</elementReference>
+            </value>
+        </inputAssignments>
+    </subflows>
+    <variables>
+        <name>varRecordID</name>
+        <dataType>String</dataType>
+        <isCollection>false</isCollection>
+        <isInput>true</isInput>
+        <isOutput>false</isOutput>
+    </variables>
+</Flow>

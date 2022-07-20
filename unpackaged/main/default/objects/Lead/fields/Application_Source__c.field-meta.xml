@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Application_Source__c</fullName>
+    <externalId>false</externalId>
+    <label>Application Source</label>
+    <required>false</required>
+    <trackFeedHistory>true</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Tutor Signup</fullName>
+                <default>false</default>
+                <label>Tutor Signup</label>
+            </value>
+            <value>
+                <fullName>OS Web</fullName>
+                <default>false</default>
+                <label>OS Web</label>
+            </value>
+            <value>
+                <fullName>Accounts</fullName>
+                <default>false</default>
+                <label>Accounts</label>
+            </value>
+            <value>
+                <fullName>Formsite</fullName>
+                <default>false</default>
+                <label>Formsite</label>
+            </value>
+            <value>
+                <fullName>Zapier</fullName>
+                <default>false</default>
+                <label>Zapier</label>
+            </value>
+            <value>
+                <fullName>OS Web/Accounts</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>OS Web/Accounts</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

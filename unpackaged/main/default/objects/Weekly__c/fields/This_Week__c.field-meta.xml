@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>This_Week__c</fullName>
+    <externalId>false</externalId>
+    <formula>Week_No__c 
+=
+MIN(  
+ MCEILING(
+  (
+   IF( 
+    MOD(YEAR( TODAY() ),4)=0, 
+    366,
+    365
+   )
+   -
+   (
+    DATE(YEAR( TODAY()),12,31) 
+    - 
+    TODAY()
+   ) 
+  ) 
+  /7), 
+ 52
+) 
+-
+IF( 
+ WEEKDAY(DATE(YEAR(TODAY()),1,1)) = 1,
+ 0,
+ IF(
+  WEEKDAY(Today()) &gt;= WEEKDAY(DATE(YEAR(TODAY()),1,1)),
+  1,
+  0
+ )
+)</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>This Week</label>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+</CustomField>

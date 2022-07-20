@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Accounts_This_Week</fullName>
+    <columns>NAME</columns>
+    <columns>Accounts_Link__c</columns>
+    <columns>Signup_Date__c</columns>
+    <columns>Account_Role__c</columns>
+    <columns>Faculty_Status__c</columns>
+    <columns>Lead__c</columns>
+    <columns>Contact__c</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>Signup_Date__c</field>
+        <operation>greaterOrEqual</operation>
+        <value>THIS_MONTH</value>
+    </filters>
+    <label>Accounts This Month</label>
+</ListView>

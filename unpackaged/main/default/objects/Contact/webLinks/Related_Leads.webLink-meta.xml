@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WebLink xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Related_Leads</fullName>
+    <availability>online</availability>
+    <displayType>link</displayType>
+    <encodingKey>UTF-8</encodingKey>
+    <linkType>url</linkType>
+    <masterLabel>Related Leads</masterLabel>
+    <openType>replace</openType>
+    <protected>false</protected>
+    <url>/lightning/r/Report/00O0B000003S9J5/view?queryScope=userFolders&amp;fv0={!Contact.Email}</url>
+</WebLink>

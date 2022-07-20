@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Transaction_Status__c</fullName>
+    <externalId>false</externalId>
+    <label>Transaction Status</label>
+    <required>false</required>
+    <trackFeedHistory>true</trackFeedHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Success</fullName>
+                <default>false</default>
+                <label>Success</label>
+            </value>
+            <value>
+                <fullName>Fail</fullName>
+                <default>false</default>
+                <label>Fail</label>
+            </value>
+            <value>
+                <fullName>Chargeback-Open</fullName>
+                <default>false</default>
+                <label>Chargeback-Open</label>
+            </value>
+            <value>
+                <fullName>Chargeback-Win</fullName>
+                <default>false</default>
+                <label>Chargeback-Win</label>
+            </value>
+            <value>
+                <fullName>Chargeback-Lost</fullName>
+                <default>false</default>
+                <label>Chargeback-Lost</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

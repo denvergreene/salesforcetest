@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Adoption_Status_Pick__c</fullName>
+    <externalId>false</externalId>
+    <inlineHelpText>For automation, Adoption status as a picklist</inlineHelpText>
+    <label>Adoption Status P</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Current Adopter</fullName>
+                <default>false</default>
+                <label>Current Adopter</label>
+            </value>
+            <value>
+                <fullName>Future Adopter</fullName>
+                <default>false</default>
+                <label>Future Adopter</label>
+            </value>
+            <value>
+                <fullName>Past Adopter</fullName>
+                <default>false</default>
+                <label>Past Adopter</label>
+            </value>
+            <value>
+                <fullName>Not Adopter</fullName>
+                <default>false</default>
+                <label>Not Adopter</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Different_Base_Year__c</fullName>
+    <externalId>false</externalId>
+    <formula>IF( AND( NOT(ISBLANK(Fall_Start_Date__c)), NOT(ISBLANK(Spring_Start_Date__c)) ),
+
+  year( Fall_Start_Date__c )   - IF(Month(Fall_Start_Date__c)   &lt;6, 0, 1)
+  =
+  year( Spring_Start_Date__c ) - IF(Month(Spring_Start_Date__c) &lt;6, 0, 1) ,
+
+FALSE)</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>Different Base Year</label>
+    <trackHistory>false</trackHistory>
+    <type>Checkbox</type>
+</CustomField>

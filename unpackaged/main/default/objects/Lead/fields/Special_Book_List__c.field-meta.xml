@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Special_Book_List__c</fullName>
+    <externalId>false</externalId>
+    <label>Special Book List</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>MultiselectPicklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Principles of Accounting</fullName>
+                <default>false</default>
+                <label>Principles of Accounting</label>
+            </value>
+            <value>
+                <fullName>Entrepreneurship</fullName>
+                <default>false</default>
+                <label>Entrepreneurship</label>
+            </value>
+            <value>
+                <fullName>Business Ethics</fullName>
+                <default>false</default>
+                <label>Business Ethics</label>
+            </value>
+            <value>
+                <fullName>Principles of Management</fullName>
+                <default>false</default>
+                <label>Principles of Management</label>
+            </value>
+            <value>
+                <fullName>Introduction to Business</fullName>
+                <default>false</default>
+                <label>Introduction to Business</label>
+            </value>
+            <value>
+                <fullName>Organizational Behavior</fullName>
+                <default>false</default>
+                <label>Organizational Behavior</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+    <visibleLines>4</visibleLines>
+</CustomField>

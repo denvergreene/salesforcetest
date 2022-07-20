@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Book_Type__c</fullName>
+    <description>Helps to determine the type of savings number we use. Set by Andrew</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Helps to determine the type of savings number we use. Set by Andrew</inlineHelpText>
+    <label>Book Type</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>HS</fullName>
+                <default>false</default>
+                <label>HS</label>
+            </value>
+            <value>
+                <fullName>AP</fullName>
+                <default>false</default>
+                <label>AP</label>
+            </value>
+            <value>
+                <fullName>General</fullName>
+                <default>false</default>
+                <label>General</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

@@ -1,0 +1,22 @@
+<apex:component allowDML="true">
+    <apex:attribute name="search" type="String" description="Search query" />
+    <apex:attribute name="urlName" type="String" description="URL Name of article" />
+    <apex:outputPanel styleClass="relatedArticles" layout="block" style="margin-top:20px">
+        <div class="articleTitle" style="margin-top:10px">
+            Related Articles
+        </div>
+        
+        <apex:outputPanel layout="block" styleClass="searchDrillr" style="margin-top:10px">
+            <knowledge:articleList articleVar="a" 
+                keyword="{!search}"
+                pageNumber="1"
+                pagesize="10">
+                <apex:variable var="typeName" value="{!SUBSTITUTE(a.articleTypeName, '__kav', '')}" />
+                <apex:variable var="articleURL" value="{!a.urlName}" />
+                <apex:outputPanel layout="block" style="margin-bottom: 5px;" rendered="{!a.urlName != urlName}">
+                    <a class="relatedLink" href="{!'/help/articles/'+typeName+'/'+articleURL}?search={!search}" style="color:#027EB5;">{!a.Title}</a>
+                </apex:outputPanel>
+            </knowledge:articleList>
+        </apex:outputPanel>
+    </apex:outputPanel>
+</apex:component>

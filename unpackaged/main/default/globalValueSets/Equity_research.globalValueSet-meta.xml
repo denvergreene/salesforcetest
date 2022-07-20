@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customValue>
+        <fullName>We haven’t incorporated this yet.</fullName>
+        <default>false</default>
+        <label>We haven’t incorporated this yet.</label>
+    </customValue>
+    <customValue>
+        <fullName>There are few research citations for the design of the digital learning tools.</fullName>
+        <default>false</default>
+        <label>There are few research citations for the design of the digital learning tools.</label>
+    </customValue>
+    <customValue>
+        <fullName>Research is shared and is transparent with respect to the design process of the digital learning product.</fullName>
+        <default>false</default>
+        <label>Research is shared and is transparent with respect to the design process of the digital learning product.</label>
+    </customValue>
+    <customValue>
+        <fullName>Research used to inform the design is shared and considers student populations by race and income.</fullName>
+        <default>false</default>
+        <label>Research used to inform the design is shared and considers student populations by race and income.</label>
+    </customValue>
+    <masterLabel>Equity research</masterLabel>
+    <sorted>false</sorted>
+</GlobalValueSet>

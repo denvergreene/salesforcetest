@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Equity_Score__c</fullName>
+    <externalId>false</externalId>
+    <formula>CASE(TEXT( Equity_configure__c ), 
+"We haven’t incorporated this yet.", 0,
+"Learning activities have limited customized features.", 1,
+"Learning activities are highly customizable.", 2,
+"Learning activities are highly customizable with resources that are culturally relevant by race and income.", 3,
+0)
+
++
+
+CASE(TEXT(  Equity_data__c ), 
+"We haven’t incorporated this yet.", 0,
+"There are less than 2 research studies that include student outcomes evidence by race and income.", 1,
+"There are 2 or more research studies that include student outcomes evidence by race and income.", 2,
+"The product incorporates research on student outcomes reported by race and income and shares transparently how evidence is incorporated into design, implementation, and continuous improvement.", 3,
+0)
+
++
+
+CASE(TEXT(  Equity_language__c ), 
+"We haven’t incorporated this yet.", 0,
+"Our product uses language that reflects diversity, but does not use equity-minded language to address systemic barriers affecting student populations.", 1,
+"Our product uses limited equity-minded language.", 2,
+"Our product uses equity-minded language throughout.", 3,
+0)
+
++
+
+CASE(TEXT(  Equity_relevant__c ), 
+"We haven’t incorporated this yet.", 0,
+"There are very few social, emotional, and academic supports.", 1,
+"Social, emotional, and academic supports are customizable and embedded throughout the tool.", 2,
+"Social, emotional, and academic supports tools are customizable and embedded throughout, are culturally relevant, and focus on students’ strengths rather than perceived inadequacies.", 3,
+0)
+
++
+
+CASE(TEXT(  Equity_research__c ), 
+"We haven’t incorporated this yet.", 0,
+"There are few research citations for the design of the digital learning tools.", 1,
+"Research is shared and is transparent with respect to the design process of the digital learning product.", 2,
+"Research used to inform the design is shared and considers student populations by race and income.", 3,
+0)
+
++
+
+CASE(TEXT(  Equity_stories__c ), 
+"We haven’t incorporated this yet.", 0,
+"Student images and stories are referenced in the product.", 1,
+"Student images and stories are an essential feature of the product.", 2,
+"Student images and stories are an essential feature of the product and are representative of a range of student populations by race, income, and intersectional identities.", 3,
+0)</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>Equity Score</label>
+    <precision>18</precision>
+    <required>false</required>
+    <scale>0</scale>
+    <trackTrending>false</trackTrending>
+    <type>Number</type>
+    <unique>false</unique>
+</CustomField>

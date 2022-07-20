@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Partner_Category_Interest__c</fullName>
+    <externalId>false</externalId>
+    <label>Partner Category Interest</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>MultiselectPicklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Online Homework Partners</fullName>
+                <default>false</default>
+                <label>Online Homework Partners</label>
+            </value>
+            <value>
+                <fullName>Adaptive Courseware Partners</fullName>
+                <default>false</default>
+                <label>Adaptive Courseware Partners</label>
+            </value>
+            <value>
+                <fullName>Customization Tool Partners</fullName>
+                <default>false</default>
+                <label>Customization Tool Partners</label>
+            </value>
+            <value>
+                <fullName>Custom Printer</fullName>
+                <default>false</default>
+                <label>Custom Printer</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+    <visibleLines>4</visibleLines>
+</CustomField>

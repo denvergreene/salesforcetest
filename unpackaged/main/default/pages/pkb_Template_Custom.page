@@ -1,0 +1,296 @@
+<apex:page cache="false"
+  standardStylesheets="false"
+  showHeader="false"
+  sidebar="false"
+  standardController="KnowledgeArticle"
+  extensions="pkb_Controller_Custom"
+  language="{!pkbCon.selectedLanguage}"
+  applyBodyTag="false"
+  applyHtmlTag="false"
+  >
+<html>
+<head>
+  <title>{!pageTitle}</title>
+    <meta name="apple-mobile-web-app-capable" content="yes"></meta>
+    <meta http-equiv="content-type" content="text/html;charset=utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=.5, minimum-scale=.5, maximum-scale=.5"/>
+    <meta name="viewport" content="target-densitydpi=device-dpi" />
+
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+    <script src="{!$Resource.pkb_jquery_1_6_2}" type="text/javascript" />
+    <script src="{!$Resource.pkb_jquery_simplemodal_1_4_1}" type="text/javascript" />
+  <apex:outputText rendered="{!viewingArticle}">
+    <apex:variable var="typeName" value="{!SUBSTITUTE(pkbCon.theKad.articleTypeName, pkbCon.kavExtension, '')}" />
+    <apex:variable var="articleURL" value="{!pkbCon.currentSiteUrl}articles{!pkbCon.selectedLanguageURL}{!typeName}/{!pkbCon.theKad.urlName}" />
+        <meta property="og:title" content="{!pkbCon.theKad.title}"/>
+        <meta property="og:type" content="article"/>
+        <meta property="og:url" content="{!articleURL}"/>
+        <meta property="og:site_name" content="{!SUBSTITUTE(pkbCon.siteName,'_',' ')}" />
+        <meta property="og:description" content="{!pkbCon.theKad.summary}"/>
+        <meta property="description" content="{!pkbCon.theKad.summary}"/>
+        <link rel="canonical" href="{!articleURL}"/>
+    </apex:outputText>
+  <c:pkb_css_Custom />
+   <c:pkb_js_Custom pkbCon="{!pkbCon}" />
+    <link rel="stylesheet" type="text/css" href="//maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" />
+</head>
+
+<body>
+<!--
+HELPFUL DEBUG DATA
+
+SITE ADMIN: {!pkbCon.siteAdmin.Email}, {!pkbCon.siteAdmin.Name}<br/>
+ALL PARAMS: {!allSearchParams}<br/>
+SITE/PAGE URL: {!pkbCon.currentSiteUrl}<br/>
+FEEDBACK? : {!displayFeedback}<br/>
+SESSION: {!$Api.Session_ID}<br/>
+RSS URL: {!$Page.pkb_RSS}<br/>
+CATEGORIES: {!selectedCategory}<br/>
+KNOWLEDGE ARTICLE ID: {!theKad.Id}<br/>
+KNOWLEDGE ARTICLE ID (FROM CONTROLLER): {!KnowledgeArticle.Id}<br/>
+-->
+
+<!--  HOME PAGE LAYOUT -->
+
+  <div id="header">
+    <span style="margin-left: 5px;">
+      <!-- apex:outputLink value="{!pkbCon.currentSiteUrl}pkb_Home_Custom"-->
+      <apex:outputLink value="https://openstax.org/">
+        <img style="width: 10rem; margin-top: 12px" src="https://openstax.org/images/logo.svg" />
+        <!--apex:image value="{!$Resource.pkb_logo}" height="40px"/-->
+        <apex:param name="{!pkbCon.languageParam}" value="{!pkbcon.selectedLanguage}" />
+        <apex:param name="c" value="{!selectedCategory}" />
+      </apex:outputLink>
+    </span>
+  </div>
+
+  <div id="body">
+  
+    <apex:outputPanel rendered="{!selectedCategory == 'Products:College'}">
+    <div id="right_column_header_openstax">
+      <center class="landingHeader"><apex:outputText >{!$Label.PKB2_OpenStax_Help_Center}</apex:outputText></center>
+      <center class="landingBody"><apex:outputText rendered="{!IF(AND(NOT(searchExecuted), NOT(displayContactUs)), true, false)}">{!$Label.PKB2_OpenStax_Help_Center_Description}</apex:outputText></center>
+      <center><c:pkb_search_Custom pkbCon="{!pkbCon}" rendered="{!NOT(displayContactUs)}"/></center>
+    </div>
+    </apex:outputPanel>
+    <apex:outputPanel rendered="{!selectedCategory == 'Products:Concept_Coach'}">
+    <div id="right_column_header_concept_coach">
+      <center class="landingHeader"><apex:outputText >{!$Label.PKB2_Concept_Coach_Help_Center}</apex:outputText></center>
+      <center class="landingBody"><apex:outputText rendered="{!IF(AND(NOT(searchExecuted), NOT(displayContactUs)), true, false)}" >
+      {!$Label.PKB2_Concept_Coach_Help_Center_Description}
+      </apex:outputText></center>
+      <center><c:pkb_search_Custom pkbCon="{!pkbCon}" rendered="{!NOT(displayContactUs)}"/></center>
+    </div>
+    </apex:outputPanel>
+    <apex:outputPanel rendered="{!selectedCategory == 'Products:Tutor'}">
+    <div id="right_column_header_tutor">
+      <center class="landingHeader"><apex:outputText >{!$Label.PKB2_Tutor_Help_Center}</apex:outputText></center>
+      <center class="landingBody"><apex:outputText rendered="{!IF(AND(NOT(searchExecuted), NOT(displayContactUs)), true, false)}" >{!$Label.PKB2_Tutor_Help_Center_Description}</apex:outputText></center>
+      <center><c:pkb_search_Custom pkbCon="{!pkbCon}" rendered="{!NOT(displayContactUs)}"/></center>
+    </div>
+    </apex:outputPanel>
+    <apex:outputPanel rendered="{!selectedCategory == 'Products:CNX'}">
+    <div id="right_column_header_cnx">
+      <center class="landingHeader"><apex:outputText >{!$Label.PKB2_CNX_Help_Center}</apex:outputText></center>
+      <center class="landingBody">
+        <apex:outputText rendered="{!IF(AND(NOT(searchExecuted), NOT(displayContactUs)), true, false)}" >
+          {!$Label.PKB2_CNX_Help_Center_Description}
+        </apex:outputText>
+      </center>
+      <center><c:pkb_search_Custom pkbCon="{!pkbCon}" rendered="{!NOT(displayContactUs)}"/></center>
+    </div>
+    </apex:outputPanel>
+    <div class="strips">
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+    </div>
+
+    <apex:outputPanel >
+    <div id="right_column">
+
+      <div id="right_content">
+
+        <apex:outputText rendered="{!NOT(displayContactUs)}">
+          <apex:outputText rendered="{!NOT(viewingArticle)}">
+            <c:pkb_featured_openstax pkbCon="{!pkbCon}" rendered="{!IF(AND(selectedCategory == 'Products:College', NOT(searchExecuted)), true, false)}" />
+            <c:pkb_featured_concept_coach pkbCon="{!pkbCon}" rendered="{!IF(AND(selectedCategory == 'Products:Concept_Coach', NOT(searchExecuted)), true, false)}" />
+            <c:pkb_featured_cnx pkbCon="{!pkbCon}" rendered="{!IF(AND(selectedCategory == 'Products:CNX', NOT(searchExecuted)), true, false)}" />
+            <c:pkb_featured_tutor pkbCon="{!pkbCon}" rendered="{!IF(AND(selectedCategory == 'Products:Tutor', NOT(searchExecuted)), true, false)}" />
+
+            <c:pkb_results_Custom pkbCon="{!pkbCon}" rendered="{!searchExecuted}" showHeaderInfo="true" />
+          </apex:outputText>
+
+          <apex:outputText rendered="{!viewingArticle}">
+            <div id="articleView" >
+              <c:pkb_articleview_Custom pkbCon="{!pkbCon}" showFeedbackYesNo="true" showBackLinks="true" />
+            </div>
+          </apex:outputText>
+          
+          <apex:outputText rendered="{!IF(OR(viewingArticle, searchExecuted), true, false)}">
+            <div id="contactUs">
+              {!$Label.PKB2_Contact_Us_Link_Prompt_Custom}&nbsp;
+              <apex:outputLink value="{!pkbCon.currentSiteUrl}">
+                {!$Label.PKB2_Email_Us}
+                <apex:param name="{!pkbCon.contactUsParam}" value="{!pkbCon.contactUsValue}" />
+                <apex:param name="{!pkbCon.feedbackSourceParam}" value="{!pkbCon.feedbackContactUs}" />
+                <apex:param name="{!pkbCon.languageParam}" value="{!pkbCon.selectedLanguage}" />
+                <apex:param name="{!pkbCon.categoryParam}" value="{!pkbCon.selectedCategory}" />
+                <apex:param name="{!pkbCon.queryParam}" value="{!pkbCon.enteredSearchQuery}" />
+              </apex:outputLink><br/>
+              {!$Label.PKB2_Call_Us}
+            </div>
+          </apex:outputText>
+        </apex:outputText>
+        <apex:outputText rendered="{!feedbackSource == 'ContactUs'}">
+          <div>
+            <apex:form id="contactUsForm">
+              <apex:outputPanel layout="block" id="contactUsContainer">
+                <apex:outputText rendered="{!NOT(pkbCon.caseCreated)}">
+                  <div class="instructions">
+                    <p>Please
+                    <apex:outputLink value="{!pkbCon.currentSiteUrl}">
+                      search our extensive collection of articles
+                      <apex:param name="{!pkbCon.languageParam}" value="{!pkbCon.selectedLanguage}" />
+                      <apex:param name="{!pkbCon.categoryParam}" value="{!pkbCon.selectedCategory}" />
+                    </apex:outputLink>
+                    for the quickest answer to your question.  If you still can't find what you need, complete the 
+                    information below and an Openstax representative will follow up with you.</p>
+                  </div>
+                  <div style="width: 85%; margin-left: auto; margin-right: auto;">
+                    <div style="height: 3em;">
+                      <apex:outputPanel id="createCaseErrorMsg" layout="block" style="color: red; font-weight: bold;" rendered="{!pkbCon.caseCreateError}">
+                        {!pkbCon.createCaseErrorMsg}
+                      </apex:outputPanel>
+                    </div>
+                    <table border="0" cellpadding="0" cellspacing="0">
+                      <tr>
+                        <td class="label"><apex:outputLabel value="{!$Label.PKB2_First_Name}:" for="firstName" /></td>
+                        <td class="field"><apex:inputText value="{!theCud.firstName}" id="firstName" /></td>
+                      </tr>
+                      <tr>
+                        <td class="label"><apex:outputLabel value="{!$Label.PKB2_Last_Name}:" for="lastName" /></td>
+                        <td class="field"><apex:inputText value="{!theCud.lastName}" id="lastName" /></td>
+                      </tr>
+                      <tr>
+                        <td class="label"><apex:outputLabel value="{!$Label.PKB2_Email}:" for="email" /></td>
+                        <td class="field"><apex:inputText value="{!theCud.email}" id="email" /></td>
+                      </tr>
+                      <tr>
+                        <td class="label"><apex:outputLabel value="{!$Label.PKB2_Request_Type}:" for="reqType" /></td>
+                        <td class="field">
+                          <apex:selectList value="{!requestType}" multiSelect="false" size="1">
+                            <apex:selectOptions value="{!caseTypeOptions}" />
+                          </apex:selectList>
+                        </td>
+                      </tr>
+                      <tr>
+                        <td class="label"><apex:outputLabel value="{!$Label.PKB2_Subject}" for="subject" /></td>
+                        <td class="field"><apex:inputText value="{!theCud.subject}" id="subject" /></td>
+                      </tr>
+                      <tr>
+                        <td class="label"><apex:outputLabel value="{!$Label.PKB2_Message}" for="message" /></td>
+                        <td class="field"><apex:inputTextarea rows="3" value="{!question}" id="message" /></td>
+                      </tr>
+                    </table>    
+                    <div class="submit-container">
+                      <apex:commandButton value="{!$Label.PKB2_Submit}" rerender="contactUsContainer" action="{!pkbCon.createCase}" status="contactUsStatus" onclick="clearCaseErrorMsg();" />&nbsp;
+                      <!--<apex:commandButton value="{!$Label.PKB2_Cancel}" onclick="closeModal(); return false;" /><br/><br/>-->
+                      <apex:actionStatus id="contactUsStatus">
+                        <apex:facet name="start"><apex:image value="{!$Resource.pkb_loadingdots}" /></apex:facet>
+                        <apex:facet name="stop"></apex:facet>
+                      </apex:actionStatus>              
+                    </div>
+                  </div>
+                </apex:outputText>
+                <apex:outputText rendered="{!pkbCon.caseCreated}">
+                  <div style="text-align: center; margin-top: 100px;">
+                    <p>{!$Label.PKB2_Request_Submitted}</p>
+                    <!--
+                    <p><a href="#" onclick="toggleContactYesNoButtons(false); refreshContactUs(); closeModal(); return false;">{!$Label.PKB2_Close_Window}</a></p>
+                    -->
+                  </div>            
+                </apex:outputText>
+              </apex:outputPanel>
+            </apex:form>
+          </div>
+        </apex:outputText>
+        <apex:outputText rendered="{!feedbackSource == 'ContactUs'}">
+        
+        </apex:outputText>
+      </div>
+      <div id="chat-button-section">
+        <button id="liveagent_button_online_573U0000000k9cB" style="cursor: pointer" onclick="liveagent.startChat('573U0000000k9cB')">
+            <i class="fa fa-comments" aria-hidden="true"></i>Chat Now with Support
+        </button>
+        <div id="liveagent_button_offline_573U0000000k9cB">
+            <i class="fa fa-comments-o" aria-hidden="true"></i>Chat Support is Offline
+        </div>
+        <!--img id="liveagent_button_online_573U0000000k9cB" style="display: none; border: 0px none; cursor: pointer" onclick="liveagent.startChat('573U0000000k9cB')" 
+         src="https://openstax.secure.force.com/support/resource/1498071120000/chat_online_button" /-->
+        <!--img id="liveagent_button_offline_573U0000000k9cB" style="display: none; border: 0px none; "
+         src="https://openstax.secure.force.com/support/resource/1498071156000/chat_offline_button" /-->
+         
+<script type="text/javascript">
+if (!window._laq) { window._laq = []; }
+window._laq.push(function(){liveagent.showWhenOnline('573U0000000k9cB', document.getElementById('liveagent_button_online_573U0000000k9cB'));
+liveagent.showWhenOffline('573U0000000k9cB', document.getElementById('liveagent_button_offline_573U0000000k9cB'));
+});</script>
+
+        <style>
+            #liveagent_button_online_573U0000000k9cB,
+            #liveagent_button_offline_573U0000000k9cB {
+                border: 0;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                font-size: 15px;
+                // width: 292px;
+                padding: 0 25px;
+                height: 55px;
+                color: white;
+                background-color: #232e66;
+                text-transform: uppercase;
+            }
+            #liveagent_button_online_573U0000000k9cB:hover,
+            #liveagent_button_online_573U0000000k9cB:focus {
+                background-color: #f47641;
+            }
+            #liveagent_button_online_573U0000000k9cB .fa,
+            #liveagent_button_offline_573U0000000k9cB .fa {
+                font-size: 24px;
+                margin-right: 8px;
+            }
+            #liveagent_button_offline_573U0000000k9cB {
+                background-color: transparent;
+                color: #949494;
+            }
+        </style>
+
+      </div>
+        
+    </div>
+    </apex:outputPanel>
+
+    <div style="clear: both;"></div>
+  </div>
+
+  <div id="footer">
+    <apex:outputPanel styleClass="pkbPoweredBySFDC" style="float: right;">
+      <a href="http://www.rice.edu/"><apex:image value="{!$Resource.pkb_footer}" alt="Customer Service Software"/>
+      <apex:outputPanel styleClass="pkbPoweredBySFDCText">salesforce.com</apex:outputPanel></a>
+    </apex:outputPanel>
+  </div>
+<site:googleAnalyticsTracking />
+<script type='text/javascript' src='https://c.la2-c2-dfw.salesforceliveagent.com/content/g/js/38.0/deployment.js'></script>
+<script type='text/javascript'>
+liveagent.init('https://d.la2-c2-dfw.salesforceliveagent.com/chat', '572U0000000k9cB', '00DU0000000Kwch');
+</script>
+</body>
+
+</html>
+<site:previewAsAdmin />
+</apex:page>

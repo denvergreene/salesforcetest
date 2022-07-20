@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Shouldn_t_Exist__c</fullName>
+    <externalId>false</externalId>
+    <formula>Base_Year__c  
+-
+( YEAR(Last_In_Touch_Date__c) - IF( MONTH( Last_In_Touch_Date__c) &lt;7 , 1,0) )
+ &gt; 3</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <inlineHelpText>LIT date is greater than 3 years ago</inlineHelpText>
+    <label>Shouldn't Exist</label>
+    <trackHistory>false</trackHistory>
+    <type>Checkbox</type>
+</CustomField>

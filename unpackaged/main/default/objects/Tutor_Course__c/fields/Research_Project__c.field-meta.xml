@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Research_Project__c</fullName>
+    <defaultValue>false</defaultValue>
+    <description>From Tutor</description>
+    <externalId>false</externalId>
+    <label>Research Project</label>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+</CustomField>

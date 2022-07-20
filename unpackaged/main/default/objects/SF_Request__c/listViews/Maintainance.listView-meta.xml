@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Maintainance</fullName>
+    <columns>Title__c</columns>
+    <columns>Description__c</columns>
+    <columns>Priority__c</columns>
+    <columns>Release_Date_Deadline__c</columns>
+    <columns>NAME</columns>
+    <columns>Execution_By__c</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>Status__c</field>
+        <operation>notEqual</operation>
+        <value>Completed,Abandoned</value>
+    </filters>
+    <filters>
+        <field>Type__c</field>
+        <operation>equals</operation>
+        <value>Data Maintenance</value>
+    </filters>
+    <label>Maintainance</label>
+</ListView>

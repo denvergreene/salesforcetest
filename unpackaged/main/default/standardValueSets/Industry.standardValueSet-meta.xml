@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<StandardValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <sorted>false</sorted>
+    <standardValue>
+        <fullName>Adaptive Courseware Partners</fullName>
+        <default>false</default>
+        <label>Adaptive Courseware Partners</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Customization tool partners</fullName>
+        <default>false</default>
+        <label>Customization tool partners</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Online homework partners</fullName>
+        <default>false</default>
+        <label>Online homework partners</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Custom Printer</fullName>
+        <default>false</default>
+        <label>Custom Printer</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Not Needed</fullName>
+        <default>true</default>
+        <label>Not Needed</label>
+    </standardValue>
+</StandardValueSet>

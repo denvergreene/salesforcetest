@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<StandardValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <sorted>false</sorted>
+    <standardValue>
+        <fullName>CNX</fullName>
+        <default>false</default>
+        <label>CNX</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Concept Coach</fullName>
+        <default>false</default>
+        <label>Concept Coach</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Tutor</fullName>
+        <default>false</default>
+        <label>Tutor</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Textbook</fullName>
+        <default>false</default>
+        <label>Textbook</label>
+    </standardValue>
+    <standardValue>
+        <fullName>General</fullName>
+        <default>false</default>
+        <label>General</label>
+    </standardValue>
+</StandardValueSet>

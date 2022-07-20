@@ -1,0 +1,38 @@
+<apex:component >
+	<apex:attribute name="searchPhrase" description="Search Keyword" type="String" />
+	<apex:attribute name="Title" description="ArticleTitle" type="String" />
+	
+	<span id="u929" class="osweb_link_style_normal_active" style="cursor: pointer;">
+		<span id="u929_text" class="text " style="left: 0px; width: 102px; transform-origin: 51px 10px 0px;">
+			<apex:outputLink value="/pkb_home_2017">
+			Support home
+		</apex:outputLink>
+	</span>
+	</span>
+
+	<apex:outputPanel rendered="{!searchPhrase!=''}">
+		<span id="u930" class="paragraph">
+			<span id="u930_text" class="text " style="left: 0px; width: 11px; transform-origin: 5.5px 10px 0px;">
+				<span>&gt;</span>
+			</span>
+		</span>
+
+		<span id="u932" class="osweb_link_style_normal_active" style="cursor: pointer;">
+			<span id="u932_text" class="text " style="left: 0px; width: 104px; transform-origin: 52px 10px 0px;">
+				<apex:outputLink value="{!'/pkb_home_2017?search='+searchPhrase}">Search results</apex:outputLink>
+			</span>
+		</span>
+	</apex:outputPanel>
+	
+	<span id="u933" class="paragraph">
+		<span id="u933_text" class="text " style="left: 0px; width: 11px; transform-origin: 5.5px 10px 0px;">
+			<span>&gt;</span>
+		</span>
+	</span>
+
+	<span id="u931" class="paragraph">
+		<span id="u931_text" class="text " style="left: 0px; width: 106px; transform-origin: 53px 10px 0px;">
+			<span>{!Title}</span>
+		</span>
+	</span>
+</apex:component>

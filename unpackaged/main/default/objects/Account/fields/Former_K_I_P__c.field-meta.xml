@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Former_K_I_P__c</fullName>
+    <defaultValue>false</defaultValue>
+    <description>former kip schools</description>
+    <externalId>false</externalId>
+    <label>Former K.I.P</label>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Checkbox</type>
+</CustomField>

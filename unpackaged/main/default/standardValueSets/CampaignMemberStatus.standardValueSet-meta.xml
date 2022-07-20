@@ -1,0 +1,529 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<StandardValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <sorted>true</sorted>
+    <standardValue>
+        <fullName>1. First Email</fullName>
+        <default>false</default>
+        <label>1. First Email</label>
+    </standardValue>
+    <standardValue>
+        <fullName>1. Warm</fullName>
+        <default>false</default>
+        <label>1. Warm</label>
+    </standardValue>
+    <standardValue>
+        <fullName>1 Landed, contact</fullName>
+        <default>false</default>
+        <label>1 Landed, contact</label>
+    </standardValue>
+    <standardValue>
+        <fullName>2. Contacted</fullName>
+        <default>false</default>
+        <label>2. Contacted</label>
+    </standardValue>
+    <standardValue>
+        <fullName>2. Contactede</fullName>
+        <default>false</default>
+        <label>2. Contactede</label>
+    </standardValue>
+    <standardValue>
+        <fullName>2. Marketing Page</fullName>
+        <default>false</default>
+        <label>2. Marketing Page</label>
+    </standardValue>
+    <standardValue>
+        <fullName>2 Previewed</fullName>
+        <default>false</default>
+        <label>2 Previewed</label>
+    </standardValue>
+    <standardValue>
+        <fullName>3. Interested</fullName>
+        <default>false</default>
+        <label>3. Interested</label>
+    </standardValue>
+    <standardValue>
+        <fullName>3. Sign In</fullName>
+        <default>false</default>
+        <label>3. Sign In</label>
+    </standardValue>
+    <standardValue>
+        <fullName>3 Liked Preview</fullName>
+        <default>false</default>
+        <label>3 Liked Preview</label>
+    </standardValue>
+    <standardValue>
+        <fullName>4. Created a preview course in Tutor</fullName>
+        <default>false</default>
+        <label>4. Created a preview course in Tutor</label>
+    </standardValue>
+    <standardValue>
+        <fullName>4. Demo</fullName>
+        <default>false</default>
+        <label>4. Demo</label>
+    </standardValue>
+    <standardValue>
+        <fullName>4. Training Wheels</fullName>
+        <default>false</default>
+        <label>4. Training Wheels</label>
+    </standardValue>
+    <standardValue>
+        <fullName>4 Created Real Course</fullName>
+        <default>false</default>
+        <label>4 Created Real Course</label>
+    </standardValue>
+    <standardValue>
+        <fullName>5. Created a preview course in Tutor</fullName>
+        <default>false</default>
+        <label>5. Created a preview course in Tutor</label>
+    </standardValue>
+    <standardValue>
+        <fullName>5. Created a Real Course in Tutor</fullName>
+        <default>false</default>
+        <label>5. Created a Real Course in Tutor</label>
+    </standardValue>
+    <standardValue>
+        <fullName>6. Created a Real Course in Tutor</fullName>
+        <default>false</default>
+        <label>6. Created a Real Course in Tutor</label>
+    </standardValue>
+    <standardValue>
+        <fullName>6. Lost</fullName>
+        <default>false</default>
+        <label>6. Lost</label>
+    </standardValue>
+    <standardValue>
+        <fullName>6 Final Adoption Decision</fullName>
+        <default>false</default>
+        <label>6 Final Adoption Decision</label>
+    </standardValue>
+    <standardValue>
+        <fullName>7. Lost</fullName>
+        <default>false</default>
+        <label>7. Lost</label>
+    </standardValue>
+    <standardValue>
+        <fullName>AD - No</fullName>
+        <default>false</default>
+        <label>AD - No</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Adopted</fullName>
+        <default>false</default>
+        <label>Adopted</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Adoption Won</fullName>
+        <default>false</default>
+        <label>Adoption Won</label>
+    </standardValue>
+    <standardValue>
+        <fullName>AD - Undecided</fullName>
+        <default>false</default>
+        <label>AD - Undecided</label>
+    </standardValue>
+    <standardValue>
+        <fullName>AD - Yes</fullName>
+        <default>false</default>
+        <label>AD - Yes</label>
+    </standardValue>
+    <standardValue>
+        <fullName>AD - Yes - 0%</fullName>
+        <default>false</default>
+        <label>AD - Yes - 0%</label>
+    </standardValue>
+    <standardValue>
+        <fullName>AD - Yes - 0-25%</fullName>
+        <default>false</default>
+        <label>AD - Yes - 0-25%</label>
+    </standardValue>
+    <standardValue>
+        <fullName>AD - Yes - 1-50%</fullName>
+        <default>false</default>
+        <label>AD - Yes - 1-50%</label>
+    </standardValue>
+    <standardValue>
+        <fullName>AD - Yes - 25-50%</fullName>
+        <default>false</default>
+        <label>AD - Yes - 25-50%</label>
+    </standardValue>
+    <standardValue>
+        <fullName>AD - Yes - 50-75%</fullName>
+        <default>false</default>
+        <label>AD - Yes - 50-75%</label>
+    </standardValue>
+    <standardValue>
+        <fullName>AD - Yes - 51-100%</fullName>
+        <default>false</default>
+        <label>AD - Yes - 51-100%</label>
+    </standardValue>
+    <standardValue>
+        <fullName>AD - Yes - 75-100%</fullName>
+        <default>false</default>
+        <label>AD - Yes - 75-100%</label>
+    </standardValue>
+    <standardValue>
+        <fullName>AD - Yes - No Students</fullName>
+        <default>false</default>
+        <label>AD - Yes - No Students</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Approved</fullName>
+        <default>false</default>
+        <label>Approved</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Attended</fullName>
+        <default>false</default>
+        <label>Attended</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Clicked</fullName>
+        <default>false</default>
+        <label>Clicked</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Cold</fullName>
+        <default>false</default>
+        <label>Cold</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Completed tour 1</fullName>
+        <default>false</default>
+        <label>Completed tour 1</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Completed tour 2</fullName>
+        <default>false</default>
+        <label>Completed tour 2</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Completed tour 3</fullName>
+        <default>false</default>
+        <label>Completed tour 3</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Completed tour 4</fullName>
+        <default>false</default>
+        <label>Completed tour 4</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Connected</fullName>
+        <default>false</default>
+        <label>Connected</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Considering</fullName>
+        <default>false</default>
+        <label>Considering</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Contacted</fullName>
+        <default>false</default>
+        <label>Contacted</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Created a preview course in Tutor</fullName>
+        <default>false</default>
+        <label>Created a preview course in Tutor</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Created a Real Course in Tutor</fullName>
+        <default>false</default>
+        <label>Created a Real Course in Tutor</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Created OX Account</fullName>
+        <default>false</default>
+        <label>Created OX Account</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Demo</fullName>
+        <default>false</default>
+        <label>Demo</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Demonstration</fullName>
+        <default>false</default>
+        <label>Demonstration</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Denied</fullName>
+        <default>false</default>
+        <label>Denied</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Done</fullName>
+        <default>false</default>
+        <label>Done</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Downloaded GSG</fullName>
+        <default>false</default>
+        <label>Downloaded GSG</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Email Open</fullName>
+        <default>false</default>
+        <label>Email Open</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Email Sent</fullName>
+        <default>false</default>
+        <label>Email Sent</label>
+    </standardValue>
+    <standardValue>
+        <fullName>First Call Received</fullName>
+        <default>false</default>
+        <label>First Call Received</label>
+    </standardValue>
+    <standardValue>
+        <fullName>First Email</fullName>
+        <default>false</default>
+        <label>First Email</label>
+    </standardValue>
+    <standardValue>
+        <fullName>From List</fullName>
+        <default>false</default>
+        <label>From List</label>
+    </standardValue>
+    <standardValue>
+        <fullName>High Interest</fullName>
+        <default>false</default>
+        <label>High Interest</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Initial sign-in date</fullName>
+        <default>false</default>
+        <label>Initial sign-in date</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Interested</fullName>
+        <default>false</default>
+        <label>Interested</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Invited</fullName>
+        <default>false</default>
+        <label>Invited</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Lost</fullName>
+        <default>false</default>
+        <label>Lost</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Marketing Page</fullName>
+        <default>false</default>
+        <label>Marketing Page</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Mildly Interested</fullName>
+        <default>false</default>
+        <label>Mildly Interested</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Most recent sign-in date</fullName>
+        <default>false</default>
+        <label>Most recent sign-in date</label>
+    </standardValue>
+    <standardValue>
+        <fullName>MQL</fullName>
+        <default>false</default>
+        <label>MQL</label>
+    </standardValue>
+    <standardValue>
+        <fullName>No information</fullName>
+        <default>false</default>
+        <label>No information</label>
+    </standardValue>
+    <standardValue>
+        <fullName>No Teacher SF Contact</fullName>
+        <default>false</default>
+        <label>No Teacher SF Contact</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Not Started</fullName>
+        <default>false</default>
+        <label>Not Started</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Opened</fullName>
+        <default>false</default>
+        <label>Opened</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Pending</fullName>
+        <default>false</default>
+        <label>Pending</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Pending for Approval</fullName>
+        <default>false</default>
+        <label>Pending for Approval</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Preregestered</fullName>
+        <default>false</default>
+        <label>Preregestered</label>
+    </standardValue>
+    <standardValue>
+        <fullName>PreRegistered</fullName>
+        <default>false</default>
+        <label>PreRegistered</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Preview Course</fullName>
+        <default>false</default>
+        <label>Preview Course</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Real Course</fullName>
+        <default>false</default>
+        <label>Real Course</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Registered</fullName>
+        <default>false</default>
+        <label>Registered</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Registered; No Show</fullName>
+        <default>false</default>
+        <label>Registered; No Show</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Registered List</fullName>
+        <default>false</default>
+        <label>Registered List</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Responded</fullName>
+        <default>false</default>
+        <label>Responded</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Reviewing</fullName>
+        <default>false</default>
+        <label>Reviewing</label>
+    </standardValue>
+    <standardValue>
+        <fullName>RSVP - No</fullName>
+        <default>false</default>
+        <label>RSVP - No</label>
+    </standardValue>
+    <standardValue>
+        <fullName>RSVP - Yes</fullName>
+        <default>false</default>
+        <label>RSVP - Yes</label>
+    </standardValue>
+    <standardValue>
+        <fullName>SA - I am considering it</fullName>
+        <default>false</default>
+        <label>SA - I am considering it</label>
+    </standardValue>
+    <standardValue>
+        <fullName>SA - I do not know</fullName>
+        <default>false</default>
+        <label>SA - I do not know</label>
+    </standardValue>
+    <standardValue>
+        <fullName>SA - I need more information</fullName>
+        <default>false</default>
+        <label>SA - I need more information</label>
+    </standardValue>
+    <standardValue>
+        <fullName>SA - No</fullName>
+        <default>false</default>
+        <label>SA - No</label>
+    </standardValue>
+    <standardValue>
+        <fullName>SA - Yes</fullName>
+        <default>false</default>
+        <label>SA - Yes</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Sent</fullName>
+        <default>false</default>
+        <label>Sent</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Sign In</fullName>
+        <default>false</default>
+        <label>Sign In</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Soft Ask</fullName>
+        <default>false</default>
+        <label>Soft Ask</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Special Event</fullName>
+        <default>false</default>
+        <label>Special Event</label>
+    </standardValue>
+    <standardValue>
+        <fullName>SQL</fullName>
+        <default>false</default>
+        <label>SQL</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Started tour 2</fullName>
+        <default>false</default>
+        <label>Started tour 2</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Started tour 3</fullName>
+        <default>false</default>
+        <label>Started tour 3</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Started tour 4</fullName>
+        <default>false</default>
+        <label>Started tour 4</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Stopped by Booth</fullName>
+        <default>false</default>
+        <label>Stopped by Booth</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Too many OS Ancillaries</fullName>
+        <default>false</default>
+        <label>Too many OS Ancillaries</label>
+    </standardValue>
+    <standardValue>
+        <fullName>To send</fullName>
+        <default>false</default>
+        <label>To send</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Training Wheels</fullName>
+        <default>false</default>
+        <label>Training Wheels</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Using</fullName>
+        <default>false</default>
+        <label>Using</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Very Interested</fullName>
+        <default>false</default>
+        <label>Very Interested</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Want sample chapters</fullName>
+        <default>false</default>
+        <label>Want sample chapters</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Warm</fullName>
+        <default>false</default>
+        <label>Warm</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Watched video</fullName>
+        <default>false</default>
+        <label>Watched video</label>
+    </standardValue>
+</StandardValueSet>

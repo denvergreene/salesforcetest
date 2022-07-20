@@ -1,0 +1,21 @@
+<apex:page showHeader="false" sidebar="false" standardController="FAQ__kav" extensions="pkb_Controller_2017">
+	<apex:composition template="pkb_Template_2017">
+            <apex:define name="body">
+    			<div class="articleContent">
+					<apex:outputPanel styleClass="breadcrumbs breadcrumbs_article" layout="block">
+						<c:pkb_ArticleBreadcrumb_2017 searchPhrase="{!searchPhrase}" Title="{!FAQ__kav.Title}" />
+					</apex:outputPanel>
+	            	<div class="articleTitle">
+	            		{!FAQ__kav.Title}
+	            	</div>
+	                <apex:repeat value="{!$ObjectType.FAQ__kav.FieldSets.PKB_FAQ}" var="f"> 
+				    	<apex:outputPanel layout="block" styleClass="articleField">    
+				        	<apex:outputText value="{!FAQ__kav[f]}" escape="false"/>
+				    	</apex:outputPanel>
+				    </apex:repeat>
+				    <c:pkb_ArticleFeedback_2017 />
+				    <c:pkb_ArticleRelated_2017 search="{!searchPhrase}" urlName="{!FAQ__kav.urlName}"/>
+				</div>
+            </apex:define>
+    </apex:composition>
+</apex:page>

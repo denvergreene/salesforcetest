@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <description>Contains metadata for the different dashboard hub things, to make them easier to update.</description>
+    <label>DBHUB</label>
+    <pluralLabel>DBHUBs</pluralLabel>
+    <visibility>Public</visibility>
+</CustomObject>

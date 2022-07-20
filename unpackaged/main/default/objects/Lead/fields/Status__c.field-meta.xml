@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Status__c</fullName>
+    <externalId>false</externalId>
+    <label>Status</label>
+    <required>false</required>
+    <trackFeedHistory>true</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Needs School</fullName>
+                <default>false</default>
+                <label>Needs School</label>
+            </value>
+            <value>
+                <fullName>Needs Contact</fullName>
+                <default>false</default>
+                <label>Needs Contact</label>
+            </value>
+            <value>
+                <fullName>Needs Opportunity</fullName>
+                <default>false</default>
+                <label>Needs Opportunity</label>
+            </value>
+            <value>
+                <fullName>Needs FV</fullName>
+                <default>false</default>
+                <label>Needs FV</label>
+            </value>
+            <value>
+                <fullName>Needs Partner</fullName>
+                <default>false</default>
+                <label>Needs Partner</label>
+            </value>
+            <value>
+                <fullName>Converted</fullName>
+                <default>false</default>
+                <label>Converted</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

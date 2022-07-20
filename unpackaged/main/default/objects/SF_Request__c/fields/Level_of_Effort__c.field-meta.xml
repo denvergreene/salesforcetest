@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Level_of_Effort__c</fullName>
+    <externalId>false</externalId>
+    <label>Level of Effort</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Low: &lt;2 hours</fullName>
+                <default>false</default>
+                <label>Low: &lt;2 hours</label>
+            </value>
+            <value>
+                <fullName>Medium: 2-5 hours</fullName>
+                <default>false</default>
+                <label>Medium: 2-5 hours</label>
+            </value>
+            <value>
+                <fullName>High: 1 day</fullName>
+                <default>false</default>
+                <label>High: 1 day</label>
+            </value>
+            <value>
+                <fullName>Significant: Multi-Day</fullName>
+                <default>false</default>
+                <label>Significant: Multi-Day</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Accounts_UUID__c</fullName>
+    <businessStatus>Active</businessStatus>
+    <description>Users OpenStax Accounts UUID. The unique identifier across all OpenStax systems after the user has created an account with us.</description>
+    <externalId>true</externalId>
+    <label>Accounts_UUID__c</label>
+    <length>36</length>
+    <required>false</required>
+    <securityClassification>Internal</securityClassification>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

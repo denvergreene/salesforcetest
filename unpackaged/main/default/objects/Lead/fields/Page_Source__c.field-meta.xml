@@ -1,0 +1,371 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Page_Source__c</fullName>
+    <externalId>false</externalId>
+    <label>Page Source</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Book Details - Science - HS - Biology</fullName>
+                <default>false</default>
+                <label>Book Details - Science - HS - Biology</label>
+            </value>
+            <value>
+                <fullName>Book Details - Science - HS - Concepts of Biology</fullName>
+                <default>false</default>
+                <label>Book Details - Science - HS - Concepts of Biology</label>
+            </value>
+            <value>
+                <fullName>Book Details - Science - HS - Microbiology</fullName>
+                <default>false</default>
+                <label>Book Details - Science - HS - Microbiology</label>
+            </value>
+            <value>
+                <fullName>Book Details - Science - HS - Anatomy &amp; Physiology</fullName>
+                <default>false</default>
+                <label>Book Details - Science - HS - Anatomy &amp; Physiology</label>
+            </value>
+            <value>
+                <fullName>Book Details - Science - HS - High School Physics</fullName>
+                <default>false</default>
+                <label>Book Details - Science - HS - High School Physics</label>
+            </value>
+            <value>
+                <fullName>Book Details - Science HS - Chemistry</fullName>
+                <default>false</default>
+                <label>Book Details - Science HS - Chemistry</label>
+            </value>
+            <value>
+                <fullName>Book Details - Science - HS - Chemistry Atoms First</fullName>
+                <default>false</default>
+                <label>Book Details - Science - HS - Chemistry Atoms First</label>
+            </value>
+            <value>
+                <fullName>Book Details - Science - HS - College Physics</fullName>
+                <default>false</default>
+                <label>Book Details - Science - HS - College Physics</label>
+            </value>
+            <value>
+                <fullName>Book Details - Science - HS - Biology for AP Courses</fullName>
+                <default>false</default>
+                <label>Book Details - Science - HS - Biology for AP Courses</label>
+            </value>
+            <value>
+                <fullName>Book Details - Science - HS - Physics for AP Courses</fullName>
+                <default>false</default>
+                <label>Book Details - Science - HS - Physics for AP Courses</label>
+            </value>
+            <value>
+                <fullName>Book Details - Science - HS - University Physics</fullName>
+                <default>false</default>
+                <label>Book Details - Science - HS - University Physics</label>
+            </value>
+            <value>
+                <fullName>Book Details - Math - HS - Prealgebra</fullName>
+                <default>false</default>
+                <label>Book Details - Math - HS - Prealgebra</label>
+            </value>
+            <value>
+                <fullName>Book Details - Math - HS - Elementary Algebra</fullName>
+                <default>false</default>
+                <label>Book Details - Math - HS - Elementary Algebra</label>
+            </value>
+            <value>
+                <fullName>Book Details - Math - HS - Intermediate Algebra</fullName>
+                <default>false</default>
+                <label>Book Details - Math - HS - Intermediate Algebra</label>
+            </value>
+            <value>
+                <fullName>Book Details - Math - HS - Algebra &amp; Trigonometry</fullName>
+                <default>false</default>
+                <label>Book Details - Math - HS - Algebra &amp; Trigonometry</label>
+            </value>
+            <value>
+                <fullName>Book Details - Math - HS - High School Statistics</fullName>
+                <default>false</default>
+                <label>Book Details - Math - HS - High School Statistics</label>
+            </value>
+            <value>
+                <fullName>Book Details - Math - HS - Introductory Statistics</fullName>
+                <default>false</default>
+                <label>Book Details - Math - HS - Introductory Statistics</label>
+            </value>
+            <value>
+                <fullName>Book Details - Math - HS - Precalculus</fullName>
+                <default>false</default>
+                <label>Book Details - Math - HS - Precalculus</label>
+            </value>
+            <value>
+                <fullName>Book Details - Math - HS - Calculus</fullName>
+                <default>false</default>
+                <label>Book Details - Math - HS - Calculus</label>
+            </value>
+            <value>
+                <fullName>Book Details - Social Science - HS - AP Macroeconomics</fullName>
+                <default>false</default>
+                <label>Book Details - Social Science - HS - AP Macroeconomics</label>
+            </value>
+            <value>
+                <fullName>Book Details - Social Science - HS - AP Microeconomics</fullName>
+                <default>false</default>
+                <label>Book Details - Social Science - HS - AP Microeconomics</label>
+            </value>
+            <value>
+                <fullName>Book Details - Social Science - HS - Principles of Economics</fullName>
+                <default>false</default>
+                <label>Book Details - Social Science - HS - Principles of Economics</label>
+            </value>
+            <value>
+                <fullName>Book Details - Social Science - HS - Macroeconomics</fullName>
+                <default>false</default>
+                <label>Book Details - Social Science - HS - Macroeconomics</label>
+            </value>
+            <value>
+                <fullName>Book Details - Social Science - HS - Microeconomics</fullName>
+                <default>false</default>
+                <label>Book Details - Social Science - HS - Microeconomics</label>
+            </value>
+            <value>
+                <fullName>Book Details - Social Studies - HS - US History</fullName>
+                <default>false</default>
+                <label>Book Details - Social Studies - HS - US History</label>
+            </value>
+            <value>
+                <fullName>Book Details - Social Studies - HS - AP US History</fullName>
+                <default>false</default>
+                <label>Book Details - Social Studies - HS - AP US History</label>
+            </value>
+            <value>
+                <fullName>Book Details - Social Studies - HS - American Government</fullName>
+                <default>false</default>
+                <label>Book Details - Social Studies - HS - American Government</label>
+            </value>
+            <value>
+                <fullName>Book Details - Business - HS - Intro to Business</fullName>
+                <default>false</default>
+                <label>Book Details - Business - HS - Intro to Business</label>
+            </value>
+            <value>
+                <fullName>Book Details - Business - HS - Business Ethics</fullName>
+                <default>false</default>
+                <label>Book Details - Business - HS - Business Ethics</label>
+            </value>
+            <value>
+                <fullName>Book Details - Business - HS - Business Law Essentials 1</fullName>
+                <default>false</default>
+                <label>Book Details - Business - HS - Business Law Essentials 1</label>
+            </value>
+            <value>
+                <fullName>Book Details - Business - HS - Principles of Mgmt</fullName>
+                <default>false</default>
+                <label>Book Details - Business - HS - Principles of Mgmt</label>
+            </value>
+            <value>
+                <fullName>Book Details - College Success - HS/Higher Ed - College Success</fullName>
+                <default>false</default>
+                <label>Book Details - College Success - HS/Higher Ed - College Success</label>
+            </value>
+            <value>
+                <fullName>Book Details - Math - Higher Ed - Precalculus Series</fullName>
+                <default>false</default>
+                <label>Book Details - Math - Higher Ed - Precalculus Series</label>
+            </value>
+            <value>
+                <fullName>Book Details - Math - Higher Ed - Statistics</fullName>
+                <default>false</default>
+                <label>Book Details - Math - Higher Ed - Statistics</label>
+            </value>
+            <value>
+                <fullName>Book Details - Math - Higher Ed - Calculus</fullName>
+                <default>false</default>
+                <label>Book Details - Math - Higher Ed - Calculus</label>
+            </value>
+            <value>
+                <fullName>Book Details - Math - Higher Ed - Developmental Math</fullName>
+                <default>false</default>
+                <label>Book Details - Math - Higher Ed - Developmental Math</label>
+            </value>
+            <value>
+                <fullName>Book Details - Science - Higher Ed - Astronomy</fullName>
+                <default>false</default>
+                <label>Book Details - Science - Higher Ed - Astronomy</label>
+            </value>
+            <value>
+                <fullName>Book Details - Science - Higher Ed - Anatomy &amp; Physiology</fullName>
+                <default>false</default>
+                <label>Book Details - Science - Higher Ed - Anatomy &amp; Physiology</label>
+            </value>
+            <value>
+                <fullName>Book Details - Science - Higher Ed - Biology</fullName>
+                <default>false</default>
+                <label>Book Details - Science - Higher Ed - Biology</label>
+            </value>
+            <value>
+                <fullName>Book Details - Science - Higher Ed - University Physics</fullName>
+                <default>false</default>
+                <label>Book Details - Science - Higher Ed - University Physics</label>
+            </value>
+            <value>
+                <fullName>Book Details - Science - Higher Ed - Chemistry</fullName>
+                <default>false</default>
+                <label>Book Details - Science - Higher Ed - Chemistry</label>
+            </value>
+            <value>
+                <fullName>Book Details - Science - Higher Ed - College Physics</fullName>
+                <default>false</default>
+                <label>Book Details - Science - Higher Ed - College Physics</label>
+            </value>
+            <value>
+                <fullName>Book Details - Social Sciences - Higher Ed - Psychology</fullName>
+                <default>false</default>
+                <label>Book Details - Social Sciences - Higher Ed - Psychology</label>
+            </value>
+            <value>
+                <fullName>Book Details - Social Sciences - Higher Ed - Sociology</fullName>
+                <default>false</default>
+                <label>Book Details - Social Sciences - Higher Ed - Sociology</label>
+            </value>
+            <value>
+                <fullName>Book Details - Social Sciences - Higher Ed - Economics</fullName>
+                <default>false</default>
+                <label>Book Details - Social Sciences - Higher Ed - Economics</label>
+            </value>
+            <value>
+                <fullName>Book Details - Social Sciences - Higher Ed - Government</fullName>
+                <default>false</default>
+                <label>Book Details - Social Sciences - Higher Ed - Government</label>
+            </value>
+            <value>
+                <fullName>Book Details - Humanities - Higher Ed - History</fullName>
+                <default>false</default>
+                <label>Book Details - Humanities - Higher Ed - History</label>
+            </value>
+            <value>
+                <fullName>Book Details - Management - Higher Ed - Management &amp; Organization Behavior</fullName>
+                <default>false</default>
+                <label>Book Details - Management - Higher Ed - Management &amp; Organization Behavior</label>
+            </value>
+            <value>
+                <fullName>Book Details -  Business - Higher Ed - Business</fullName>
+                <default>false</default>
+                <label>Book Details -  Business - Higher Ed - Business</label>
+            </value>
+            <value>
+                <fullName>Book Details - Business - Higher Ed - Accounting</fullName>
+                <default>false</default>
+                <label>Book Details - Business - Higher Ed - Accounting</label>
+            </value>
+            <value>
+                <fullName>Home</fullName>
+                <default>false</default>
+                <label>Home</label>
+            </value>
+            <value>
+                <fullName>EventBrite</fullName>
+                <default>false</default>
+                <label>EventBrite</label>
+            </value>
+            <value>
+                <fullName>Go-To Webinar</fullName>
+                <default>false</default>
+                <label>Go-To Webinar</label>
+            </value>
+            <value>
+                <fullName>Creator Fest</fullName>
+                <default>false</default>
+                <label>Creator Fest</label>
+            </value>
+            <value>
+                <fullName>About</fullName>
+                <default>false</default>
+                <label>About</label>
+            </value>
+            <value>
+                <fullName>Team</fullName>
+                <default>false</default>
+                <label>Team</label>
+            </value>
+            <value>
+                <fullName>Research</fullName>
+                <default>false</default>
+                <label>Research</label>
+            </value>
+            <value>
+                <fullName>Dedicated Pardot Landing Page</fullName>
+                <default>false</default>
+                <label>Dedicated Pardot Landing Page</label>
+            </value>
+            <value>
+                <fullName>Support</fullName>
+                <default>false</default>
+                <label>Support</label>
+            </value>
+            <value>
+                <fullName>Contact</fullName>
+                <default>false</default>
+                <label>Contact</label>
+            </value>
+            <value>
+                <fullName>FAQ</fullName>
+                <default>false</default>
+                <label>FAQ</label>
+            </value>
+            <value>
+                <fullName>Bookstore Suppliers</fullName>
+                <default>false</default>
+                <label>Bookstore Suppliers</label>
+            </value>
+            <value>
+                <fullName>Impact</fullName>
+                <default>false</default>
+                <label>Impact</label>
+            </value>
+            <value>
+                <fullName>General Online Resources</fullName>
+                <default>false</default>
+                <label>General Online Resources</label>
+            </value>
+            <value>
+                <fullName>Blog</fullName>
+                <default>false</default>
+                <label>Blog</label>
+            </value>
+            <value>
+                <fullName>Webinars</fullName>
+                <default>false</default>
+                <label>Webinars</label>
+            </value>
+            <value>
+                <fullName>Partners</fullName>
+                <default>false</default>
+                <label>Partners</label>
+            </value>
+            <value>
+                <fullName>Tech Scout</fullName>
+                <default>false</default>
+                <label>Tech Scout</label>
+            </value>
+            <value>
+                <fullName>Rover</fullName>
+                <default>false</default>
+                <label>Rover</label>
+            </value>
+            <value>
+                <fullName>Tutor</fullName>
+                <default>false</default>
+                <label>Tutor</label>
+            </value>
+            <value>
+                <fullName>Institutional Partners</fullName>
+                <default>false</default>
+                <label>Institutional Partners</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

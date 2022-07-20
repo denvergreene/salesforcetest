@@ -1,0 +1,487 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RecordType xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Book_Opp</fullName>
+    <active>true</active>
+    <businessProcess>Basic</businessProcess>
+    <description>Books for individuals</description>
+    <label>Book Opp</label>
+    <picklistValues>
+        <picklist>ForecastCategoryName</picklist>
+        <values>
+            <fullName>Best Case</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Closed</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Commit</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Omitted</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Pipeline</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>LeadSource</picklist>
+        <values>
+            <fullName>Adoption Form</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>BMG Import</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Comp Request</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Conference</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Customer Service Ticket</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Donation</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Email</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Facebook Ads</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Followup Form</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>LinkedIn Ads</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Manual List Adds</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Newsletter</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Partner</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Partner Marketplace</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Phone</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Referral Form</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Renewal Form</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Renewal Popup</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Rover</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>TSR</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Testimonial</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Website Contact Us Form</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Website E-Newsletter Sign-Up Form</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Website Institutional Partner Sign Up Form</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Partner_Source__c</picklist>
+        <values>
+            <fullName>Amazon Digital</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Ambassador</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Amplifire</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Barnes %26 Noble Education</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Blending Education</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Cafe Learn Inc%2E</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Carolina Distance Learning</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Cerego</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Chegg</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Classavo</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CogBooks</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Connect for Education</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Copia</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CourseWeaver</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Ed Map</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Evident Point Software Corp</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Expert TA</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Fishtree</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Junction</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Knewton</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Kortext</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>LAD Custom Publishing%2C Inc%2E</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Learning List</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Lrnr</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Lumen</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>MaxxContent</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>McGraw-Hill Education</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Memory Science</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Mind Edge</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Montezuma Publishing</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>MyOpenMath</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Odigia</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Partner in Publishing</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Pearson</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Perlego</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Perusall</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>RealizeIt</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Sapling Learning %2F Macmillan Learning</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>SimBio</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Square cap</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Study Edge</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>The 20 Million Minds Foundation</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Top Hat</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>TreeCabin</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Visible Body</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>WebAssign</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Wiley</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Words and Numbers</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>XYZ Homework</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Zyante</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>eMath</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>intellADAPT</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>panOpen</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Reason_Lost__c</picklist>
+        <values>
+            <fullName>Course Not Offered</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Dissatisfied</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>LIT %3E3 years ago</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>No online HW available</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Not Teaching</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Other</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Using Competitor</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Won%27t Charge Students</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Renewal_Status__c</picklist>
+        <values>
+            <fullName>Done Renewed</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Dropped</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Needs Renewal</fullName>
+            <default>true</default>
+        </values>
+        <values>
+            <fullName>Needs check</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Student_No_Status__c</picklist>
+        <values>
+            <fullName>Annualized</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Auto-Guess</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Estimate</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Reported</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Time_Period__c</picklist>
+        <values>
+            <fullName>Semester</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Year</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Tutor_Opp_Stages__c</picklist>
+        <values>
+            <fullName>Closed - Lost</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Courses setup</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Demo completed</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Demo scheduled</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Discovery</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Implementation session complete</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Interest</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Sign up for implementation option</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Students enrolled %28Closed - Won%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Verbal commitment</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Type</picklist>
+        <values>
+            <fullName>New Business</fullName>
+            <default>true</default>
+        </values>
+        <values>
+            <fullName>Renewal</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Renewal - Verified</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+</RecordType>

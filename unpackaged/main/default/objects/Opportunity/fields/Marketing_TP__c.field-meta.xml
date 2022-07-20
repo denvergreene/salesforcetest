@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Marketing_TP__c</fullName>
+    <description>Confirmed Date</description>
+    <externalId>false</externalId>
+    <formula>IF( MONTH( CloseDate ) &lt;9 , "Jan-Aug", "Sept-Dec")</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <inlineHelpText>Confirmed Date</inlineHelpText>
+    <label>Marketing TP</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

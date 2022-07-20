@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customValue>
+        <fullName>Other</fullName>
+        <default>false</default>
+        <label>Other</label>
+    </customValue>
+    <customValue>
+        <fullName>Chat</fullName>
+        <default>false</default>
+        <label>Chat</label>
+    </customValue>
+    <customValue>
+        <fullName>Adoption Form</fullName>
+        <default>false</default>
+        <label>Adoption Form</label>
+    </customValue>
+    <customValue>
+        <fullName>Concept Coach Signup</fullName>
+        <default>false</default>
+        <label>Concept Coach Signup</label>
+    </customValue>
+    <customValue>
+        <fullName>Conference</fullName>
+        <default>false</default>
+        <label>Conference</label>
+    </customValue>
+    <customValue>
+        <fullName>Customer Service Ticket</fullName>
+        <default>false</default>
+        <label>Customer Service Ticket</label>
+    </customValue>
+    <customValue>
+        <fullName>Donation</fullName>
+        <default>false</default>
+        <label>Donation</label>
+    </customValue>
+    <customValue>
+        <fullName>Email</fullName>
+        <default>false</default>
+        <label>Email</label>
+    </customValue>
+    <customValue>
+        <fullName>Institutional Relations</fullName>
+        <default>false</default>
+        <label>Institutional Relations</label>
+    </customValue>
+    <customValue>
+        <fullName>Newsletter</fullName>
+        <default>false</default>
+        <label>Newsletter</label>
+    </customValue>
+    <customValue>
+        <fullName>OS Interest Form</fullName>
+        <default>false</default>
+        <label>OS Interest Form</label>
+    </customValue>
+    <customValue>
+        <fullName>OSC Faculty</fullName>
+        <default>false</default>
+        <label>OSC Faculty</label>
+    </customValue>
+    <customValue>
+        <fullName>OSC User</fullName>
+        <default>false</default>
+        <label>OSC User</label>
+    </customValue>
+    <customValue>
+        <fullName>Partner</fullName>
+        <default>false</default>
+        <label>Partner</label>
+    </customValue>
+    <customValue>
+        <fullName>Phone</fullName>
+        <default>false</default>
+        <label>Phone</label>
+    </customValue>
+    <customValue>
+        <fullName>Referral Form</fullName>
+        <default>false</default>
+        <label>Referral Form</label>
+    </customValue>
+    <customValue>
+        <fullName>Comp Request</fullName>
+        <default>false</default>
+        <label>Comp Request</label>
+    </customValue>
+    <customValue>
+        <fullName>Renewal Form</fullName>
+        <default>false</default>
+        <label>Renewal Form</label>
+    </customValue>
+    <customValue>
+        <fullName>Tutor Signup</fullName>
+        <default>false</default>
+        <label>Tutor Signup</label>
+    </customValue>
+    <customValue>
+        <fullName>Webinar</fullName>
+        <default>false</default>
+        <label>Webinar</label>
+    </customValue>
+    <customValue>
+        <fullName>Rollover</fullName>
+        <default>false</default>
+        <label>Rollover</label>
+    </customValue>
+    <description>Same as lead source</description>
+    <masterLabel>Source</masterLabel>
+    <sorted>false</sorted>
+</GlobalValueSet>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Process_Adoptions__c</fullName>
+    <defaultValue>false</defaultValue>
+    <description>Checkbox field to indicate when the AdoptionsJSON field needs to be parsed into Book Opps</description>
+    <externalId>false</externalId>
+    <label>Process Adoptions?</label>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Checkbox</type>
+</CustomField>

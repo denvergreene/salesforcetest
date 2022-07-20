@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Close_Return_URL__c</fullName>
+    <externalId>false</externalId>
+    <formula>CASE(  LeadSource  , 
+"OSC Faculty", "00Q?fcf=00B0B000004dWQx",
+"Comp Request", "00Q?fcf=00BU0000004UF3S",
+"Adoption Form", "00Q?fcf=00BU0000004Tqu2",
+"Referral Form", "00Q?fcf=00BU00000048j7U",
+"Renewal Form", "00Q?fcf=00BU00000048LbX",
+"Concept Coach Signup", "00Q?fcf=00BU0000004KrvU",
+"Interest Form", "00Q?fcf=00BU0000004UF46",
+"00Q/o")</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>Close Return URL</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

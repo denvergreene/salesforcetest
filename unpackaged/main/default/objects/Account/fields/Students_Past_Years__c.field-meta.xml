@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Students_Past_Years__c</fullName>
+    <externalId>false</externalId>
+    <inlineHelpText>Not last year, but everything older students</inlineHelpText>
+    <label>Students Past Years</label>
+    <summarizedField>Opportunity.Yearly_Students__c</summarizedField>
+    <summaryFilterItems>
+        <field>Opportunity.Base_Year__c</field>
+        <operation>lessThan</operation>
+        <value>2021</value>
+    </summaryFilterItems>
+    <summaryFilterItems>
+        <field>Opportunity.IsWon</field>
+        <operation>equals</operation>
+        <value>True</value>
+    </summaryFilterItems>
+    <summaryForeignKey>Opportunity.AccountId</summaryForeignKey>
+    <summaryOperation>sum</summaryOperation>
+    <trackHistory>false</trackHistory>
+    <type>Summary</type>
+</CustomField>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>CloseDate</fullName>
+    <description>IF Type = Renewal &gt; Date this was renewed
+IF Type = Renewal Verified &gt; Date this was verified
+IF Type = New Business &gt; Date this was closed (won)</description>
+    <inlineHelpText>IF Type = Renewal &gt; Date this was renewed
+IF Type = Renewal Verified &gt; Date this was verified
+IF Type = New Business &gt; Date this was closed (won)</inlineHelpText>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>true</trackHistory>
+    <trackTrending>true</trackTrending>
+</CustomField>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Pending_Faculty</fullName>
+    <columns>NAME</columns>
+    <columns>Account_UUID__c</columns>
+    <columns>Signup_Date__c</columns>
+    <columns>Accounts_Link__c</columns>
+    <columns>Lead__c</columns>
+    <columns>Contact__c</columns>
+    <columns>Faculty_Status__c</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>Faculty_Status__c</field>
+        <operation>equals</operation>
+        <value>no_info,incomplete_signup,pending_faculty,rejected_by_sheer_id</value>
+    </filters>
+    <filters>
+        <field>Account_Role__c</field>
+        <operation>notEqual</operation>
+        <value>Student</value>
+    </filters>
+    <label>Pending Faculty</label>
+</ListView>

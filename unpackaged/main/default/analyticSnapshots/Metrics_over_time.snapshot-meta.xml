@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<AnalyticSnapshot xmlns="http://soap.sforce.com/2006/04/metadata">
+    <groupColumn>GRAND_SUMMARY</groupColumn>
+    <mappings>
+        <sourceField>JobName</sourceField>
+        <sourceType>snapshot</sourceType>
+        <targetField>Metric_Snapshot__c.Name</targetField>
+    </mappings>
+    <mappings>
+        <aggregateType>Sum</aggregateType>
+        <sourceField>Account.Students_Current_Year__c</sourceField>
+        <sourceType>summary</sourceType>
+        <targetField>Metric_Snapshot__c.Current_Year_Students__c</targetField>
+    </mappings>
+    <mappings>
+        <aggregateType>Sum</aggregateType>
+        <sourceField>Account.Students_To_Date__c</sourceField>
+        <sourceType>summary</sourceType>
+        <targetField>Metric_Snapshot__c.Students_To_Date__c</targetField>
+    </mappings>
+    <mappings>
+        <aggregateType>Sum</aggregateType>
+        <sourceField>Account.Savings_Current_Year__c</sourceField>
+        <sourceType>summary</sourceType>
+        <targetField>Metric_Snapshot__c.Savings_Current__c</targetField>
+    </mappings>
+    <mappings>
+        <aggregateType>Sum</aggregateType>
+        <sourceField>Account.All_Time_Savings__c</sourceField>
+        <sourceType>summary</sourceType>
+        <targetField>Metric_Snapshot__c.Savings_To_Date__c</targetField>
+    </mappings>
+    <mappings>
+        <sourceField>ExecutionTime</sourceField>
+        <sourceType>snapshot</sourceType>
+        <targetField>Metric_Snapshot__c.Recorded_Date__c</targetField>
+    </mappings>
+    <name>Metrics over time</name>
+    <runningUser>denver@rice.edu</runningUser>
+    <sourceReport>Dash_Hub/Student_and_School_Savings_6Pj</sourceReport>
+    <targetObject>Metric_Snapshot__c</targetObject>
+</AnalyticSnapshot>

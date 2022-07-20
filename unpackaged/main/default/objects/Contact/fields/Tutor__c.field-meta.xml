@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Tutor__c</fullName>
+    <externalId>false</externalId>
+    <label>Tutor prospect stages</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>1. Warm</fullName>
+                <default>false</default>
+                <label>1. Warm</label>
+            </value>
+            <value>
+                <fullName>2. Contacted</fullName>
+                <default>false</default>
+                <label>2. Contacted</label>
+            </value>
+            <value>
+                <fullName>3. Interested</fullName>
+                <default>false</default>
+                <label>3. Interested</label>
+            </value>
+            <value>
+                <fullName>5. Created a preview course in Tutor</fullName>
+                <default>false</default>
+                <label>5. Created a preview course in Tutor</label>
+            </value>
+            <value>
+                <fullName>6. Created a Real Course in Tutor</fullName>
+                <default>false</default>
+                <label>6. Created a Real Course in Tutor</label>
+            </value>
+            <value>
+                <fullName>7. Lost</fullName>
+                <default>false</default>
+                <label>7. Lost</label>
+            </value>
+            <value>
+                <fullName>4. Demo</fullName>
+                <default>false</default>
+                <label>4. Demo</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

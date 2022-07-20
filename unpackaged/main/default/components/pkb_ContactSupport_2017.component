@@ -1,0 +1,46 @@
+<apex:component >
+    <apex:attribute name="ShowPhone" description="Show Phone Number?" type="String" />
+    <div id="chat-button-section">
+        
+        <div class="chatAvailable" style="margin-bottom:10px; border:none; padding:5px; text-align:left; background:none;">
+            Not finding your answer?<br/>Contact us!
+        </div>
+        <apex:outputpanel layout="block" styleClass="hoverGray">
+            <div id="liveagent_button_online_573U0000000k9cB" onclick="liveagent.startChat('573U0000000k9cB')" class="chatAvailable" style="display: none; cursor: pointer;">
+                <span class="chatIcon" > </span>Chat
+            </div>
+        </apex:outputpanel>
+        <div id="liveagent_button_offline_573U0000000k9cB" class="chatAvailable chatUnavailable" style="display: none; cursor: pointer">
+            <span class="chatIcon chatUnavailable" > </span>Chat Unavailable
+        </div>
+        <apex:outputpanel layout="block" styleClass="hoverGray">
+            <apex:outputLink value="mailto:support@openstax.org" style="text-decoration:none;">
+                <div class="chatAvailable" style="margin-top:10px;">
+                    <span class="chatIcon" style="color: #5E6062;"> </span>Email
+                </div>
+            </apex:outputLink>
+        </apex:outputpanel>
+        <apex:outputpanel layout="block" styleClass="hoverGray">
+            <apex:outputpanel layout="block" styleClass="chatAvailable" style="margin-top:10px;" rendered="{!$CurrentPage.Name!='pkb_home_2017'}">
+                <span class="chatIcon" ></span> 713-348-5012
+            </apex:outputpanel>
+        </apex:outputpanel>
+
+
+        <!--img id="liveagent_button_online_573U0000000k9cB" style="display: none; border: 0px none; cursor: pointer" onclick="liveagent.startChat('573U0000000k9cB')" src="https://openstax.secure.force.com/support/resource/1481851646000/chat_online_button" /-->
+
+        <!--img id="liveagent_button_offline_573U0000000k9cB" style="display: none; border: 0px none; " src="https://openstax.secure.force.com/support/resource/1481851646000/chat_offline_button" /-->
+        <script type="text/javascript">
+            if (!window._laq) { window._laq = []; }
+            window._laq.push(function(){liveagent.showWhenOnline('573U0000000k9cB', document.getElementById('liveagent_button_online_573U0000000k9cB'));
+             liveagent.showWhenOffline('573U0000000k9cB', document.getElementById('liveagent_button_offline_573U0000000k9cB'));
+         });
+         </script>
+
+
+         <script type='text/javascript' src='https://c.la1-c2-ia5.salesforceliveagent.com/content/g/js/52.0/deployment.js'></script>
+        <script type='text/javascript'>
+            liveagent.init('https://d.la1-c2-ia5.salesforceliveagent.com/chat', '5724P000000ghju', '00DU0000000Kwch');
+        </script>
+     </div>
+</apex:component>

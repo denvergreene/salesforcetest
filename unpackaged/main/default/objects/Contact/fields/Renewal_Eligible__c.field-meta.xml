@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Renewal_Eligible__c</fullName>
+    <externalId>false</externalId>
+    <formula>IF(  HasOptedOutOfEmail , FALSE,
+IF( OR(Renewal_Date__c = NULL ,  ISBLANK( Renewal_Date__c )), FALSE,
+IF(  OR( Renewal_Date__c &gt;  DATE(2021,04,01), Renewal_Date__c &lt; DATE(2016,04,01) )  , FALSE,
+TRUE)))</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>Renewal Eligible</label>
+    <trackHistory>false</trackHistory>
+    <type>Checkbox</type>
+</CustomField>

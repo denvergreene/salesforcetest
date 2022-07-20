@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customValue>
+        <fullName>CNX</fullName>
+        <default>false</default>
+        <label>CNX</label>
+    </customValue>
+    <customValue>
+        <fullName>College</fullName>
+        <default>false</default>
+        <label>College</label>
+    </customValue>
+    <customValue>
+        <fullName>Concept Coach</fullName>
+        <default>false</default>
+        <label>Concept Coach</label>
+    </customValue>
+    <customValue>
+        <fullName>Internal</fullName>
+        <default>false</default>
+        <label>Internal</label>
+    </customValue>
+    <customValue>
+        <fullName>Openstax Tutor Beta</fullName>
+        <default>false</default>
+        <label>Openstax Tutor Beta</label>
+    </customValue>
+    <customValue>
+        <fullName>Rover</fullName>
+        <default>false</default>
+        <label>Rover</label>
+    </customValue>
+    <masterLabel>Categories</masterLabel>
+    <sorted>false</sorted>
+</GlobalValueSet>

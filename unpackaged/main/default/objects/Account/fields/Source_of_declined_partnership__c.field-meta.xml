@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Source_of_declined_partnership__c</fullName>
+    <externalId>false</externalId>
+    <label>Source of declined partnership</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <controllingField>Partner_status__c</controllingField>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Partner declined</fullName>
+                <default>false</default>
+                <label>Partner declined</label>
+            </value>
+            <value>
+                <fullName>OpenStax declined</fullName>
+                <default>false</default>
+                <label>OpenStax declined</label>
+            </value>
+            <value>
+                <fullName>Mutual decision</fullName>
+                <default>false</default>
+                <label>Mutual decision</label>
+            </value>
+        </valueSetDefinition>
+        <valueSettings>
+            <controllingFieldValue>Not a Partner</controllingFieldValue>
+            <valueName>Partner declined</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Not a Partner</controllingFieldValue>
+            <valueName>OpenStax declined</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Not a Partner</controllingFieldValue>
+            <valueName>Mutual decision</valueName>
+        </valueSettings>
+    </valueSet>
+</CustomField>

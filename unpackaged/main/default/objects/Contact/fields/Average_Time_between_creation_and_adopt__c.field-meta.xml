@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Average_Time_between_creation_and_adopt__c</fullName>
+    <externalId>false</externalId>
+    <formula>IF( 
+(Initial_Adoption_Date__c  -  DATEVALUE( CreatedDate )) / 365 * 12 &lt; 1, 0, (Initial_Adoption_Date__c - DATEVALUE( CreatedDate )) / 365 * 12
+)</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>Average Time between creation and adopt</label>
+    <precision>18</precision>
+    <required>false</required>
+    <scale>2</scale>
+    <trackHistory>false</trackHistory>
+    <type>Number</type>
+    <unique>false</unique>
+</CustomField>

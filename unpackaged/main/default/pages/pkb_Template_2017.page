@@ -1,0 +1,388 @@
+<apex:page cache="false" standardStylesheets="false" showHeader="false" sidebar="false" controller="pkb_Controller_2017" language="en_US" applyBodyTag="false" applyHtmlTag="false" docType="html-5.0">
+<head>
+	<meta name="robots" content="noindex, nofollow"/>
+	<title>OpenStax Help</title>
+    <link rel="icon" type="image/png" href="{!$Resource.FaviconOS}" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+	<meta http-equiv="content-type" content="text/html; charset=utf-8"/>
+	<meta name="apple-mobile-web-app-capable" content="yes"/>
+	<apex:stylesheet value="{!URLFOR($Resource.pkbresources, 'pkbresources/css/jquery-ui-themes.css')}" />
+	<apex:stylesheet value="{!URLFOR($Resource.pkbresources, 'pkbresources/css/axure_rp_page.css')}" />
+    <apex:stylesheet value="{!URLFOR($Resource.pkbresources, 'pkbresources/css/font-awesome.css')}" />
+	<apex:stylesheet value="{!URLFOR($Resource.pkbresources, 'pkbresources/data/styles.css')}" />
+	<apex:stylesheet value="{!URLFOR($Resource.pkbresources, 'pkbresources/files/salesforce_support_page/styles.css')}" />
+	
+	<style>
+        .body-and-support-buttons {
+        	display: grid;
+        	grid-gap: 1em;
+        	grid-template-columns: 1fr auto;
+        	margin: 2.5em auto;
+        	max-width: 62.5rem;
+        	padding: 1rem;
+        }
+        .mainContent.ax_default {
+        	padding: 0;
+        }
+        #mainContent_state0 {
+        	margin: 0;
+        }
+        #u200,
+        #u200_div,
+        #u200_text,
+        #mainContent_state0_content {
+        	height: auto;
+        	position: static;
+        	top: auto;
+        	width: auto;
+        }
+        
+        @media
+        only screen and (max-width: 480px) and (min-resolution: 144dpi),
+        only screen and (max-device-width: 480px) and (min-resolution: 144dpi) {
+        	.supportButtons,
+        	.chatIcon,
+			.support_page_link_style_normal_active,
+        	.articleButtonText,
+        	.articleContent,
+        	.modalText,
+        	.modalText input,
+        	.osweb_body_copy_regular,
+        	.osweb_body_copy_large,
+			.text_field_hint_text,
+        	#searchBox input,
+        	#searchButton_text {
+        		font-size: 2.5rem;
+        		line-height: normal;
+        	}
+        
+        	#searchButton > #searchButton_text {
+        		top: 0;
+        	}
+        
+        	#searchButton,
+        	#searchButton_div {
+        		width: 12em;
+        	}
+        
+        	div#u559.home,
+        	div#u559_state0.home {
+        		height: 27rem;
+        	}
+        	.ax_default.mainContent,
+        	#u565 {
+        		top: 2rem;
+        	}
+        	.body-and-support-buttons {
+        		grid-template-columns: auto;
+        		grid-template-rows: auto auto;
+        	}
+        	.supportButtons {
+        		width: calc(100% - 8rem) !important;
+        		position: static;
+        	}
+
+        	.breadcrumbs,
+	        .osweb_link_style_normal_active {
+        		font-size: 2.2rem;
+        		line-height: normal;
+        	}
+
+			.articleTitle,
+        	.osweb_h3_heading {
+        		font-size: 3rem;
+        		line-height: normal;
+        	}
+        
+        	.articleButton {
+                width: auto;
+                height: auto;
+        		padding: 0.5rem 2rem;
+            }
+        	#searchButton_text {
+        		left: 1rem;
+        		top: 0.5rem;
+        	}
+        	.text_field_hint_text > .text,
+        	#searchBox input {
+        		font-weight: 400;
+        	}
+           	.modalText textarea {
+        		border: thin solid #666;
+        	}
+        	.modalText input[type="submit"] {
+        		border: thin solid #424242;
+        		border-radius: 0.3rem;
+        		padding: 0.2rem 1rem;
+            }
+        	.modalText > * {
+        		margin-top: 1rem;
+        	}
+        }
+        @media (max-width: 88em) {
+        	#base {
+	        	height: 100%;
+        		overflow-x: hidden;
+        	}
+        }
+        @media (max-width: 66em) {
+        	#searchBox {
+        		max-width: calc(100vw - 3rem);
+        	}
+        	#searchBox .text_field
+        	{
+        		flex-basis: calc(100% - 7.5rem);
+            }
+            #chat-button-section {
+                display: grid;
+        		grid-gap: 5px;
+        		grid-template-rows: repeat(4, auto);
+        		padding-bottom: 2rem;
+            }
+        	.hoverGray > .chatAvailable {
+        		align-items: baseline;
+        		display: grid;
+        		grid-gap: 0.5em;
+        		grid-template-columns: auto 1fr;
+        		height: auto;
+        		justify-content: center;
+        	}
+        }
+        @media (max-width: 35em) {
+        	div#u569 span.articleHeader {
+        		font-size: 10vw !important;
+        	}
+        	#u619 {
+        		display: none;
+        	}
+        }
+        .articleButton {
+        	align-items: center;
+        	display: inline-flex;
+        	flex-flow: row nowrap;
+        	justify-content: center;
+        }
+        .articleButtonText {
+        	align-items: center;
+        	display: flex;
+        	height: 100%;
+        	justify-content: center;
+        	margin: 0;
+        	padding: 0;
+        	width: 100%;
+        	text-align: center;
+        }
+        .articleButtonText > a {
+        	width: 100%;
+        }
+        .articleContent {
+        	margin: 0;
+        	max-width: 50em;
+        	padding: 0 !important;
+        	width: calc(100% - 1rem) !important;
+        }
+		.articleField {
+        	margin: 1rem 0;
+            max-height: 1000rem;
+        }
+        .articleField > p > span {
+        	font-size: 1rem !important;
+        }
+        .articleListingContainer {
+        	max-width: calc(100vw - 4rem);
+        }
+        .supportButtons {
+        	margin: 0;
+        	width: auto;
+        }
+        .breadcrumbs {
+        	max-width: 50rem;
+        }
+        .chatAvailable {
+        	background-color: white !important;
+        	height: auto;
+            margin: 0;
+            padding: 1rem 2rem;
+            width: 100%;
+        }
+        #chat-button-section > .chatAvailable:first-child {
+        	font-size: 1.5em;
+        	font-weight: bold;
+        }
+        .chatIcon {
+        	color: #63A524 !important;
+        }
+        .panel_state_content {
+        	padding-left: 1rem;
+        }
+        .relatedArticles {
+        	margin-top: 2rem !important;
+        }
+        #u566 {
+        	top: 165px;
+        }
+        #u567 {
+        	max-width: 100%;
+        }
+        #u567_text {
+        	max-width: calc(100vw - 4rem);
+	        padding-left: 1rem;
+        	white-space: normal;
+        }
+        #u570_state0 {
+        	box-shadow: 0 5px 5px 0 rgba(0, 0, 0, 0.1);
+        }
+    </style>
+
+	<apex:includeScript value="{!URLFOR($Resource.pkbresources, 'pkbresources/scripts/jquery-1.7.1.min.js')}" />
+	<apex:includeScript value="{!URLFOR($Resource.pkbresources, 'pkbresources/scripts/jquery-ui-1.8.10.custom.min.js')}" />
+	<apex:includeScript value="{!URLFOR($Resource.pkbresources, 'pkbresources/scripts/prototypePre.js')}" />
+	<apex:includeScript value="{!URLFOR($Resource.pkbresources, 'pkbresources/data/document.js')}" />
+	<apex:includeScript value="{!URLFOR($Resource.pkbresources, 'pkbresources/scripts/prototypePost.js')}" />
+	<apex:includeScript value="{!URLFOR($Resource.pkbresources, 'pkbresources/files/salesforce_support_page/data.js')}" />
+</head>
+<body>
+	<div id="base" class="">
+		<apex:form id="main">
+			<div id="u559" class="ax_default {!If(searchPhrase==''&&$CurrentPage.Name=='pkb_home_2017','home','')}" style="width: 100%;">
+				<div id="u559_state0" class="panel_state {!If(searchPhrase==''&&$CurrentPage.Name=='pkb_home_2017','home','')}" data-label="State1" style="width: 100%;">
+					<div id="u559_state0_content" class="panel_state_content" style="">
+					</div>
+				</div>
+                <div id="u569" class="ax_default {!If($CurrentPage.Name=='pkb_home_2017' && searchPhrase=='','','articleHeader')}">
+                    <p><span class="{!If(searchPhrase==''&&$CurrentPage.Name=='pkb_home_2017','articleHeader','')}">OpenStax Support</span></p>
+                </div>
+                <div id="u560" class="ax_default {!If(searchPhrase==''&&$CurrentPage.Name=='pkb_home_2017','home','')}" data-left="299" data-top="207" data-width="604" data-height="50">
+                    <div id="u561" class="ax_default" data-left="299" data-top="207" data-width="480" data-height="50">
+
+                        <div id="searchBox">
+                        <!-- text field 1 box (Rectangle) -->
+                            <!--div id="u562" class="ax_default text_field_box" data-label="text field 1 box">
+                                <div id="u562_div" class=""></div>
+                            </div-->
+
+                            <!-- search text field 1 (Text Field) -->
+                            <div id="u563" class="ax_default text_field" data-label="search text field 1" style="margin-right: 10px;">
+                                <apex:inputText id="u563_input" value="{!searchTermInput}" onkeypress="return doSearch(event);" onfocus="if(this.value == 'Enter your question here.') {this.value=''}" onblur="if(this.value == ''){this.value ='Enter your question here.'}"
+                                tabindex="0" styleClass="searchTextBox" style="" />
+                            </div>
+                            <div id="searchButton" class="ax_default primary_button_normal" data-label="Submit button" style="cursor: pointer;">
+                                <div id="searchButton_div" class="" tabindex="0"></div>
+                                <div id="searchButton_text" class="text ">
+                                    <p id="cache8" style="">
+                                        <span id="cache9">
+                                            <apex:commandLink id="startSearch" action="{!performSearch}" reRender="main" style="text-decoration: none;">
+                                                Search
+                                            </apex:commandLink>
+                                        </span>
+                                    </p>
+                                    <apex:actionFunction name="doSearchAF" action="{!performSearch}" />
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div id="u566" layout="block" class="{!If(searchPhrase==''&&$CurrentPage.Name=='pkb_home_2017','home','')}"> 
+                        <div id="u567" class="ax_default osweb_body_copy_large">
+                            <div id="u567_text" class="text " style="left: 0px; width: 786px; transform-origin: 393px 20px 0px;">
+                                <p>
+                                    <span style="color:#FFFFFF;"><apex:outputText value="{!$Label.pkb_header_2017}" escape="false" /></span>
+                                </p>
+                            </div>
+                        </div>
+                </div>
+            
+			</div>
+            <div id="u565" class="ax_default {!If($CurrentPage.Name=='pkb_home_2017' && searchPhrase=='','','articleHeader')}" style="width: 100%;">
+            	<img class="strips" src="{!URLFOR($Resource.pkbresources, 'pkbresources/images/strips.svg')}" height="10" alt="" role="presentation" style="width:100%; left:0;" />
+                <!--div id="u565_state0" class="panel_state" data-label="State1" style="width: 100%;">
+                    <div id="u565_state0_content" class="panel_state_content" style="margin-left: 40px;">
+                    </div>
+                </div-->
+            </div>
+
+           	<div class="body-and-support-buttons">
+                <apex:insert name="body" />
+                <apex:outputPanel layout="block" styleClass="ax_default supportButtons" rendered="{!searchPhrase!=''||$CurrentPage.Name!='pkb_home_2017'}">
+                    <c:pkb_ContactSupport_2017 />
+                </apex:outputPanel>
+            </div>
+
+			<div id="u570" class="ax_default" data-label="main nav background left" style="left: 0px; width: 100%;">
+				<div id="u570_state0" class="panel_state" data-label="State1" style="width: 100%;">
+					<div id="u570_state0_content" class="panel_state_content" style="margin-left: 0px;">
+
+						<!-- Unnamed (Image) -->
+						<div id="u571" class="ax_default image1">
+                            <!--
+							<img id="u571_img" class="img " src="{!URLFOR($Resource.pkbresources, 'pkbresources/images/u119_state0.png')}" />
+							-->
+                            <img id="u571_img" class="img " src="https://openstax.org/dist/images/logo.svg" />
+						</div>
+					</div>
+				</div>
+			</div>
+			<div id="u572" class="ax_default" data-label="main nav logged in container">
+				<div id="u572_state0" class="panel_state" data-label="State1" style="">
+					<div id="u572_state0_content" class="panel_state_content">
+
+						<!-- Unnamed (Dynamic Panel) -->
+						<div id="u573" class="ax_default">
+							<div id="u573_state0" class="panel_state" data-label="State1" style="">
+								<div id="u573_state0_content" class="panel_state_content">
+									<!-- Logo and tag line (Dynamic Panel) -->
+									<div id="u616" class="ax_default" data-label="Logo and tag line">
+										<div id="u616_state0" class="panel_state" data-label="State1" style="">
+											<div id="u616_state0_content" class="panel_state_content">
+
+												
+												<div id="u618" class="ax_default image1" style="cursor: pointer;">
+													<a href="https://openstax.org/">
+                                                        <!--
+														<img id="u618_img" class="img " src="{!URLFOR($Resource.pkbresources, 'pkbresources/images/u161.png')}" tabindex="0" />
+														-->
+                                                        <img id="u618_img" class="img " src="https://openstax.org/dist/images/logo.svg" tabindex="0" />
+													</a>
+												</div>
+											
+											<div id="u619" class="ax_default label_text_above_text_field">
+													<div id="u619_div" class=""></div>
+													<div id="u619_text" class="text " style="left: 0px; width: 173px; transform-origin: 86.5px 10px 0px;">
+														<p><span>Access. The future of education.</span></p>
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+
+									<!-- Unnamed (Image) -->
+									<div id="u622" class="ax_default image1" style="cursor: pointer;">
+                                        <!--
+										<img id="u622_img" class="img" src="{!URLFOR($Resource.pkbresources, 'pkbresources/images/u12.png')}" tabindex="0" />
+										-->
+                                        <img id="u622_img" class="img" src="https://openstax.org/dist/images/rice.webp" tabindex="0" />
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="ax_default" style="height:50px" />
+		</apex:form>
+	</div>
+</body>
+<site:googleAnalyticsTracking />
+
+<script type='text/javascript'>
+        function doSearch(ev)  {
+            if (window.event && window.event.keyCode == 13 || ev.which == 13) {
+                doSearchAF();
+                return false;
+            } else {
+                return true;
+            }
+         }
+    </script>
+
+</apex:page>

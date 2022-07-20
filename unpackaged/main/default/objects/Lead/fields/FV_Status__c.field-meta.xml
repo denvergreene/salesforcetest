@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>FV_Status__c</fullName>
+    <externalId>false</externalId>
+    <label>FV Status</label>
+    <required>false</required>
+    <trackFeedHistory>true</trackFeedHistory>
+    <trackHistory>true</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>incomplete_signup</fullName>
+                <default>false</default>
+                <label>Incomplete Signup</label>
+            </value>
+            <value>
+                <fullName>rejected_by_sheer_id</fullName>
+                <default>false</default>
+                <label>Rejected by SheerID</label>
+            </value>
+            <value>
+                <fullName>pending_faculty</fullName>
+                <default>false</default>
+                <label>Pending</label>
+            </value>
+            <value>
+                <fullName>rejected_faculty</fullName>
+                <default>false</default>
+                <label>Rejected</label>
+            </value>
+            <value>
+                <fullName>confirmed_faculty</fullName>
+                <default>false</default>
+                <label>Confirmed</label>
+            </value>
+            <value>
+                <fullName>no_faculty_info</fullName>
+                <default>false</default>
+                <label>No Faculty Info</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

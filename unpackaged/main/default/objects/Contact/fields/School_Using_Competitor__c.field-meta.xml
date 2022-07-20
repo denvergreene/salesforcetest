@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>School_Using_Competitor__c</fullName>
+    <externalId>false</externalId>
+    <formula>Account.Contact_using_competitor__c</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <inlineHelpText>Should Delete: Is someone at the school using a tutor competitor</inlineHelpText>
+    <label>School Using Competitor</label>
+    <trackHistory>false</trackHistory>
+    <type>Checkbox</type>
+</CustomField>
